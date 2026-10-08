@@ -1,0 +1,3822 @@
+{
+ "schema": "ngd2-items-display-review-queue-v1",
+ "created_at": "2026-10-08T14:42:37.627266+00:00",
+ "source_table": "items",
+ "read_only_source": true,
+ "review_mode": "display",
+ "worker": "claude",
+ "track": "recovery_profile_items_display_review",
+ "filters": {
+  "exact_ids": true,
+  "cursor_advancing": false,
+  "limit": 48,
+  "ids_file": "회귀자료/온톨로지_v61_모의고사큐_20261004/ids_B_ALG_000.json"
+ },
+ "stats": {
+  "cards": 48,
+  "blocker_cards": 3,
+  "katex_error_cards": 0,
+  "literal_dollar_cards": 0,
+  "broken_img_cards": 0
+ },
+ "pending_profiled_items_total": 15,
+ "cards": [
+  {
+   "id": 15956,
+   "item_id": 15956,
+   "source_table": "items",
+   "fingerprint": "d1e1fb6e1ecbad85d30de6bb5ef59b302f04a57b0eb6dff904c7bdf204b027be",
+   "source_type": "학평원본",
+   "source_label": "2018 교육청 고3 수리가형 7월 27번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "원 $x^2 +y^2 =1$ 위의 임의의 점 $P\\,$와 곡선 $y= \\sqrt{ x}-3$ 위의 임의의 점 $Q\\,$에 대하여 $\\overline{P Q}\\,$의 최솟값은 $\\sqrt{a} -b\\,$이다. 자연수 $a\\,$, $b\\,$에 대하여 $a ^{2} +b^2\\,$의 값을 구하시오. [4점]",
+   "body_html": "<p class=\"hp htall\">원 <span class=\"heq\">\\(x^{2} +y^{2} =1\\)</span> 위의 임의의 점 <span class=\"heq\">\\(P\\,\\)</span>와 곡선 <span class=\"heq\">\\(y= \\sqrt{ x}-3\\)</span> 위의 임의의 점 <span class=\"heq\">\\(Q\\,\\)</span>에 대하여 <span class=\"heq\">\\(\\overline{P Q}\\,\\)</span>의 최솟값은 <span class=\"heq\">\\(\\sqrt{a} -b\\,\\)</span>이다. <br>자연수 <span class=\"heq\">\\(a\\,\\)</span>, <span class=\"heq\">\\(b\\,\\)</span>에 대하여 <span class=\"heq\">\\(a^{2} +b^{2}\\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[4점]</span></p>",
+   "answer": "26",
+   "answer_type": "단답형",
+   "explanation": "원 $x^2+y^2=1$은 원점 $O$ 중심, 반지름 $1$이고 곡선 $y=\\sqrt{x}-3$은 원 밖에 있으므로 $\\overline{PQ}$의 최솟값은 (원점에서 곡선까지의 최단거리)$-1$이다.\n\n곡선 위의 점을 $(t^2,\\ t-3)\\ (t=\\sqrt{x}\\ge 0)$으로 두면 원점까지 거리의 제곱은\n$$D(t)=t^4+(t-3)^2$$\n$D'(t)=4t^3+2(t-3)=2(t-1)(2t^2+2t+3)$이고 $2t^2+2t+3>0$이므로 $t=1$에서 최소, $D(1)=1+4=5$, 즉 최단거리는 $\\sqrt5$이다.\n\n따라서 $\\overline{PQ}$의 최솟값은 $\\sqrt5-1$이므로 $a=5,\\ b=1$이고\n$$\\boxed{\\vphantom{(}a^2+b^2=25+1=26}$$",
+   "solution_id": 16777,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 16777,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "원 $x^2+y^2=1$은 원점 $O$ 중심, 반지름 $1$이고 곡선 $y=\\sqrt{x}-3$은 원 밖에 있으므로 $\\overline{PQ}$의 최솟값은 (원점에서 곡선까지의 최단거리)$-1$이다.\n\n곡선 위의 점을 $(t^2,\\ t-3)\\ (t=\\sqrt{x}\\ge 0)$으로 두면 원점까지 거리의 제곱은\n$$D(t)=t^4+(t-3)^2$$\n$D'(t)=4t^3+2(t-3)=2(t-1)(2t^2+2t+3)$이고 $2t^2+2t+3>0$이므로 $t=1$에서 최소, $D(1)=1+4=5$, 즉 최단거리는 $\\sqrt5$이다.\n\n따라서 $\\overline{PQ}$의 최솟값은 $\\sqrt5-1$이므로 $a=5,\\ b=1$이고\n$$\\boxed{\\vphantom{(}a^2+b^2=25+1=26}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각형에의 활용",
+    "label": "2018 교육청 고3 수리가형 7월 27번",
+    "year": "2018",
+    "org": "교육청",
+    "exam": "7월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "7de071eb1e817835c09ba76aeb2160ea7f2a8052bc834dee5fef3e9fcacd9de1"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15628,
+   "item_id": 15628,
+   "source_table": "items",
+   "fingerprint": "e287d9efee7708ee3a2a1d32df6f6ea01cb3ff0b75c8fefe3c44cdd0d13f4d33",
+   "source_type": "학평원본",
+   "source_label": "2017 교육청 고3 수리나형 10월 26번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "함수 $y=x ^{\\,3} +2\\,$의 그래프와 직선 $y=kx\\,$가 만나는 교점의 개수를 $f(k)\\,$라 할 때, $\\sum _{k=1} ^{6} f(k)\\,$의 값을 구하시오. [4점]",
+   "body_html": "<p class=\"hp htall\">함수 <span class=\"heq\">\\(y=x^{\\,3} +2\\,\\)</span>의 그래프와 직선 <span class=\"heq\">\\(y=kx\\,\\)</span>가 만나는 교점의 개수를 <span class=\"heq\">\\(f(k)\\,\\)</span>라 할 때, <span class=\"heq\">\\(\\sum\\limits_{k=1}^{6} f(k)\\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[4점]</span></p>",
+   "answer": "13",
+   "answer_type": "단답형",
+   "explanation": "$x^{3}+2=kx$의 실근의 개수를 삼차함수의 극값 부호로 판정하여 $f(k)$를 구하고 $\\sum_{k=1}^{6}f(k)$를 계산한다.",
+   "solution_id": 16533,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 16533,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$x^{3}+2=kx$의 실근의 개수를 삼차함수의 극값 부호로 판정하여 $f(k)$를 구하고 $\\sum_{k=1}^{6}f(k)$를 계산한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리나형",
+    "unit": "삼차함수와 직선의 교점의 개수",
+    "label": "2017 교육청 고3 수리나형 10월 26번",
+    "year": "2017",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "210f5613a2f551da3c22196a576cb905081bf75ebbac6f6bddc9936c6c6b0fb5"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16605,
+   "item_id": 16605,
+   "source_table": "items",
+   "fingerprint": "59afb929faec713025730b24533f071297a3a02c59183f9527f2d529b7c0d34b",
+   "source_type": "학평원본",
+   "source_label": "2019 평가원 고3 수리나형 9월 30번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "최고차항의 계수가 $1$인 사차함수 $f(x)$에 대하여 네 개의 수 $f(- 1)$, $f(0)$, $f(1)$, $f(2)$가 이 순서대로 등차수열을 이루고, 곡선 $y = f(x)$ 위의 점 $(- 1,\\, f(- 1))$에서의 접선과 점 $(2,\\, f(2))$에서의 접선이 점 $(k,\\, 0)$에서 만난다. $f(2k)= 20$일 때, $f(4k)$의 값을 구하시오. (단, $k$는 상수이다.) [4점]",
+   "body_html": "<p class=\"hp\">최고차항의 계수가 <span class=\"heq\">\\(1\\)</span>인 사차함수 <span class=\"heq\">\\(f(x)\\)</span>에 대하여 네 개의 수 <span class=\"heq\">\\(f(- 1)\\)</span>, <span class=\"heq\">\\(f(0)\\)</span>, <span class=\"heq\">\\(f(1)\\)</span>, <span class=\"heq\">\\(f(2)\\)</span>가 이 순서대로 등차수열을 이루고, 곡선 <span class=\"heq\">\\(y = f(x)\\)</span> 위의 점 <span class=\"heq\">\\((- 1,\\, f(- 1))\\)</span>에서의 접선과 점 <span class=\"heq\">\\((2,\\, f(2))\\)</span>에서의 접선이 점 <span class=\"heq\">\\((k,\\, 0)\\)</span>에서 만난다. <span class=\"heq\">\\(f(2k)= 20\\)</span>일 때, <span class=\"heq\">\\(f(4k)\\)</span>의 값을 구하시오. (단, <span class=\"heq\">\\(k\\)</span>는 상수이다.) <span class=\"hscore\">[4점]</span></p>",
+   "answer": "42",
+   "answer_type": "단답형",
+   "explanation": "네 값이 등차수열이라는 조건은 $f(x)$에서 일차식을 빼면 $-1,\\ 0,\\ 1,\\ 2$를 근으로 갖는다는 뜻이다. 이 표현을 세우면 두 접선의 교점에서 $k$가 바로 나온다.",
+   "solution_id": 18941,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18941,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "네 값이 등차수열이라는 조건은 $f(x)$에서 일차식을 빼면 $-1,\\ 0,\\ 1,\\ 2$를 근으로 갖는다는 뜻이다. 이 표현을 세우면 두 접선의 교점에서 $k$가 바로 나온다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리나형",
+    "unit": "미적분I",
+    "label": "2019 평가원 고3 수리나형 9월 30번",
+    "year": "2019",
+    "org": "평가원",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": "보수: 말미 모의고사 답표 잔재 제거(2026-08-03)"
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "a51cb39fea1a829eaaa32f1e7646b65d6e2043ff3d5a08cb39751a65f7d1d05d"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10954,
+   "item_id": 10954,
+   "source_table": "items",
+   "fingerprint": "86f77bc668a0ecc131493d43d7ee3c5455cf55ad914f2bdee752e02ed8386b45",
+   "source_type": "학평원본",
+   "source_label": "2015 교육청 고2 수학나형 9월 14번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "모든 자연수 $n\\,$에 대하여 $f(\\,n\\,)\\,$이 공차가 $3\\,$인 등차수열 $\\left\\{a_n \\right\\}$의 첫째항부터 제$\\,n\\,$항까지의 합과 같을 때, $\\left| \\,f(k) \\right| \\,> \\left| \\,f(k+1) \\right|$이 성립하도록 하는 $k$의 최댓값은? [4점]\n① $3$ ② $5$ ③ $7$ ④ $9$ ⑤ $11$",
+   "body_html": "<p class=\"hp\">모든 자연수 <span class=\"heq\">\\(n\\,\\)</span>에 대하여 <span class=\"heq\">\\(f(\\,n\\,)\\,\\)</span>이 공차가 <span class=\"heq\">\\(3\\,\\)</span>인 등차수열 <span class=\"heq\">\\(\\left\\{a_{n} \\right\\}\\)</span>의 첫째항부터 제<span class=\"heq\">\\(\\,n\\,\\)</span>항까지의 합과 같을 때, <br><span class=\"heq\">\\(\\left| \\,f(k) \\right| \\,\\gt  \\left| \\,f(k+1) \\right|\\)</span>이 성립하도록 하는 <span class=\"heq\">\\(k\\)</span>의 최댓값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(3\\)</span>&emsp;② <span class=\"heq\">\\(5\\)</span>&emsp;③ <span class=\"heq\">\\(7\\)</span>&emsp;④ <span class=\"heq\">\\(9\\)</span>&emsp;⑤ <span class=\"heq\">\\(11\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "[1] 첫째항이 $a_1$이고 공차가 $3$인 등차수열의 합 공식에서 $f(n)=\\frac{n\\{2a_1+3(n-1)\\}}{2}=\\frac{3}{2}n^2+\\left(a_1-\\frac{3}{2}\\right)n$이다.\n[2] 공유 지문의 조건에서 모든 자연수 $n$에 대하여 $f(n)=a(n-4)^2+b$ ($a$, $b$는 상수) 꼴이므로 계수를 비교하면 $a=\\frac{3}{2}$, $a_1-\\frac{3}{2}=-8a=-12$, $16a+b=0$에서 $a_1=-\\frac{21}{2}$, $b=-24$이고, 따라서 $f(n)=\\frac{3}{2}(n-4)^2-24=\\frac{3}{2}n(n-8)$이다.\n[3] $y=\\left|f(x)\\right|$의 그래프는 $x=0$, $x=8$에서 $x$축과 만나고 직선 $x=4$에 대하여 대칭이며, $0<x<8$에서는 $x=4$까지 증가한 후 감소하고 $x>8$에서는 증가한다. 실제로 $\\left|f(k)\\right|$의 값은 $k=1$부터 차례로 $\\frac{21}{2}$, $18$, $\\frac{45}{2}$, $24$, $\\frac{45}{2}$, $18$, $\\frac{21}{2}$, $0$, $\\frac{27}{2}$, $\\cdots$이다.\n[4] 따라서 $k\\le 3$ 또는 $k\\ge 8$이면 $\\left|f(k)\\right|<\\left|f(k+1)\\right|$이고 $4\\le k\\le 7$이면 $\\left|f(k)\\right|>\\left|f(k+1)\\right|$이므로, 구하는 $k$의 최댓값은 $7$이고 답은 ③ $7$이다.",
+   "solution_id": 14714,
+   "solution_created_by": "fable-20260712",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14714,
+     "created_by": "fable-20260712",
+     "verified": true,
+     "body": "[1] 첫째항이 $a_1$이고 공차가 $3$인 등차수열의 합 공식에서 $f(n)=\\frac{n\\{2a_1+3(n-1)\\}}{2}=\\frac{3}{2}n^2+\\left(a_1-\\frac{3}{2}\\right)n$이다.\n[2] 공유 지문의 조건에서 모든 자연수 $n$에 대하여 $f(n)=a(n-4)^2+b$ ($a$, $b$는 상수) 꼴이므로 계수를 비교하면 $a=\\frac{3}{2}$, $a_1-\\frac{3}{2}=-8a=-12$, $16a+b=0$에서 $a_1=-\\frac{21}{2}$, $b=-24$이고, 따라서 $f(n)=\\frac{3}{2}(n-4)^2-24=\\frac{3}{2}n(n-8)$이다.\n[3] $y=\\left|f(x)\\right|$의 그래프는 $x=0$, $x=8$에서 $x$축과 만나고 직선 $x=4$에 대하여 대칭이며, $0<x<8$에서는 $x=4$까지 증가한 후 감소하고 $x>8$에서는 증가한다. 실제로 $\\left|f(k)\\right|$의 값은 $k=1$부터 차례로 $\\frac{21}{2}$, $18$, $\\frac{45}{2}$, $24$, $\\frac{45}{2}$, $18$, $\\frac{21}{2}$, $0$, $\\frac{27}{2}$, $\\cdots$이다.\n[4] 따라서 $k\\le 3$ 또는 $k\\ge 8$이면 $\\left|f(k)\\right|<\\left|f(k+1)\\right|$이고 $4\\le k\\le 7$이면 $\\left|f(k)\\right|>\\left|f(k+1)\\right|$이므로, 구하는 $k$의 최댓값은 $7$이고 답은 ③ $7$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "등차수열",
+    "label": "2015 교육청 고2 수학나형 9월 14번",
+    "year": "2015",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "2f503de28fd08403bd3446c0271fe86caa6985e7a10cf4f95a16cab39583b3d3"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8130,
+   "item_id": 8130,
+   "source_table": "items",
+   "fingerprint": "f7f8bb8fba32cf46cd2b99bcd4d19ef432260be37a1a03a5cb4283e967a48d01",
+   "source_type": "학평원본",
+   "source_label": "2022 교육청 고2 수학 11월 23번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "등비수열 $\\left\\{ a_n \\right\\}$에 대하여 $a_2 =2$, $a_6 =9$일 때, $a_3 \\times a_5$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp\">등비수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\}\\)</span>에 대하여 <span class=\"heq\">\\(a_{2} =2\\)</span>, <span class=\"heq\">\\(a_{6} =9\\)</span>일 때, <span class=\"heq\">\\(a_{3} \\times a_{5}\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "18",
+   "answer_type": "단답형",
+   "explanation": "주어진 등비수열의 항들을 일반항 $a_n = ar^{n-1}$의 형태로 나타냅니다. $a_2=2$와 $a_6=9$를 이용하여 관계식을 세웁니다.\n구하고자 하는 $a_3 \\times a_5$를 일반항의 형태로 나타냅니다. $a_3 = ar^2$이고 $a_5 = ar^4$입니다. 이 두 항의 곱은 다음과 같습니다. $$\\begin{aligned} a_3 \\times a_5 &= (ar^2)(ar^4) \\\\ &= a^2r^6 \\end{aligned}$$\n$a_2 = ar = 2$와 $a_6 = ar^5 = 9$를 **활용**하여 $a^2r^6$의 값을 계산합니다. $a_2$와 $a_6$를 곱하면 다음과 같습니다. $$\\begin{aligned} a_2 \\times a_6 &= (ar) \\times (ar^5) \\\\ &= a^2r^6 \\end{aligned}$$ 문제에서 $a_2=2$와 $a_6=9$가 주어졌으므로, $a^2r^6 = 2 \\times 9 = 18$입니다. 따라서 $$\\boxed{18}$$",
+   "solution_id": 11365,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11365,
+     "created_by": "api",
+     "verified": true,
+     "body": "주어진 등비수열의 항들을 일반항 $a_n = ar^{n-1}$의 형태로 나타냅니다. $a_2=2$와 $a_6=9$를 이용하여 관계식을 세웁니다.\n구하고자 하는 $a_3 \\times a_5$를 일반항의 형태로 나타냅니다. $a_3 = ar^2$이고 $a_5 = ar^4$입니다. 이 두 항의 곱은 다음과 같습니다. $$\\begin{aligned} a_3 \\times a_5 &= (ar^2)(ar^4) \\\\ &= a^2r^6 \\end{aligned}$$\n$a_2 = ar = 2$와 $a_6 = ar^5 = 9$를 **활용**하여 $a^2r^6$의 값을 계산합니다. $a_2$와 $a_6$를 곱하면 다음과 같습니다. $$\\begin{aligned} a_2 \\times a_6 &= (ar) \\times (ar^5) \\\\ &= a^2r^6 \\end{aligned}$$ 문제에서 $a_2=2$와 $a_6=9$가 주어졌으므로, $a^2r^6 = 2 \\times 9 = 18$입니다. 따라서 $$\\boxed{18}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "등비수열 이해하기",
+    "label": "2022 교육청 고2 수학 11월 23번",
+    "year": "2022",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "630c09194175eb79e9b4afc3c8b6b9214b80b9be7fa9fb2f9936ea11519b62df"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8323,
+   "item_id": 8323,
+   "source_table": "items",
+   "fingerprint": "469366247b4e6cb46ae13b8cae38247283783303fc683fc6c189932b89e91350",
+   "source_type": "학평원본",
+   "source_label": "2024 교육청 고2 수학 10월 6번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "첫째항이 양수이고 공차가 $3\\,$인 등차수열 $\\left\\{a_{n} \\right\\}\\,$에 대하여\n $a_{2} \\times a_{4}=72$\n일 때, $a_{3}\\,$의 값은? [3점]\n① $7$ ② $9$ ③ $11$ ④ $13$ ⑤ $15$",
+   "body_html": "<p class=\"hp\">첫째항이 양수이고 공차가 <span class=\"heq\">\\(3\\,\\)</span>인 등차수열 <span class=\"heq\">\\(\\left\\{a_{n} \\right\\}\\,\\)</span>에 대하여</p><p class=\"hp\">&emsp;&emsp;<span class=\"heq\">\\(a_{2} \\times a_{4}=72\\)</span></p><p class=\"hp\">일 때, <span class=\"heq\">\\(a_{3}\\,\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(7\\)</span>&emsp;② <span class=\"heq\">\\(9\\)</span>&emsp;③ <span class=\"heq\">\\(11\\)</span>&emsp;④ <span class=\"heq\">\\(13\\)</span>&emsp;⑤ <span class=\"heq\">\\(15\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "등차수열의 항을 **등차중항**의 정의를 이용하여 표현한다. 공차가 $d=3$이므로, $a_2 = a_3 - d = a_3 - 3$ 이고 $a_4 = a_3 + d = a_3 + 3$ 이다.\n주어진 조건 $a_2 \\times a_4 = 72$에 1단계에서 얻은 관계식을 대입하여 $a_3$에 대한 **방정식**을 세운다. $$(a_3 - 3)(a_3 + 3) = 72$$ $$\\implies a_3^2 - 9 = 72$$ $$\\implies a_3^2 = 81$$\n2단계에서 얻은 $a_3^2 = 81$을 풀어 $a_3$의 값을 구하면 $a_3 = 9$ 또는 $a_3 = -9$이다. 문제의 조건에서 **첫째항이 양수**라고 주어졌으므로, 이를 이용하여 $a_3$의 값을 최종적으로 결정한다. \\(a_1 = a_3 - 2d = a_3 - 2 \\times 3 = a_3 - 6\\)이므로,\\ $$\\begin{aligned} \\text{1) } a_3 = 9 \\text{일 때, } a_1 = 9 - 6 = 3 \\\\ \\text{2) } a_3 = -9 \\text{일 때, } a_1 = -9 - 6 = -15 \\end{aligned}$$첫째항이 양수($a_1 > 0$)라는 조건에 의해 $a_1=3$이므로 $a_3=9$가 된다. 따라서 $$\\boxed{9}$$",
+   "solution_id": 11501,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11501,
+     "created_by": "api",
+     "verified": true,
+     "body": "등차수열의 항을 **등차중항**의 정의를 이용하여 표현한다. 공차가 $d=3$이므로, $a_2 = a_3 - d = a_3 - 3$ 이고 $a_4 = a_3 + d = a_3 + 3$ 이다.\n주어진 조건 $a_2 \\times a_4 = 72$에 1단계에서 얻은 관계식을 대입하여 $a_3$에 대한 **방정식**을 세운다. $$(a_3 - 3)(a_3 + 3) = 72$$ $$\\implies a_3^2 - 9 = 72$$ $$\\implies a_3^2 = 81$$\n2단계에서 얻은 $a_3^2 = 81$을 풀어 $a_3$의 값을 구하면 $a_3 = 9$ 또는 $a_3 = -9$이다. 문제의 조건에서 **첫째항이 양수**라고 주어졌으므로, 이를 이용하여 $a_3$의 값을 최종적으로 결정한다. \\(a_1 = a_3 - 2d = a_3 - 2 \\times 3 = a_3 - 6\\)이므로,\\ $$\\begin{aligned} \\text{1) } a_3 = 9 \\text{일 때, } a_1 = 9 - 6 = 3 \\\\ \\text{2) } a_3 = -9 \\text{일 때, } a_1 = -9 - 6 = -15 \\end{aligned}$$첫째항이 양수($a_1 > 0$)라는 조건에 의해 $a_1=3$이므로 $a_3=9$가 된다. 따라서 $$\\boxed{9}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "수열 - 등차수열",
+    "label": "2024 교육청 고2 수학 10월 6번",
+    "year": "2024",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": "전수 분류·해설·표시감사 보수(재검수요청, 2026-08-20)"
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [
+     "수식 밖 원시 LaTeX 명령 노출",
+     "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)",
+     "경우 번호가 계산 수식 안에 혼입됨"
+    ],
+    "diagnostics": [
+     {
+      "code": "raw_latex_outside_math",
+      "label": "수식 밖 원시 LaTeX 명령 노출",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "repeated_independent_math_attachment",
+      "label": "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)",
+      "level": "advisory",
+      "category": "syntax"
+     },
+     {
+      "code": "case_label_inside_math",
+      "label": "경우 번호가 계산 수식 안에 혼입됨",
+      "level": "blocker",
+      "category": "syntax"
+     }
+    ],
+    "blockers": [
+     {
+      "code": "raw_latex_outside_math",
+      "label": "수식 밖 원시 LaTeX 명령 노출",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "case_label_inside_math",
+      "label": "경우 번호가 계산 수식 안에 혼입됨",
+      "level": "blocker",
+      "category": "syntax"
+     }
+    ],
+    "advisories": [
+     {
+      "code": "repeated_independent_math_attachment",
+      "label": "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)",
+      "level": "advisory",
+      "category": "syntax"
+     }
+    ]
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "8f0a053aae2a3e2839c29dd6b2bcbf5f17f6ebcd5fddd43947baf7bc17e879ad"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16573,
+   "item_id": 16573,
+   "source_table": "items",
+   "fingerprint": "46b7c1fe7f355bef78cf75e6a37d6b2bd2c77207e0683f3a197dbee4de3d9ae8",
+   "source_type": "학평원본",
+   "source_label": "2019 평가원 고3 수리나형 6월 24번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "공비가 양수인 등비수열 $\\left\\{a_{n} \\right\\}$에 대하여 $a_{1 }= 2$, $\\frac{a_{5 }}{a_{3}}= 9$ 일 때, $\\sum _{k = 1}^{4}a_{k}$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp htall\">공비가 양수인 등비수열 <span class=\"heq\">\\(\\left\\{a_{n} \\right\\}\\)</span>에 대하여<br>&emsp;&emsp;<span class=\"heq\">\\(a_{1 }= 2\\)</span>, <span class=\"heq\">\\(\\dfrac{a_{5 }}{a_{3}}= 9\\)</span><br>일 때, <span class=\"heq\">\\(\\sum\\limits_{k = 1}^{4}a_{k}\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "80",
+   "answer_type": "단답형",
+   "explanation": "a5/a3=r^2=9와 r>0에서 공비를 구한 뒤 등비수열의 합 공식으로 계산한다.",
+   "solution_id": 18838,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18838,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "a5/a3=r^2=9와 r>0에서 공비를 구한 뒤 등비수열의 합 공식으로 계산한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리나형",
+    "unit": "수학Ⅰ",
+    "label": "2019 평가원 고3 수리나형 6월 24번",
+    "year": "2019",
+    "org": "평가원",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "1a2a0e8d8206e34388ef55090b153275044579ab3dacb3e1ec022b5dfe58ed16"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 17306,
+   "item_id": 17306,
+   "source_table": "items",
+   "fingerprint": "42c03e70e5feedc361181da44ad1083c41e1e9b445484735a5ad331f877583e1",
+   "source_type": "학평원본",
+   "source_label": "2022 교육청 고3 수학기하 4월 4번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "등비수열 $\\left\\{ a _{n} \\right\\}$에 대하여 $a _{2}$$=1$, $a _{5}$$=2 \\left( a _{3} \\right) ^{2}$일 때, $a _{6}$의 값은?\n[3점]\n① $8\\,$ ② $10\\,$ ③ $12\\,$ ④ $14\\,$ ⑤ $16\\,$",
+   "body_html": "<p class=\"hp\">등비수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\}\\)</span>에 대하여 <span class=\"heq\">\\(a_{2}\\)</span><span class=\"heq\">\\(=1\\)</span>, <span class=\"heq\">\\(a_{5}\\)</span><span class=\"heq\">\\(=2 \\left( a_{3} \\right)^{2}\\)</span>일 때, <span class=\"heq\">\\(a_{6}\\)</span>의 값은?</p><p class=\"hp\"><span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(8\\,\\)</span>&emsp;② <span class=\"heq\">\\(10\\,\\)</span>&emsp;③ <span class=\"heq\">\\(12\\,\\)</span>&emsp;④ <span class=\"heq\">\\(14\\,\\)</span>&emsp;⑤ <span class=\"heq\">\\(16\\,\\)</span></p>",
+   "answer": "⑤",
+   "answer_type": "객관식",
+   "explanation": "⑤",
+   "solution_id": 19572,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 19572,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "⑤"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "ALG",
+    "unit": "수열",
+    "label": "2022 교육청 고3 수학기하 4월 4번",
+    "year": "2022",
+    "org": "교육청",
+    "exam": "4월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "f3eaa647e8a4604ea6bc01c74dfb365ace6754fb867e170b933cc24eb6a81e7b"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 17570,
+   "item_id": 17570,
+   "source_table": "items",
+   "fingerprint": "f73cdd714a5f97c1a9a5efa34e313e0f758acd09584e5a3d9d48255af0842c43",
+   "source_type": "학평원본",
+   "source_label": "2023 교육청 고3 수학기하 3월 10번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "공차가 양수인 등차수열 $\\left\\{ a _{\\,n} \\right\\} \\,$이 다음 조건을 만족시킬 때, $a _{\\,10} \\,$의 값은? [4점]\n(가) $\\left| a _{\\,4} \\right| + \\left| a _{\\,6} \\right| =8$ (나) $\\sum _{k=1} ^{9} a _{\\,k} =27\\,$\n① $21$ ② $23$ ③ $25$ ④ $27$ ⑤ $29$",
+   "body_html": "<p class=\"hp\">공차가 양수인 등차수열 <span class=\"heq\">\\(\\left\\{ a_{\\,n} \\right\\} \\,\\)</span>이 다음 조건을 만족시킬 때, <span class=\"heq\">\\(a_{\\,10} \\,\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><div class=\"hbox\"><p class=\"hp\">(가) <span class=\"heq\">\\(\\left| a_{\\,4} \\right| + \\left| a_{\\,6} \\right| =8\\)</span></p><p class=\"hp htall\">(나) <span class=\"heq\">\\(\\sum\\limits_{k=1}^{9} a_{\\,k} =27\\,\\)</span></p></div><p class=\"hp\">① <span class=\"heq\">\\(21\\)</span>&emsp;② <span class=\"heq\">\\(23\\)</span>&emsp;③ <span class=\"heq\">\\(25\\)</span>&emsp;④ <span class=\"heq\">\\(27\\)</span>&emsp;⑤ <span class=\"heq\">\\(29\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "(나)에서 $\\sum_{k=1}^{9}a_k=9a_5=27$ 이므로 $a_5=3$. (가)에서 $a_4=3-d$, $a_6=3+d$ 이고 $d>3$ 일 때만 $|a_4|+|a_6|=2d=8$ 이 되어 $d=4$. 따라서 $a_{10}=3+5\\times 4=23$, 답은 ②.",
+   "solution_id": 21423,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 21423,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "(나)에서 $\\sum_{k=1}^{9}a_k=9a_5=27$ 이므로 $a_5=3$. (가)에서 $a_4=3-d$, $a_6=3+d$ 이고 $d>3$ 일 때만 $|a_4|+|a_6|=2d=8$ 이 되어 $d=4$. 따라서 $a_{10}=3+5\\times 4=23$, 답은 ②."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "ALG",
+    "unit": "등차수열",
+    "label": "2023 교육청 고3 수학기하 3월 10번",
+    "year": "2023",
+    "org": "교육청",
+    "exam": "3월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "d17ca1ce2bc0e20df1f94a10043204a11304c36c6dc153e95d9cf93406e8e975"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 7974,
+   "item_id": 7974,
+   "source_table": "items",
+   "fingerprint": "0692e0cbe534b4e0e07512ff2ada68e74740dafad1d735ab452306ab6ab6c75f",
+   "source_type": "학평원본",
+   "source_label": "2020 교육청 고2 수학 9월 17번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "공차가 정수인 등차수열 ${\\left\\{ a _{n} \\right\\}}{{from^2020^09^인천교고2^중}}$이 다음 조건을 만족시킨다.\n(가) $a _{7} =37$ (나) 모든 자연수 $n$에 대하여 $\\sum _{k=1} ^{n} a _{k} \\leq \\sum _{k=1} ^{13} a _{k}$이다.\n$\\sum _{k=1} ^{21} \\left|\\, a _{k} \\,\\right|$의 값은? [4점]\n① $681$ ② $683$ ③ $685$ ④ $687$ ⑤ $689$",
+   "body_html": "<p class=\"hp\">공차가 정수인 등차수열 <span class=\"heq\">\\({\\left\\{ a_{n} \\right\\}}{{from^{2020}^{09}^{\\text{인천교고2}}^{\\text{중}}}}\\)</span>이 다음 조건을 만족시킨다.</p><p class=\"hp htall\"><div class=\"hbox\"><p class=\"hp\">(가) <span class=\"heq\">\\(a_{7} =37\\)</span></p><p class=\"hp htall\">(나) 모든 자연수 <span class=\"heq\">\\(n\\)</span>에 대하여 <span class=\"heq\">\\(\\sum\\limits_{k=1}^{n} a_{k} \\leq \\sum\\limits_{k=1}^{13} a_{k}\\)</span>이다.</p></div></p><p class=\"hp htall\"><span class=\"heq\">\\(\\sum\\limits_{k=1}^{21} \\left|\\, a_{k} \\,\\right|\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(681\\)</span>&emsp;② <span class=\"heq\">\\(683\\)</span>&emsp;③ <span class=\"heq\">\\(685\\)</span>&emsp;④ <span class=\"heq\">\\(687\\)</span>&emsp;⑤ <span class=\"heq\">\\(689\\)</span></p>",
+   "answer": "⑤",
+   "answer_type": "객관식",
+   "explanation": "조건 (나)는 부분합 $\\sum\\limits_{k=1}^{n} a_k$가 $n=13$에서 최대임을 뜻한다. 항의 부호로 공차를 정한 뒤 절댓값의 합을 계산한다.",
+   "solution_id": 12027,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 12027,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "조건 (나)는 부분합 $\\sum\\limits_{k=1}^{n} a_k$가 $n=13$에서 최대임을 뜻한다. 항의 부호로 공차를 정한 뒤 절댓값의 합을 계산한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "등차수열의 성질을 활용하여 문제해결하기",
+    "label": "2020 교육청 고2 수학 9월 17번",
+    "year": "2020",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [
+     "두 자리 이상 숫자 지수가 중괄호 없이 저장돼 첫 자리만 지수로 렌더"
+    ],
+    "diagnostics": [
+     {
+      "code": "numeric_exponent_brace_loss",
+      "label": "두 자리 이상 숫자 지수가 중괄호 없이 저장돼 첫 자리만 지수로 렌더",
+      "level": "blocker",
+      "category": "syntax"
+     }
+    ],
+    "blockers": [
+     {
+      "code": "numeric_exponent_brace_loss",
+      "label": "두 자리 이상 숫자 지수가 중괄호 없이 저장돼 첫 자리만 지수로 렌더",
+      "level": "blocker",
+      "category": "syntax"
+     }
+    ],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "cba73f452acc7f01bdeadc16902f38dd329a11e98eb0815d2305b984eb682429"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8794,
+   "item_id": 8794,
+   "source_table": "items",
+   "fingerprint": "91ef1eaf25a3a5366edb1adb8a2402db904427e2d5edb192e3a2e738de000f95",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고2 수학나형 11월 28번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "첫째항이 자연수이고 공차가 음수인 등차수열 $\\left\\{ \\,a _{n} \\right\\}$이 다음 조건을 만족시킬 때, $a_1$의 값을 구하시오. [4점]\n (가) $\\left| a _{5} \\right| + \\left| a _{6} \\right| = \\left| a _{5} +a _{6} \\right| +2$ (나) $\\sum _{n=1} ^{6} \\left| a _{n} \\right| =37$",
+   "body_html": "<p class=\"hp\">첫째항이 자연수이고 공차가 음수인 등차수열 <span class=\"heq\">\\(\\left\\{ \\,a_{n} \\right\\}\\)</span>이 다음 조건을 만족시킬 때, <span class=\"heq\">\\(a_{1}\\)</span>의 값을 구하시오. <span class=\"hscore\">[4점]</span></p><div class=\"hbox\"><p class=\"hp\">(가) <span class=\"heq\">\\(\\left| a_{5} \\right| + \\left| a_{6} \\right| = \\left| a_{5} +a_{6} \\right| +2\\)</span></p><p class=\"hp htall\">(나) <span class=\"heq\">\\(\\sum\\limits_{n=1}^{6} \\left| a_{n} \\right| =37\\)</span></p></div>",
+   "answer": "13",
+   "answer_type": "단답형",
+   "explanation": "공차가 음수라 $a_5>0$, $a_6<0$임을 이용해 조건 (가)로 $a_1+4d=1$, 조건 (나)로 $4a_1+5d=37$을 세워 연립해 $a_1=13$을 구한다.",
+   "solution_id": 11861,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11861,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "공차가 음수라 $a_5>0$, $a_6<0$임을 이용해 조건 (가)로 $a_1+4d=1$, 조건 (나)로 $4a_1+5d=37$을 세워 연립해 $a_1=13$을 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "수열의 합을 활용하여 문제해결하기",
+    "label": "2019 교육청 고2 수학나형 11월 28번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "6b1c8ad84e745859a55b4ee5de76add988a96bcbeaac604a8ea6cc86e7de9a03"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11388,
+   "item_id": 11388,
+   "source_table": "items",
+   "fingerprint": "a164205d544035cb0050c75dd1467331e0610870b476d69e1ea247e194ab92aa",
+   "source_type": "학평원본",
+   "source_label": "2017 교육청 고1 수학 11월 29번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$r>1$인 실수 $r$에 대하여 전체집합\n $U= \\left\\{ \\,r ^{k} \\, \\right| \\,k$는 $102$ 이하의 자연수$\\left. ^{\\,} \\right\\}$\n의 부분집합 $A$가 다음 조건을 만족시킨다.\n(가) $\\left\\{ \\,r,\\,r ^{31} ,\\,r ^{100} \\right\\} SUBSET A$ (나) 집합 $A$의 원소들을 작은 수부터 차례대로 배열한 수열은 등비수열이다.(다) 전체집합 $U$의 모든 원소들의 합은 집합 $A$의 모든 원소들의 합의 $91$배이다.\n실수 $r$의 값을 구하시오. [4점]",
+   "body_html": "<p class=\"hp\"><span class=\"heq\">\\(r\\gt 1\\)</span>인 실수 <span class=\"heq\">\\(r\\)</span>에 대하여 전체집합</p><p class=\"hp\">&emsp;&emsp;<span class=\"heq\">\\(U= \\left\\{ \\,r^{k} \\, \\right| \\,k\\)</span>는 <span class=\"heq\">\\(102\\)</span> 이하의 자연수<span class=\"heq\">\\(\\left. \\, \\right\\}\\)</span></p><p class=\"hp\">의 부분집합 <span class=\"heq\">\\(A\\)</span>가 다음 조건을 만족시킨다.</p><p class=\"hp\"><div class=\"hbox\"><p class=\"hp\">(가) <span class=\"heq\">\\(\\left\\{ \\,r,\\,r^{31} ,\\,r^{100} \\right\\} \\subset A\\)</span></p><p class=\"hp\">(나) 집합 <span class=\"heq\">\\(A\\)</span>의 원소들을 작은 수부터 차례대로 배열한 수열은 등비수열이다.</p><p class=\"hp\">(다) 전체집합 <span class=\"heq\">\\(U\\)</span>의 모든 원소들의 합은 집합 <span class=\"heq\">\\(A\\)</span>의 모든 원소들의 합의 <span class=\"heq\">\\(91\\)</span>배이다.</p></div></p><p class=\"hp\">실수 <span class=\"heq\">\\(r\\)</span>의 값을 구하시오. <span class=\"hscore\">[4점]</span></p>",
+   "answer": "9",
+   "answer_type": "단답형",
+   "explanation": "$A$ 의 원소는 $r$ 의 거듭제곱이고 작은 수부터 등비수열을 이루며 $r>1$ 이라 첫째항 $r$, 공비 $r^{a}$ 로 두면 일반항은 $r^{a(n-1)+1}$. $r^{31},r^{100}\\in A$ 에서 $a$ 는 $30,99$ 의 공약수, $A$ 가 $U$ 의 진부분집합이라 $a=3$, 일반항 $r^{3n-2}$. $U$ 합 $\\dfrac{r(r^{102}-1)}{r-1}$, $A$ 합 $\\dfrac{r(r^{102}-1)}{r^{3}-1}$ 이고 (다) $U$합$=91\\times A$합에서 $r^{2}+r+1=91$, $(r+10)(r-9)=0$, $r>1$ 이라 $r=\\boxed{\\vphantom{(}9}$.",
+   "solution_id": 14484,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14484,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$A$ 의 원소는 $r$ 의 거듭제곱이고 작은 수부터 등비수열을 이루며 $r>1$ 이라 첫째항 $r$, 공비 $r^{a}$ 로 두면 일반항은 $r^{a(n-1)+1}$. $r^{31},r^{100}\\in A$ 에서 $a$ 는 $30,99$ 의 공약수, $A$ 가 $U$ 의 진부분집합이라 $a=3$, 일반항 $r^{3n-2}$. $U$ 합 $\\dfrac{r(r^{102}-1)}{r-1}$, $A$ 합 $\\dfrac{r(r^{102}-1)}{r^{3}-1}$ 이고 (다) $U$합$=91\\times A$합에서 $r^{2}+r+1=91$, $(r+10)(r-9)=0$, $r>1$ 이라 $r=\\boxed{\\vphantom{(}9}$."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "수열",
+    "label": "2017 교육청 고1 수학 11월 29번",
+    "year": "2017",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "31636b9c5c7d1b6597dda23bda5b118e36056ccea44d0faa2961fef674e2b272"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11593,
+   "item_id": 11593,
+   "source_table": "items",
+   "fingerprint": "926cfd3f9be33dc65a63164e0362153f4c3bdbc0e6a256f18b757ff0a07a4390",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고1 수학 6월 24번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$x\\,$에 대한 이차방정식 $x ^{2} -kx+4=0\\,$의 두 근을 $\\alpha \\,$, $\\beta\\,$라 할 때, $\\frac{1}{\\alpha } + \\frac{1}{\\beta } =5\\,$이다. 상수 $k\\,$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(x\\,\\)</span>에 대한 이차방정식 <span class=\"heq\">\\(x^{2} -kx+4=0\\,\\)</span>의 두 근을 <span class=\"heq\">\\(\\alpha \\,\\)</span>, <span class=\"heq\">\\(\\beta\\,\\)</span>라 할 때, <span class=\"heq\">\\(\\dfrac{1}{\\alpha } + \\dfrac{1}{\\beta } =5\\,\\)</span>이다. 상수 <span class=\"heq\">\\(k\\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "20",
+   "answer_type": "단답형",
+   "explanation": "근과 계수의 관계에서 $\\alpha + \\beta = k$, $\\alpha\\beta = 4$이다.\n\n$\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha + \\beta}{\\alpha\\beta} = \\frac{k}{4} = 5$\n\n$k = 20$",
+   "solution_id": 27316,
+   "solution_created_by": "opus-goldenset-w2-20260815",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 27316,
+     "created_by": "opus-goldenset-w2-20260815",
+     "verified": true,
+     "body": "근과 계수의 관계에서 $\\alpha + \\beta = k$, $\\alpha\\beta = 4$이다.\n\n$\\frac{1}{\\alpha} + \\frac{1}{\\beta} = \\frac{\\alpha + \\beta}{\\alpha\\beta} = \\frac{k}{4} = 5$\n\n$k = 20$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": null,
+    "label": "2019 교육청 고1 수학 6월 24번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "24e9d1f05bc781b3629a98ae0a36f75d5dbe862bcebb0d9cc8b359bbfb91575c"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10983,
+   "item_id": 10983,
+   "source_table": "items",
+   "fingerprint": "4152c3b6f1a65882125bdd907a87597efcae18e6bd75200467f6d4507e5e98dd",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고2 수학가형 3월 14번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "점 $P\\,$가 나타내는 도형의 넓이를 $a _{n} \\,$이라 할 때, $\\sum _{n=1} ^{8} a _{n} \\,$의 값은? [4점]\n① $51\\pi$ ② $53\\, \\pi$ ③ $55\\, \\pi$ ④ $57\\, \\pi$ ⑤ $59\\, \\pi$",
+   "body_html": "<p class=\"hp htall\">점 <span class=\"heq\">\\(P\\,\\)</span>가 나타내는 도형의 넓이를 <span class=\"heq\">\\(a_{n} \\,\\)</span>이라 할 때, <span class=\"heq\">\\(\\sum\\limits_{n=1}^{8} a_{n} \\,\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(51\\pi\\)</span>&emsp;② <span class=\"heq\">\\(53\\, \\pi\\)</span>&emsp;③ <span class=\"heq\">\\(55\\, \\pi\\)</span>&emsp;④ <span class=\"heq\">\\(57\\, \\pi\\)</span>&emsp;⑤ <span class=\"heq\">\\(59\\, \\pi\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "[1] $\\angle \\mathrm{APB}=90^{\\circ}$ 이므로 점 $\\mathrm{P}$ 가 나타내는 도형은 선분 $\\mathrm{AB}$ 를 지름으로 하는 원이다.\n[2] $\\overline{\\mathrm{AB}}=n$ 이므로 이 원의 반지름의 길이는 $\\dfrac{n}{2}$ 이고, $a_n=\\pi\\times\\left(\\dfrac{n}{2}\\right)^{2}=\\dfrac{n^{2}}{4}\\pi$ 이다.\n[3] $\\displaystyle\\sum_{n=1}^{8}a_n=\\sum_{n=1}^{8}\\frac{n^{2}}{4}\\pi=\\frac{\\pi}{4}\\sum_{n=1}^{8}n^{2}=\\frac{\\pi}{4}\\times\\frac{8\\times 9\\times 17}{6}$ 이다.\n[4] 따라서 $\\displaystyle\\sum_{n=1}^{8}a_n=\\frac{\\pi}{4}\\times 204=51\\pi$ 이므로 답은 ① $51\\pi$ 이다.",
+   "solution_id": 14687,
+   "solution_created_by": "fable-20260712",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14687,
+     "created_by": "fable-20260712",
+     "verified": true,
+     "body": "[1] $\\angle \\mathrm{APB}=90^{\\circ}$ 이므로 점 $\\mathrm{P}$ 가 나타내는 도형은 선분 $\\mathrm{AB}$ 를 지름으로 하는 원이다.\n[2] $\\overline{\\mathrm{AB}}=n$ 이므로 이 원의 반지름의 길이는 $\\dfrac{n}{2}$ 이고, $a_n=\\pi\\times\\left(\\dfrac{n}{2}\\right)^{2}=\\dfrac{n^{2}}{4}\\pi$ 이다.\n[3] $\\displaystyle\\sum_{n=1}^{8}a_n=\\sum_{n=1}^{8}\\frac{n^{2}}{4}\\pi=\\frac{\\pi}{4}\\sum_{n=1}^{8}n^{2}=\\frac{\\pi}{4}\\times\\frac{8\\times 9\\times 17}{6}$ 이다.\n[4] 따라서 $\\displaystyle\\sum_{n=1}^{8}a_n=\\frac{\\pi}{4}\\times 204=51\\pi$ 이므로 답은 ① $51\\pi$ 이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "삼각형에의 활용",
+    "label": "2016 교육청 고2 수학가형 3월 14번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "3월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "f7bfb05bd2137db46a775d7f9f9bbc69d67ab539bfa983be23a6e92c89f1df2f"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 7784,
+   "item_id": 7784,
+   "source_table": "items",
+   "fingerprint": "afab79eb90f360edd12f75e8a854686a513a434923ba11dc247b1557dfb90ce3",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고2 수학가형 9월 7번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "반지름의 길이가 $5\\,$인 원에 내접하는 삼각형 $ABC\\,$에 대하여 $\\angle BAC= \\frac{\\pi }{4} \\,$일 때, 선분 $BC \\,$의 길이는? [3점]\n① $3 \\sqrt{2}$ ② $\\frac{7 \\sqrt{2}}{2}$ ③ $4 \\sqrt{2}$ ④ $\\frac{9 \\sqrt{2}}{2}$ ⑤ $5 \\sqrt{2}$",
+   "body_html": "<p class=\"hp htall\">반지름의 길이가 <span class=\"heq\">\\(5\\,\\)</span>인 원에 내접하는 삼각형 <span class=\"heq\">\\(ABC\\,\\)</span>에 대하여 <span class=\"heq\">\\(\\angle BAC= \\dfrac{\\pi }{4} \\,\\)</span>일 때, 선분 <span class=\"heq\">\\(BC \\,\\)</span>의 길이는? <span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(3 \\sqrt{2}\\)</span>&emsp;② <span class=\"heq\">\\(\\dfrac{7 \\sqrt{2}}{2}\\)</span>&emsp;③ <span class=\"heq\">\\(4 \\sqrt{2}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{9 \\sqrt{2}}{2}\\)</span>&emsp;⑤ <span class=\"heq\">\\(5 \\sqrt{2}\\)</span></p>",
+   "answer": "⑤",
+   "answer_type": "객관식",
+   "explanation": "외접원의 반지름과 삼각형의 한 변, 대각 사이의 관계를 나타내는 **사인법칙**을 적용한다. 외접원의 반지름의 길이를 $R$이라 할 때, $BC / \\sin(\\angle BAC) = 2R$ 이 성립한다.\n주어진 조건을 사인법칙에 대입하여 식을 세운다. 문제에서 외접원의 반지름 $R=5$이고 $\\angle BAC = \\frac{\\pi}{4}$ 이다. $$ \\frac{\\overline{BC}}{\\sin\\left(\\frac{\\pi}{4}\\right)} = 2 \\times 5 $$\n삼각비 값을 이용하여 $\\sin(\\frac{\\pi}{4})$를 계산한다. 특수각의 삼각비 값인 $\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}$ 이다. $$ \\overline{BC} = 10 \\times \\sin\\left(\\frac{\\pi}{4}\\right) = 10 \\times \\frac{\\sqrt{2}}{2} $$\n선분 BC의 길이를 최종 계산한다. $$ \\overline{BC} = 5\\sqrt{2} $$ 주어진 선택지 중에서 이 값에 해당하는 것은 **⑤**이다. 따라서 $$\\boxed{\\text{⑤}}$$",
+   "solution_id": 11131,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11131,
+     "created_by": "api",
+     "verified": true,
+     "body": "외접원의 반지름과 삼각형의 한 변, 대각 사이의 관계를 나타내는 **사인법칙**을 적용한다. 외접원의 반지름의 길이를 $R$이라 할 때, $BC / \\sin(\\angle BAC) = 2R$ 이 성립한다.\n주어진 조건을 사인법칙에 대입하여 식을 세운다. 문제에서 외접원의 반지름 $R=5$이고 $\\angle BAC = \\frac{\\pi}{4}$ 이다. $$ \\frac{\\overline{BC}}{\\sin\\left(\\frac{\\pi}{4}\\right)} = 2 \\times 5 $$\n삼각비 값을 이용하여 $\\sin(\\frac{\\pi}{4})$를 계산한다. 특수각의 삼각비 값인 $\\sin(\\frac{\\pi}{4}) = \\frac{\\sqrt{2}}{2}$ 이다. $$ \\overline{BC} = 10 \\times \\sin\\left(\\frac{\\pi}{4}\\right) = 10 \\times \\frac{\\sqrt{2}}{2} $$\n선분 BC의 길이를 최종 계산한다. $$ \\overline{BC} = 5\\sqrt{2} $$ 주어진 선택지 중에서 이 값에 해당하는 것은 **⑤**이다. 따라서 $$\\boxed{\\text{⑤}}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "사인법칙 이해하기",
+    "label": "2019 교육청 고2 수학가형 9월 7번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "58ad117862288c9a91838b24ee6d77a289751e12fe368200e9f050146e176eda"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8174,
+   "item_id": 8174,
+   "source_table": "items",
+   "fingerprint": "8a64654fa73af5d6e50199f28ef4c50bcbf5429ede5682168dc87012e55854d4",
+   "source_type": "학평원본",
+   "source_label": "2022 교육청 고2 수학 9월 7번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "중심각의 크기가 $\\frac{\\pi}{6} \\,$이고 호의 길이가 $\\pi \\,$인 부채꼴의 넓이는?\n[3점]\n① $\\pi$ ② $2 \\pi$ ③ $3 \\pi$ ④ $4 \\pi$ ⑤ $5 \\pi$",
+   "body_html": "<p class=\"hp htall\">중심각의 크기가 <span class=\"heq\">\\(\\dfrac{\\pi}{6} \\,\\)</span>이고 호의 길이가 <span class=\"heq\">\\(\\pi \\,\\)</span>인 부채꼴의 넓이는?</p><p class=\"hp\"><span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(\\pi\\)</span>&emsp;② <span class=\"heq\">\\(2 \\pi\\)</span>&emsp;③ <span class=\"heq\">\\(3 \\pi\\)</span>&emsp;④ <span class=\"heq\">\\(4 \\pi\\)</span>&emsp;⑤ <span class=\"heq\">\\(5 \\pi\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "주어진 부채꼴의 **중심각의 크기는 $\\theta = \\frac{\\pi}{6}$ (라디안)**이고, **호의 길이는 $l = \\pi$** 임을 확인한다. 부채꼴의 반지름의 길이를 $r$ 이라 하자. 호의 길이를 구하는 공식을 이용하여 $r$ 값을 구한다. $l = r\\theta$ 이므로 다음 관계식을 얻는다. $$\\pi = r \\times \\frac{\\pi}{6}$$\n위 식을 **반지름 $r$에 대해 정리**하면 다음과 같다. $$r = \\frac{\\pi}{\\frac{\\pi}{6}} = \\pi \\times \\frac{6}{\\pi} = 6$$\n이제 부채꼴의 **넓이를 구하는 공식을 적용**한다. 부채꼴의 넓이 $S$는 $S = \\frac{1}{2}r^2\\theta$ 또는 $S = \\frac{1}{2}rl$ 이다. 여기서는 두 가지 방법 모두로 계산할 수 있다. 먼저 $S = \\frac{1}{2}r^2\\theta$ 공식을 사용하면 다음과 같다. $$\\begin{aligned} S &= \\frac{1}{2} \\times 6^2 \\times \\frac{\\pi}{6} \\\\ &= \\frac{1}{2} \\times 36 \\times \\frac{\\pi}{6} \\\\ &= 3\\pi \\end{aligned}$$ 또한, $S = \\frac{1}{2}rl$ 공식을 사용해도 같은 결과를 얻는다. $$\\begin{aligned} S &= \\frac{1}{2} \\times 6 \\times \\pi \\\\ &= 3\\pi \\end{aligned}$$ 따라서 부채꼴의 넓이는 $3\\pi$ 이다. 답은 **③ $3\\pi$** 이다. $$\\boxed{3\\pi}$$",
+   "solution_id": 11398,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11398,
+     "created_by": "api",
+     "verified": true,
+     "body": "주어진 부채꼴의 **중심각의 크기는 $\\theta = \\frac{\\pi}{6}$ (라디안)**이고, **호의 길이는 $l = \\pi$** 임을 확인한다. 부채꼴의 반지름의 길이를 $r$ 이라 하자. 호의 길이를 구하는 공식을 이용하여 $r$ 값을 구한다. $l = r\\theta$ 이므로 다음 관계식을 얻는다. $$\\pi = r \\times \\frac{\\pi}{6}$$\n위 식을 **반지름 $r$에 대해 정리**하면 다음과 같다. $$r = \\frac{\\pi}{\\frac{\\pi}{6}} = \\pi \\times \\frac{6}{\\pi} = 6$$\n이제 부채꼴의 **넓이를 구하는 공식을 적용**한다. 부채꼴의 넓이 $S$는 $S = \\frac{1}{2}r^2\\theta$ 또는 $S = \\frac{1}{2}rl$ 이다. 여기서는 두 가지 방법 모두로 계산할 수 있다. 먼저 $S = \\frac{1}{2}r^2\\theta$ 공식을 사용하면 다음과 같다. $$\\begin{aligned} S &= \\frac{1}{2} \\times 6^2 \\times \\frac{\\pi}{6} \\\\ &= \\frac{1}{2} \\times 36 \\times \\frac{\\pi}{6} \\\\ &= 3\\pi \\end{aligned}$$ 또한, $S = \\frac{1}{2}rl$ 공식을 사용해도 같은 결과를 얻는다. $$\\begin{aligned} S &= \\frac{1}{2} \\times 6 \\times \\pi \\\\ &= 3\\pi \\end{aligned}$$ 따라서 부채꼴의 넓이는 $3\\pi$ 이다. 답은 **③ $3\\pi$** 이다. $$\\boxed{3\\pi}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "일반각과 호도법 이해하기",
+    "label": "2022 교육청 고2 수학 9월 7번",
+    "year": "2022",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "f159009d677ad8192901013792eb49ce4af7925fb35ffc4f2c29c8b5008dc476"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8310,
+   "item_id": 8310,
+   "source_table": "items",
+   "fingerprint": "483faa47a33f4ae66bbaadf849c5c1c6d5df2a479cd6fd5b4bbaae27cbea60ff",
+   "source_type": "학평원본",
+   "source_label": "2023 교육청 고2 수학 9월 23번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "호의 길이가 $2 \\pi$이고 넓이가 $6 \\pi$인 부채꼴의 반지름의 길이를 구하시오. [3점]",
+   "body_html": "<p class=\"hp\">호의 길이가 <span class=\"heq\">\\(2 \\pi\\)</span>이고 넓이가 <span class=\"heq\">\\(6 \\pi\\)</span>인 부채꼴의 반지름의 길이를 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "6",
+   "answer_type": "단답형",
+   "explanation": "부채꼴의 반지름의 길이를 $r$, 호의 길이를 $l$, 넓이를 $S$라 할 때, 주어진 조건은 호의 길이 $l = 2\\pi$와 넓이 $S = 6\\pi$이다. 부채꼴의 넓이 공식은 **호의 길이**와 **반지름의 길이**를 이용하여 다음과 같이 표현된다. $$S = \\frac{1}{2}rl$$\n주어진 값들을 넓이 공식에 대입하여 반지름의 길이 $r$을 구한다. $$\\begin{aligned} 6\\pi &= \\frac{1}{2} \\times r \\times 2\\pi \\\\ 6\\pi &= r\\pi \\end{aligned}$$\n양변을 $$\\pi$$로 나누어 $r$의 값을 최종적으로 계산한다. $$\\begin{aligned} 6\\pi &= r\\pi \\\\ r &= 6 \\end{aligned}$$ 따라서 부채꼴의 반지름의 길이는 **6**이다. $$\\boxed{6}$$",
+   "solution_id": 11491,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11491,
+     "created_by": "api",
+     "verified": true,
+     "body": "부채꼴의 반지름의 길이를 $r$, 호의 길이를 $l$, 넓이를 $S$라 할 때, 주어진 조건은 호의 길이 $l = 2\\pi$와 넓이 $S = 6\\pi$이다. 부채꼴의 넓이 공식은 **호의 길이**와 **반지름의 길이**를 이용하여 다음과 같이 표현된다. $$S = \\frac{1}{2}rl$$\n주어진 값들을 넓이 공식에 대입하여 반지름의 길이 $r$을 구한다. $$\\begin{aligned} 6\\pi &= \\frac{1}{2} \\times r \\times 2\\pi \\\\ 6\\pi &= r\\pi \\end{aligned}$$\n양변을 $$\\pi$$로 나누어 $r$의 값을 최종적으로 계산한다. $$\\begin{aligned} 6\\pi &= r\\pi \\\\ r &= 6 \\end{aligned}$$ 따라서 부채꼴의 반지름의 길이는 **6**이다. $$\\boxed{6}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "삼각함수 - 삼각함수의 정의",
+    "label": "2023 교육청 고2 수학 9월 23번",
+    "year": "2023",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "5b1b199178b3d4daea09c1e70247049af8ad38c30018242276c9cf70cd1616d9"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8798,
+   "item_id": 8798,
+   "source_table": "items",
+   "fingerprint": "1d4a0b1b797fb11907ad7ba74b085a6844b6138c9d54fe02ece3c4afe89d10ea",
+   "source_type": "학평원본",
+   "source_label": "2020 교육청 고2 수학 11월 2번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "함수 $y=\\tan\\, \\frac{\\pi}{4}$의 주기는? [2점]\n① $\\pi$ ② $2\\pi$ ③ $3\\pi$ ④ $4\\pi$ ⑤ $5\\pi$",
+   "body_html": "<p class=\"hp htall\">함수 <span class=\"heq\">\\(y=\\tan\\, \\dfrac{\\pi}{4}\\)</span>의 주기는? <span class=\"hscore\">[2점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(\\pi\\)</span>&emsp;② <span class=\"heq\">\\(2\\pi\\)</span>&emsp;③ <span class=\"heq\">\\(3\\pi\\)</span>&emsp;④ <span class=\"heq\">\\(4\\pi\\)</span>&emsp;⑤ <span class=\"heq\">\\(5\\pi\\)</span></p>",
+   "answer": "④",
+   "answer_type": "객관식",
+   "explanation": "일반적으로 함수 $y = \\tan(ax+b)$의 주기는 $y = \\tan x$의 주기인 $\\pi$를 $x$의 계수 $a$의 **절댓값으로 나눈 값**이다. 즉, 주기는 $\\frac{\\pi}{|a|}$ 이다.\n주어진 함수 $y = \\tan \\frac{x}{4}$는 $a = \\frac{1}{4}$인 형태이다. 따라서 주기를 구한다. $$\\frac{\\pi}{\\left|\\frac{1}{4}\\right|} = \\frac{\\pi}{\\frac{1}{4}} = 4\\pi$$\n계산 결과 $4\\pi$에 해당하는 보기를 선택한다. 따라서 정답은 **④**이다. $$\\boxed{\\text{④}}$$ ",
+   "solution_id": 11810,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11810,
+     "created_by": "api",
+     "verified": true,
+     "body": "일반적으로 함수 $y = \\tan(ax+b)$의 주기는 $y = \\tan x$의 주기인 $\\pi$를 $x$의 계수 $a$의 **절댓값으로 나눈 값**이다. 즉, 주기는 $\\frac{\\pi}{|a|}$ 이다.\n주어진 함수 $y = \\tan \\frac{x}{4}$는 $a = \\frac{1}{4}$인 형태이다. 따라서 주기를 구한다. $$\\frac{\\pi}{\\left|\\frac{1}{4}\\right|} = \\frac{\\pi}{\\frac{1}{4}} = 4\\pi$$\n계산 결과 $4\\pi$에 해당하는 보기를 선택한다. 따라서 정답은 **④**이다. $$\\boxed{\\text{④}}$$ "
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "삼각함수 - 삼각함수의 그래프",
+    "label": "2020 교육청 고2 수학 11월 2번",
+    "year": "2020",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "86b3d69764b0ecad6102268b1697d0997bc095cdd25933362e3374cbff60be09"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15513,
+   "item_id": 15513,
+   "source_table": "items",
+   "fingerprint": "cfc07beb2fad2173eea5c52cf3cf157ba9d81ba2072f62d02a60829a9bb1502a",
+   "source_type": "학평원본",
+   "source_label": "2017 교육청 고3 수리가형 3월 1번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "12$\\sin\\, \\frac{7}{6} \\pi \\,$\n① $- \\frac{\\sqrt{3}}{2}$ ② $- \\frac{\\sqrt{2}}{2}$ ③ $- \\frac{1}{2}$ ④ $\\frac{1}{2}$ ⑤ $\\frac{\\sqrt{2}}{2}$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\sin\\, \\dfrac{7}{6} \\pi \\,\\)</span>의 값은? <span class=\"hscore\">[2점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(- \\dfrac{\\sqrt{3}}{2}\\)</span>&emsp;② <span class=\"heq\">\\(- \\dfrac{\\sqrt{2}}{2}\\)</span>&emsp;③ <span class=\"heq\">\\(- \\dfrac{1}{2}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{1}{2}\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{\\sqrt{2}}{2}\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "주어진 각 $\\frac{7}{6}\\pi$를 특수각 $\\frac{\\pi}{6}$와 연관된 형태로 **각변환**한다. $\\frac{7}{6}\\pi$는 제3사분면의 각이므로, $\\pi + \\frac{\\pi}{6}$로 표현할 수 있다. $$\\sin \\frac{7}{6}\\pi = \\sin \\left(\\pi + \\frac{\\pi}{6}\\right)$$\n삼각함수의 **각변환 공식** $\\sin(\\pi + \\theta) = -\\sin\\theta$를 적용한다. $$\\sin \\left(\\pi + \\frac{\\pi}{6}\\right) = -\\sin \\frac{\\pi}{6}$$\n**특수각** $\\frac{\\pi}{6}$ (즉, $30^\\circ$)에 대한 사인 값을 계산한다. $\\sin \\frac{\\pi}{6} = \\frac{1}{2}$이므로, 최종 값을 구한다. $$-\\sin \\frac{\\pi}{6} = -\\frac{1}{2}$$ 따라서 $$\\boxed{\\text{③}}$$",
+   "solution_id": 16992,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 16992,
+     "created_by": "api",
+     "verified": true,
+     "body": "주어진 각 $\\frac{7}{6}\\pi$를 특수각 $\\frac{\\pi}{6}$와 연관된 형태로 **각변환**한다. $\\frac{7}{6}\\pi$는 제3사분면의 각이므로, $\\pi + \\frac{\\pi}{6}$로 표현할 수 있다. $$\\sin \\frac{7}{6}\\pi = \\sin \\left(\\pi + \\frac{\\pi}{6}\\right)$$\n삼각함수의 **각변환 공식** $\\sin(\\pi + \\theta) = -\\sin\\theta$를 적용한다. $$\\sin \\left(\\pi + \\frac{\\pi}{6}\\right) = -\\sin \\frac{\\pi}{6}$$\n**특수각** $\\frac{\\pi}{6}$ (즉, $30^\\circ$)에 대한 사인 값을 계산한다. $\\sin \\frac{\\pi}{6} = \\frac{1}{2}$이므로, 최종 값을 구한다. $$-\\sin \\frac{\\pi}{6} = -\\frac{1}{2}$$ 따라서 $$\\boxed{\\text{③}}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2017 교육청 고3 수리가형 3월 1번",
+    "year": "2017",
+    "org": "교육청",
+    "exam": "3월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "a46b052d6004d223088b9883a9a07a8644f1a411d8801c1c56e495baf8da08f9"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16224,
+   "item_id": 16224,
+   "source_table": "items",
+   "fingerprint": "b5238ae4b11efe3ebc6cb45df229f90be8db008949511af61032c6ef81100b5a",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고3 수리가형 3월 2번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$\\cos\\, \\theta = \\frac{2}{3} \\,$일 때, $\\sec\\, \\theta \\,$의 값은? [2점]\n① $1$ ② $\\frac{5}{4}$ ③ $\\frac{3}{2}$ ④ $\\frac{7}{4}$ ⑤ $2$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\cos\\, \\theta = \\dfrac{2}{3} \\,\\)</span>일 때, <span class=\"heq\">\\(\\sec\\, \\theta \\,\\)</span>의 값은? <span class=\"hscore\">[2점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(1\\)</span>&emsp;② <span class=\"heq\">\\(\\dfrac{5}{4}\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{3}{2}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{7}{4}\\)</span>&emsp;⑤ <span class=\"heq\">\\(2\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "$\\sec\\theta$ 는 $\\cos\\theta$ 의 역수이므로 $\\sec\\theta=\\dfrac{1}{\\cos\\theta}=\\dfrac{1}{2/3}=\\dfrac{3}{2}$ 이다. 따라서 답은 ③.",
+   "solution_id": 18531,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18531,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$\\sec\\theta$ 는 $\\cos\\theta$ 의 역수이므로 $\\sec\\theta=\\dfrac{1}{\\cos\\theta}=\\dfrac{1}{2/3}=\\dfrac{3}{2}$ 이다. 따라서 답은 ③."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2019 교육청 고3 수리가형 3월 2번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "3월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "64ac91e90abd852119758957e41c74970e1eb4b3f2b3d88d2a385a2282ac40f3"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16513,
+   "item_id": 16513,
+   "source_table": "items",
+   "fingerprint": "4168a75dfe5f949c02f047c1de8277ed6d950560102f6d81453638c26f375f6e",
+   "source_type": "학평원본",
+   "source_label": "2019 평가원 고3 수리가형 6월 23번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$\\cos \\theta = \\frac{1}{7}$일 때, $\\csc \\theta \\times \\tan \\theta$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\cos \\theta = \\dfrac{1}{7}\\)</span>일 때, <span class=\"heq\">\\(\\csc \\theta \\times \\tan \\theta\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "7",
+   "answer_type": "단답형",
+   "explanation": "$\\csc\\theta$ 와 $\\tan\\theta$ 를 $\\sin\\theta$, $\\cos\\theta$ 로 바꾸면 $\\sin\\theta$ 가 약분된다.",
+   "solution_id": 18880,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18880,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$\\csc\\theta$ 와 $\\tan\\theta$ 를 $\\sin\\theta$, $\\cos\\theta$ 로 바꾸면 $\\sin\\theta$ 가 약분된다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2019 평가원 고3 수리가형 6월 23번",
+    "year": "2019",
+    "org": "평가원",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "c4cc2a481c391e3d2d1d7e1b04a2ea6298a034d0b42cf10c15c6a555f1c7de22"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 7862,
+   "item_id": 7862,
+   "source_table": "items",
+   "fingerprint": "4487cd3b1db5bbe9f92545414ad712940cb029fdc5f1fa73e98fa5dff461a144",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고2 수학나형 6월 25번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "상수 $k\\,$에 대하여 함수 $f \\left( x \\right) =2 \\sqrt{3} \\,\\tan\\,x+k\\,$의 그래프가 점 $\\left( \\frac{\\pi }{6} \\,,\\,7 \\right) \\,$을 지날 때, $f \\left( \\frac{\\pi}{3} \\right) \\,$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp htall\">상수 <span class=\"heq\">\\(k\\,\\)</span>에 대하여 함수 <span class=\"heq\">\\(f \\left( x \\right) =2 \\sqrt{3} \\,\\tan\\,x+k\\,\\)</span>의 그래프가 점 <span class=\"heq\">\\(\\left( \\dfrac{\\pi }{6} \\,,\\,7 \\right) \\,\\)</span>을 지날 때, <span class=\"heq\">\\(f \\left( \\dfrac{\\pi}{3} \\right) \\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "11",
+   "answer_type": "단답형",
+   "explanation": "함수 $f(x)=2\\sqrt{3} \\tan x+k$의 그래프가 점 $\\left(\\frac{\\pi}{6}, 7\\right)$을 지나므로, 이 점을 **함수식에 대입**하여 $k$의 값을 구한다. $$\\begin{aligned} f\\left(\\frac{\\pi}{6}\\right) &= 2\\sqrt{3} \\tan \\frac{\\pi}{6} + k \\\\ 7 &= 2\\sqrt{3} \\cdot \\frac{1}{\\sqrt{3}} + k \\\\ 7 &= 2 + k \\end{aligned}$$\n위 식을 계산하여 **$k$의 값**을 구한다. $$k = 7 - 2 = 5$$\n$k=5$를 원래 함수식에 대입하여 $f(x)=2\\sqrt{3} \\tan x+5$를 얻는다. 이제 **$f\\left(\\frac{\\pi}{3}\\right)$의 값을 계산**한다. $$\\begin{aligned} f\\left(\\frac{\\pi}{3}\\right) &= 2\\sqrt{3} \\tan \\frac{\\pi}{3} + 5 \\\\ &= 2\\sqrt{3} \\cdot \\sqrt{3} + 5 \\\\ &= 2 \\cdot 3 + 5 \\\\ &= 6 + 5 \\end{aligned}$$\n최종 값을 계산한다. 따라서 $$\\boxed{11}$$",
+   "solution_id": 11184,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 11184,
+     "created_by": "api",
+     "verified": true,
+     "body": "함수 $f(x)=2\\sqrt{3} \\tan x+k$의 그래프가 점 $\\left(\\frac{\\pi}{6}, 7\\right)$을 지나므로, 이 점을 **함수식에 대입**하여 $k$의 값을 구한다. $$\\begin{aligned} f\\left(\\frac{\\pi}{6}\\right) &= 2\\sqrt{3} \\tan \\frac{\\pi}{6} + k \\\\ 7 &= 2\\sqrt{3} \\cdot \\frac{1}{\\sqrt{3}} + k \\\\ 7 &= 2 + k \\end{aligned}$$\n위 식을 계산하여 **$k$의 값**을 구한다. $$k = 7 - 2 = 5$$\n$k=5$를 원래 함수식에 대입하여 $f(x)=2\\sqrt{3} \\tan x+5$를 얻는다. 이제 **$f\\left(\\frac{\\pi}{3}\\right)$의 값을 계산**한다. $$\\begin{aligned} f\\left(\\frac{\\pi}{3}\\right) &= 2\\sqrt{3} \\tan \\frac{\\pi}{3} + 5 \\\\ &= 2\\sqrt{3} \\cdot \\sqrt{3} + 5 \\\\ &= 2 \\cdot 3 + 5 \\\\ &= 6 + 5 \\end{aligned}$$\n최종 값을 계산한다. 따라서 $$\\boxed{11}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "삼각함수 이해하기",
+    "label": "2019 교육청 고2 수학나형 6월 25번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "619c1fe63fdea452ab0c704a21a0417585da0db2aa9fabfa099ecec193018b88"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10516,
+   "item_id": 10516,
+   "source_table": "items",
+   "fingerprint": "1dadb0de45b2ed7db4375eebdc8bf7ccb6f17ab2e87fac9f3c2735778da467e9",
+   "source_type": "학평원본",
+   "source_label": "2014 교육청 고2 수학가형 11월 8번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$0 \\leq x<2 \\pi$일 때, 방정식 $\\cos2x+3\\sin x=2$의 모든 실근의 합은? [3점]\n① $\\frac{\\pi}{2}$ ② $\\pi$ ③ $\\frac{3}{2} \\pi$ ④ $2 \\pi$ ⑤ $\\frac{5}{2} \\pi$",
+   "body_html": "<p class=\"hp\"><span class=\"heq\">\\(0 \\leq x\\lt 2 \\pi\\)</span>일 때, 방정식 <span class=\"heq\">\\(\\cos2x+3\\sin x=2\\)</span>의 모든 실근의 합은? <span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{\\pi}{2}\\)</span>&emsp;② <span class=\"heq\">\\(\\pi\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{3}{2} \\pi\\)</span>&emsp;④ <span class=\"heq\">\\(2 \\pi\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{5}{2} \\pi\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "배각공식으로 사인만의 이차방정식으로 바꾸고 인수분해해 사인값을 구한 뒤, 주어진 범위에서 해를 모두 찾아 더한다.",
+   "solution_id": 22319,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 22319,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "배각공식으로 사인만의 이차방정식으로 바꾸고 인수분해해 사인값을 구한 뒤, 주어진 범위에서 해를 모두 찾아 더한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "삼각함수의 그래프",
+    "label": "2014 교육청 고2 수학가형 11월 8번",
+    "year": "2014",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "a19c3e5f9b103156de61e7149d31ee7b0b4886808bdcfa0fc9b8d9ea60b248b2"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15222,
+   "item_id": 15222,
+   "source_table": "items",
+   "fingerprint": "d936c28300a22f59f6d5069b9f54d782e63ce8f72bdf35ee745ae4c2897a7fab",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고3 수리가형 7월 6번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$\\sin \\theta - \\cos \\theta = \\frac{\\sqrt{3}}{2} \\,$일 때, $\\tan \\theta + \\cot \\theta \\,$의 값은? [3점]\n① $6$ ② $7$ ③ $8$ ④ $9$ ⑤ $10$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\sin \\theta - \\cos \\theta = \\dfrac{\\sqrt{3}}{2} \\,\\)</span>일 때, <span class=\"heq\">\\(\\tan \\theta + \\cot \\theta \\,\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(6\\)</span>&emsp;② <span class=\"heq\">\\(7\\)</span>&emsp;③ <span class=\"heq\">\\(8\\)</span>&emsp;④ <span class=\"heq\">\\(9\\)</span>&emsp;⑤ <span class=\"heq\">\\(10\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "양변을 제곱해 곱 $\\sin\\theta\\cos\\theta$를 구하고 통분해 대입한다.",
+   "solution_id": 24401,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 24401,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "양변을 제곱해 곱 $\\sin\\theta\\cos\\theta$를 구하고 통분해 대입한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2016 교육청 고3 수리가형 7월 6번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "7월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "e07993f6a6f349723f87bb2b6b3ebb414885a4bc5f634e353910cbb94df81487"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16099,
+   "item_id": 16099,
+   "source_table": "items",
+   "fingerprint": "9494cf8018b9358a6c97c7d8c08d624241f66b0513ad16499e9813fe7db9728c",
+   "source_type": "학평원본",
+   "source_label": "2018 평가원 고3 수리가형 6월 23번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$\\cos\\, \\theta = \\frac{1}{7} \\,$일 때, $\\sec^2 \\theta \\,$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\cos\\, \\theta = \\dfrac{1}{7} \\,\\)</span>일 때, <span class=\"heq\">\\(\\sec^{2} \\theta \\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "49",
+   "answer_type": "단답형",
+   "explanation": "$\\sec\\theta$ 는 $\\cos\\theta$ 의 역수이므로 $\\sec^2\\theta=\\frac{1}{\\cos^2\\theta}$ 이다. $\\cos\\theta=\\frac17$ 을 대입하면 $\\sec^2\\theta=49$ 이다.",
+   "solution_id": 18254,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18254,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$\\sec\\theta$ 는 $\\cos\\theta$ 의 역수이므로 $\\sec^2\\theta=\\frac{1}{\\cos^2\\theta}$ 이다. $\\cos\\theta=\\frac17$ 을 대입하면 $\\sec^2\\theta=49$ 이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2018 평가원 고3 수리가형 6월 23번",
+    "year": "2018",
+    "org": "평가원",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "f3c39ac1ae162b9b3d32e94e9b15029e469cd1c9a309bd93ab8aba165e3a1445"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16529,
+   "item_id": 16529,
+   "source_table": "items",
+   "fingerprint": "29d0c958286b1328a09fc9695138e442cfa07d5df8a9af264dec56542866814d",
+   "source_type": "학평원본",
+   "source_label": "2019 평가원 고3 수리가형 9월 9번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$\\frac{\\pi}{2} < \\theta < \\pi$인 $\\theta$에 대하여 $\\cos\\, \\theta = -\\frac{3}{5}$일 때, $\\csc(\\,\\pi + \\theta)$의 값은? [3점]\n① $-\\frac{5}{2}$ ② $-\\frac{5}{3}$ ③ $-\\frac{5}{4}$ ④ $\\frac{5}{4}$ ⑤ $\\frac{5}{3}$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\dfrac{\\pi}{2} \\lt  \\theta \\lt  \\pi\\)</span>인 <span class=\"heq\">\\(\\theta\\)</span>에 대하여 <span class=\"heq\">\\(\\cos\\, \\theta = -\\dfrac{3}{5}\\)</span>일 때, <span class=\"heq\">\\(\\csc(\\,\\pi + \\theta)\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(-\\dfrac{5}{2}\\)</span>&emsp;② <span class=\"heq\">\\(-\\dfrac{5}{3}\\)</span>&emsp;③ <span class=\"heq\">\\(-\\dfrac{5}{4}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{5}{4}\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{5}{3}\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "각 변환으로 $\\csc(\\pi+\\theta)=-\\csc\\theta$임을 얻고, $\\sin\\theta=\\frac{4}{5}$를 구하면 답은 ③ $-\\frac{5}{4}$이다.",
+   "solution_id": 18818,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18818,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "각 변환으로 $\\csc(\\pi+\\theta)=-\\csc\\theta$임을 얻고, $\\sin\\theta=\\frac{4}{5}$를 구하면 답은 ③ $-\\frac{5}{4}$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2019 평가원 고3 수리가형 9월 9번",
+    "year": "2019",
+    "org": "평가원",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "508f4f94858643472eaf4a9cffc814cfc2c603aded0dc1b4d5a0f6e471d0af30"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 17254,
+   "item_id": 17254,
+   "source_table": "items",
+   "fingerprint": "f4650ad6bd8a60376df969e3a027ff14da3945a6f8498e6613355d9393237ceb",
+   "source_type": "학평원본",
+   "source_label": "2022 교육청 고3 수학기하 10월 12번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "양수 $a$에 대하여 함수\n $f \\left( x \\right)$$= \\left| \\,4\\,\\sin\\, \\left( ax- \\frac{\\pi}{3} \\right) +2\\, \\right|$ $\\left( 0 \\leq x< \\frac{4\\pi}{a} \\right)$\n의 그래프가 직선 $y$$=2$와 만나는 서로 다른 점의 개수는 $n$이다. 이 $n$개의 점의 $x$좌표의 합이 $39$일 때, $n \\times a$의 값은? [4점]\n① $\\frac{\\pi}{2}$ ② $\\pi$ ③ $\\frac{3\\pi}{2}$ ④ $2\\pi$ ⑤ $\\frac{5\\pi}{2}$",
+   "body_html": "<p class=\"hp\">양수 <span class=\"heq\">\\(a\\)</span>에 대하여 함수</p><p class=\"hp htall\">&emsp;<span class=\"heq\">\\(f \\left( x \\right)\\)</span><span class=\"heq\">\\(= \\left| \\,4\\,\\sin\\, \\left( ax- \\dfrac{\\pi}{3} \\right) +2\\, \\right|\\)</span> <span class=\"heq\">\\(\\left( 0 \\leq x\\lt  \\dfrac{4\\pi}{a} \\right)\\)</span></p><p class=\"hp\">의 그래프가 직선 <span class=\"heq\">\\(y\\)</span><span class=\"heq\">\\(=2\\)</span>와 만나는 서로 다른 점의 개수는 <span class=\"heq\">\\(n\\)</span>이다. 이 <span class=\"heq\">\\(n\\)</span>개의 점의 <span class=\"heq\">\\(x\\)</span>좌표의 합이 <span class=\"heq\">\\(39\\)</span>일 때, <span class=\"heq\">\\(n \\times a\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{\\pi}{2}\\)</span>&emsp;② <span class=\"heq\">\\(\\pi\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{3\\pi}{2}\\)</span>&emsp;④ <span class=\"heq\">\\(2\\pi\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{5\\pi}{2}\\)</span></p>",
+   "answer": "④",
+   "answer_type": "객관식",
+   "explanation": "④",
+   "solution_id": 19506,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 19506,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "④"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "ALG",
+    "unit": "삼각함수",
+    "label": "2022 교육청 고3 수학기하 10월 12번",
+    "year": "2022",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "6958a3e7105064751a96bf1e52cd5e9916d71e127193b12ffae234c0fddac50f"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11075,
+   "item_id": 11075,
+   "source_table": "items",
+   "fingerprint": "62b96929f9dc94d56948d4e32b4603416c5cace14976961885f4bc966d010db1",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고2 수학나형 6월 16번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "등차수열 $\\left\\{ a _{n} \\right\\} \\,$에 대하여\n $a _{1} =1\\,$, $a _{2} +a _{4} =18$\n이다. $S _{n} = \\sum _{k=1} ^{n} \\,a _{k} \\,$라 할 때, $\\lim _{n\\, -> \\, \\infty } {} \\left( \\sqrt{S _{n+1}} - \\sqrt{S _{n}} \\right) \\,$의 값은? [4점]\n① $\\sqrt{2}$ ② $2 \\sqrt{2}$ ③ $3 \\sqrt{2}$ ④ $4 \\sqrt{2}$ ⑤ $5 \\sqrt{2}$",
+   "body_html": "<p class=\"hp\">등차수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\} \\,\\)</span>에 대하여</p><p class=\"hp\">&emsp;&emsp;<span class=\"heq\">\\(a_{1} =1\\,\\)</span>, <span class=\"heq\">\\(a_{2} +a_{4} =18\\)</span></p><p class=\"hp htall\">이다. <span class=\"heq\">\\(S_{n} = \\sum\\limits_{k=1}^{n} \\,a_{k} \\,\\)</span>라 할 때, <span class=\"heq\">\\(\\lim\\limits_{n\\, \\to  \\, \\infty } {} \\left( \\sqrt{S_{n+1}} - \\sqrt{S_{n}} \\right) \\,\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(\\sqrt{2}\\)</span>&emsp;② <span class=\"heq\">\\(2 \\sqrt{2}\\)</span>&emsp;③ <span class=\"heq\">\\(3 \\sqrt{2}\\)</span> &emsp;④ <span class=\"heq\">\\(4 \\sqrt{2}\\)</span> &emsp;⑤ <span class=\"heq\">\\(5 \\sqrt{2}\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "공차로 $S_n$을 구하고 유리화하여 극한을 구한다.",
+   "solution_id": 13797,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 13797,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "공차로 $S_n$을 구하고 유리화하여 극한을 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "수열",
+    "label": "2016 교육청 고2 수학나형 6월 16번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "c41f4ce79115d39991c0e79287b5f419bd0a8e8c5628479e9648f99e9f75a784"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15264,
+   "item_id": 15264,
+   "source_table": "items",
+   "fingerprint": "2b8fa8dfb14f6bfa360557a816207d6cd953ba43955dd07a6769f3349d435f1a",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고3 수리나형 10월 20번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "두 함수 $f \\left( x \\right) \\,= \\lim _{n\\, -> \\,\\infty } \\,{\\frac{2x ^{\\,2n+1}}{1+x ^{\\,2n}} }\\,$, $g \\left( x \\right)\\, =x+a \\,$ 의 그래프의 교점의 개수를 $h \\left( a \\right)\\,$라 할 때, $h(0) + \\lim _{a\\, -> \\,1+} \\,{h \\left( a \\right)} \\,$의 값은? (단, $a\\,$는 실수이다.) [4점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+   "body_html": "<p class=\"hp htall\">두 함수<br>&emsp;<span class=\"heq\">\\(f \\left( x \\right) \\,= \\lim\\limits_{n\\, \\to  \\,\\infty } \\,{\\dfrac{2x^{\\,2n+1}}{1+x^{\\,2n}} }\\,\\)</span>,  <span class=\"heq\">\\(g \\left( x \\right)\\, =x+a \\,\\)</span><br>의 그래프의 교점의 개수를 <span class=\"heq\">\\(h \\left( a \\right)\\,\\)</span>라 할 때, <span class=\"heq\">\\(h(0) + \\lim\\limits_{a\\, \\to  \\,1+} \\,{h \\left( a \\right)} \\,\\)</span>의 값은? (단, <span class=\"heq\">\\(a\\,\\)</span>는 실수이다.) <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(1\\)</span>&emsp;② <span class=\"heq\">\\(2\\)</span>&emsp;③ <span class=\"heq\">\\(3\\)</span>&emsp;④ <span class=\"heq\">\\(4\\)</span>&emsp;⑤ <span class=\"heq\">\\(5\\)</span></p>",
+   "answer": "④",
+   "answer_type": "객관식",
+   "explanation": "등비수열의 극한으로 $f(x)$ 를 구간별로 구한 뒤, $y=f(x)$ 와 $y=x+a$ 의 그래프 교점 개수 $h(a)$ 로 $h(0)+\\lim_{a\\to1+}h(a)$ 를 구한다.",
+   "solution_id": 16285,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 16285,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "등비수열의 극한으로 $f(x)$ 를 구간별로 구한 뒤, $y=f(x)$ 와 $y=x+a$ 의 그래프 교점 개수 $h(a)$ 로 $h(0)+\\lim_{a\\to1+}h(a)$ 를 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리나형",
+    "unit": "극한으로 정의된 함수의 그래프에서 직선과의 교점 개수 구하기",
+    "label": "2016 교육청 고3 수리나형 10월 20번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "85f5b079d3adad55aafd24c47070255b16817804f9e7f1a186345cee4518736b"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10588,
+   "item_id": 10588,
+   "source_table": "items",
+   "fingerprint": "a07d36675b9d9a55b4cad0ac266660958c99aad7401ed7d1a54a4749e44b6b1b",
+   "source_type": "학평원본",
+   "source_label": "2014 교육청 고2 수학가형 6월 20번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "그림과 같이 $m$행 $n$열의 수를 $N\\,(m,\\,n)\\,$이라 하고 다음 규칙에 따라 사각형 안에 수를 적는다.\n(가) 모든 자연수 $m,\\,n$에 대하여 $N\\,(m,\\,1)=m\\,$이고, $N\\,(1,\\,n)=n\\,$이다. (나) 1보다 큰 자연수 $m,\\,n\\,$에 대하여 $N\\,(m,\\,n)=N\\,(m,\\,n-1)+N\\,(m-1,\\,n)\\,$이다.\n $1$열$2$열$3$열$4$열$5$열$\\cdots$ 1 행$1$$1$ 2345$\\cdots$ 2 행$2$2471116$\\cdots$ 3 행$3$37142541$\\cdots$ 4 행$4$411255091$\\cdots$ 5 행$5$5164191182$\\cdots$$\\vdots$$\\vdots$$\\vdots$$\\vdots$$\\vdots$$\\vdots$$D \\cdots$\n 자연수 $k\\,$에 대하여\n $a _{k} =N\\, \\left( 1,\\,k \\right) +N\\, \\left( 2,\\,k-1 \\right) +\\, \\cdots \\,+N\\, \\left( k,\\,1 \\right)$\n이라 하자. 예를 들면 $a _{1} =1,$ $a _{3} =3+4+3=10$이다. $a _{1} +a _{2} +a _{3} +\\, \\cdots \\,+a _{20} \\,$의 값은? [4점]\n① $3\\,·\\,2 ^{20} \\,-42$ ② $3\\,·\\,2 ^{20} \\,-43$ ③ $3\\,·\\,2 ^{21} \\,-41$\n④ $3\\,·\\,2 ^{21} \\,-42$ ⑤ $3\\,·\\,2 ^{21} \\,-43$",
+   "body_html": "<p class=\"hp\">그림과 같이 <span class=\"heq\">\\(m\\)</span>행 <span class=\"heq\">\\(n\\)</span>열의 수를 <span class=\"heq\">\\(N\\,(m,\\,n)\\,\\)</span>이라 하고 다음 규칙에 따라 사각형 안에 수를 적는다.</p><div class=\"hbox\"><p class=\"hp\">(가) 모든 자연수 <span class=\"heq\">\\(m,\\,n\\)</span>에 대하여<br><span class=\"heq\">\\(N\\,(m,\\,1)=m\\,\\)</span>이고, <span class=\"heq\">\\(N\\,(1,\\,n)=n\\,\\)</span>이다.</p><p class=\"hp\">(나) 1보다 큰 자연수 <span class=\"heq\">\\(m,\\,n\\,\\)</span>에 대하여<br><span class=\"heq\">\\(N\\,(m,\\,n)=N\\,(m,\\,n-1)+N\\,(m-1,\\,n)\\,\\)</span>이다.</p></div><table class=\"htbl\"><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:none\">&nbsp;</td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(1\\)</span>열</p></td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(2\\)</span>열</p></td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(3\\)</span>열</p></td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(4\\)</span>열</p></td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(5\\)</span>열</p></td><td style=\"width:41px;border-top:none;border-bottom:1px solid #333;border-left:none;border-right:none\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(1\\)</span>행</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(1\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">2</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">3</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">4</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">5</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(2\\)</span>행</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">2</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">4</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">7</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">11</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">16</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(3\\)</span>행</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">3</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">7</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">14</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">25</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">41</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(4\\)</span>행</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">4</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">11</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">25</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">50</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">91</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(5\\)</span>행</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">5</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">16</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">41</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">91</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\">182</p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\cdots\\)</span></p></td></tr><tr><td style=\"width:41px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(\\vdots\\)</span></p></td><td style=\"width:41px;border-top:1px solid #333;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\"><p class=\"hp\"><span class=\"heq\">\\(D \\cdots\\)</span></p></td></tr></table><p class=\"hp\">자연수 <span class=\"heq\">\\(k\\,\\)</span>에 대하여</p><p class=\"hp\">&emsp;<span class=\"heq\">\\(a_{k} =N\\, \\left( 1,\\,k \\right) +N\\, \\left( 2,\\,k-1 \\right) +\\, \\cdots \\,+N\\, \\left( k,\\,1 \\right)\\)</span></p><p class=\"hp\">이라 하자. 예를 들면 <span class=\"heq\">\\(a_{1} =1,\\)</span> <span class=\"heq\">\\(a_{3} =3+4+3=10\\)</span>이다.<br><span class=\"heq\">\\(a_{1} +a_{2} +a_{3} +\\, \\cdots \\,+a_{20} \\,\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(3\\,·\\,2^{20} \\,-42\\)</span>&emsp;② <span class=\"heq\">\\(3\\,·\\,2^{20} \\,-43\\)</span>&emsp;③ <span class=\"heq\">\\(3\\,·\\,2^{21} \\,-41\\)</span></p><p class=\"hp\">④ <span class=\"heq\">\\(3\\,·\\,2^{21} \\,-42\\)</span>&emsp;⑤ <span class=\"heq\">\\(3\\,·\\,2^{21} \\,-43\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "격자 $N(m,n)$의 반대각선 합 $a_k$를 몇 개 계산하면 $a_1=1,a_2=4,a_3=10,a_4=22$로, 일반항이 $a_k=3\\cdot2^{k-1}-2$임을 알 수 있다. 따라서 $\\sum_{k=1}^{20}a_k=3(2^{20}-1)-2\\cdot20=3\\cdot2^{20}-43$, 답은 ②이다.",
+   "solution_id": 13904,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 13904,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "격자 $N(m,n)$의 반대각선 합 $a_k$를 몇 개 계산하면 $a_1=1,a_2=4,a_3=10,a_4=22$로, 일반항이 $a_k=3\\cdot2^{k-1}-2$임을 알 수 있다. 따라서 $\\sum_{k=1}^{20}a_k=3(2^{20}-1)-2\\cdot20=3\\cdot2^{20}-43$, 답은 ②이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "격자 점화식과 등비수열의 합",
+    "label": "2014 교육청 고2 수학가형 6월 20번",
+    "year": "2014",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [
+     "동일한 완성 수식 블록이 연속 중복",
+     "분할된 동일 수식 블록 묶음이 연속 중복",
+     "필수 그림·표 참조이나 문제 자산 없음"
+    ],
+    "diagnostics": [
+     {
+      "code": "duplicate_equation_block",
+      "label": "동일한 완성 수식 블록이 연속 중복",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "duplicate_math_run",
+      "label": "분할된 동일 수식 블록 묶음이 연속 중복",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "required_visual_without_asset",
+      "label": "필수 그림·표 참조이나 문제 자산 없음",
+      "level": "blocker",
+      "category": "asset"
+     }
+    ],
+    "blockers": [
+     {
+      "code": "duplicate_equation_block",
+      "label": "동일한 완성 수식 블록이 연속 중복",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "duplicate_math_run",
+      "label": "분할된 동일 수식 블록 묶음이 연속 중복",
+      "level": "blocker",
+      "category": "syntax"
+     },
+     {
+      "code": "required_visual_without_asset",
+      "label": "필수 그림·표 참조이나 문제 자산 없음",
+      "level": "blocker",
+      "category": "asset"
+     }
+    ],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "4f4622f73fe3e4934beaeb6cf202c6ffec6d29f19722e92436bdc9d84717c135"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10957,
+   "item_id": 10957,
+   "source_table": "items",
+   "fingerprint": "9528ca28f1dfc635f5aff032dc00ab81798c761f313ca31125dfa93acc2646f4",
+   "source_type": "학평원본",
+   "source_label": "2015 교육청 고2 수학나형 9월 17번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "수열 $\\left\\{a_n \\right\\}$이 $\\sum _{k=1} ^{n} \\frac{a _{k}}{k} =n ^{2} +3n$을 만족시킬 때, $\\sum _{n=1} ^{\\infty } \\frac{1}{a _{n}}$의 값은?\n[4점]\n① $\\frac{1}{3}$ ② $\\frac{1}{2}$ ③ $\\frac{2}{3}$ ④ $\\frac{5}{6}$ ⑤ $1$",
+   "body_html": "<p class=\"hp htall\">수열 <span class=\"heq\">\\(\\left\\{a_{n} \\right\\}\\)</span>이 <span class=\"heq\">\\(\\sum\\limits_{k=1}^{n} \\dfrac{a_{k}}{k} =n^{2} +3n\\)</span>을 만족시킬 때, <span class=\"heq\">\\(\\sum\\limits_{n=1}^{\\infty } \\dfrac{1}{a_{n}}\\)</span>의 값은?</p><p class=\"hp\"><span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{1}{3}\\)</span>&emsp;② <span class=\"heq\">\\(\\dfrac{1}{2}\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{2}{3}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{5}{6}\\)</span>&emsp;⑤ <span class=\"heq\">\\(1\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "$\\sum_{k=1}^{n}\\frac{a_k}{k}=n^2+3n$에서 $\\frac{a_n}{n}=(n^2+3n)-((n-1)^2+3(n-1))=2n+2$이므로 $a_n=2n(n+1)$이다. 따라서 $\\frac{1}{a_n}=\\frac{1}{2n(n+1)}=\\frac12\\left(\\frac1n-\\frac{1}{n+1}\\right)$이고 $\\sum_{n=1}^{\\infty}\\frac{1}{a_n}=\\frac12$이다. 답은 ②이다.",
+   "solution_id": 14284,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14284,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$\\sum_{k=1}^{n}\\frac{a_k}{k}=n^2+3n$에서 $\\frac{a_n}{n}=(n^2+3n)-((n-1)^2+3(n-1))=2n+2$이므로 $a_n=2n(n+1)$이다. 따라서 $\\frac{1}{a_n}=\\frac{1}{2n(n+1)}=\\frac12\\left(\\frac1n-\\frac{1}{n+1}\\right)$이고 $\\sum_{n=1}^{\\infty}\\frac{1}{a_n}=\\frac12$이다. 답은 ②이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "수열의 합과 부분분수",
+    "label": "2015 교육청 고2 수학나형 9월 17번",
+    "year": "2015",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "13fa49af0bcd6ce4be5f203660435b6ae08731a0dd15f83865967eecda66c6fc"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11013,
+   "item_id": 11013,
+   "source_table": "items",
+   "fingerprint": "5204082ddf79257a3d5da983039f50b3e35583776c54a2fd7c0b8539fdfb2795",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고2 수학가형 6월 14번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "선분 $\\,A _{ n } B _{ n } \\,$의 길이를 $a _{n} \\,$이라 할 때,\n $\\sum _{n=1} ^{80} \\frac{1}{\\left( n+1 \\right) a _{n} +na _{n+1}} \\,=\\, \\frac{q}{p}$\n이다. $p+q\\,$의 값은? (단, $p\\,$와 $q\\,$는 서로소인 자연수이다.) [4점]\n① $\\,17$ ② $18$ ③ $19$ ④ $20$ ⑤ $21$",
+   "body_html": "<p class=\"hp\">선분 <span class=\"heq\">\\(\\,A_{ n } B_{ n } \\,\\)</span>의 길이를 <span class=\"heq\">\\(a_{n} \\,\\)</span>이라 할 때,</p><p class=\"hp htall\">&emsp;&emsp;<span class=\"heq\">\\(\\sum\\limits_{n=1}^{80} \\dfrac{1}{\\left( n+1 \\right) a_{n} +na_{n+1}} \\,=\\, \\dfrac{q}{p}\\)</span></p><p class=\"hp\">이다. <span class=\"heq\">\\(p+q\\,\\)</span>의 값은? (단, <span class=\"heq\">\\(p\\,\\)</span>와 <span class=\"heq\">\\(q\\,\\)</span>는 서로소인 자연수이다.) <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(\\,17\\)</span>&emsp;② <span class=\"heq\">\\(18\\)</span>&emsp;③ <span class=\"heq\">\\(19\\)</span>&emsp;④ <span class=\"heq\">\\(20\\)</span>&emsp;⑤ <span class=\"heq\">\\(21\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "$a_{n}=\\sqrt{n}$ 이므로 분모를 유리화하면 $\\dfrac{1}{(n+1)\\sqrt{n}+n\\sqrt{n+1}}=\\dfrac{1}{\\sqrt{n}}-\\dfrac{1}{\\sqrt{n+1}}$ 이다. 텔레스코핑하면 $\\displaystyle\\sum_{n=1}^{80}\\left(\\dfrac{1}{\\sqrt{n}}-\\dfrac{1}{\\sqrt{n+1}}\\right)=1-\\dfrac{1}{9}=\\dfrac{8}{9}$ 이므로 $p+q=8+9=17$. 답은 $\\boxed{\\vphantom{(}\\text{①}}$.",
+   "solution_id": 14401,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14401,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$a_{n}=\\sqrt{n}$ 이므로 분모를 유리화하면 $\\dfrac{1}{(n+1)\\sqrt{n}+n\\sqrt{n+1}}=\\dfrac{1}{\\sqrt{n}}-\\dfrac{1}{\\sqrt{n+1}}$ 이다. 텔레스코핑하면 $\\displaystyle\\sum_{n=1}^{80}\\left(\\dfrac{1}{\\sqrt{n}}-\\dfrac{1}{\\sqrt{n+1}}\\right)=1-\\dfrac{1}{9}=\\dfrac{8}{9}$ 이므로 $p+q=8+9=17$. 답은 $\\boxed{\\vphantom{(}\\text{①}}$."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "수열",
+    "label": "2016 교육청 고2 수학가형 6월 14번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "3bb7087b180354ec2c862728b3eb05b07608e7792d91a2786d83625bc9dc1d07"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 7584,
+   "item_id": 7584,
+   "source_table": "items",
+   "fingerprint": "210fcf4496ce18ced6b31ac93188a8b4ff9da4b504db06feb5cb23e80768a40c",
+   "source_type": "학평원본",
+   "source_label": "2018 교육청 고2 수학가형 9월 17번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "첫째항이 $3$이고 공비가 $r \\left( r>1 \\right)$인 등비수열 $\\left\\{ a _{n} \\right\\}$에 대하여 수열 $\\left\\{ b _{n} \\right\\}$의 각 항이\n $b _{1} =\\log _{\\,a _{1}} a _{2}$ $b _{2} = \\left( \\log _{\\,a _{1}} a _{2} \\right) \\, \\times \\, \\left( \\log _{\\,a _{2}} a _{3} \\right) \\,$ $b _{3} = \\left( \\log _{\\,a _{1}} a _{2} \\right) \\, \\times \\, \\left( \\log _{\\,a _{2}} a _{3} \\right) \\, \\times \\, \\left( \\log _{\\,a _{3}} a _{4} \\right)$ $\\vdots$ $b _{n} = \\left( \\log _{\\,a _{1}} a _{2} \\right) \\, \\times \\, \\left( \\log _{\\,a _{2}} a _{3} \\right) \\, \\times \\, \\left( \\log _{\\,a _{3}} a _{4} \\right) \\, \\times \\,$ $\\cdots \\, \\times \\, \\left( \\log _{\\,a _{n}} a _{n+1} \\right)$ $\\vdots$\n일 때, $\\sum _{k=1} ^{10} b _{k} =120$이다. $\\log _{\\,3} \\,r$의 값은? [4점]\n① $\\frac{1}{2}$ ② $1$ ③ $\\frac{3}{2}$ ④ $2$ ⑤ $\\frac{5}{2}$",
+   "body_html": "<p class=\"hp\">첫째항이 <span class=\"heq\">\\(3\\)</span>이고 공비가 <span class=\"heq\">\\(r \\left( r\\gt 1 \\right)\\)</span>인 등비수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\}\\)</span>에 대하여 수열 <span class=\"heq\">\\(\\left\\{ b_{n} \\right\\}\\)</span>의 각 항이</p><p class=\"hp\">&emsp;<span class=\"heq\">\\(b_{1} =\\log_{\\,a_{1}} a_{2}\\)</span> <br>&emsp;<span class=\"heq\">\\(b_{2} = \\left( \\log_{\\,a_{1}} a_{2} \\right) \\, \\times \\, \\left( \\log_{\\,a_{2}} a_{3} \\right) \\,\\)</span> <br>&emsp;<span class=\"heq\">\\(b_{3} = \\left( \\log_{\\,a_{1}} a_{2} \\right) \\, \\times \\, \\left( \\log_{\\,a_{2}} a_{3} \\right) \\, \\times \\, \\left( \\log_{\\,a_{3}} a_{4} \\right)\\)</span><br>&emsp;   <span class=\"heq\">\\(\\vdots\\)</span><br>&emsp;<span class=\"heq\">\\(b_{n} = \\left( \\log_{\\,a_{1}} a_{2} \\right) \\, \\times \\, \\left( \\log_{\\,a_{2}} a_{3} \\right) \\, \\times \\, \\left( \\log_{\\,a_{3}} a_{4} \\right) \\, \\times \\,\\)</span><br>&emsp;&emsp;&emsp;<span class=\"heq\">\\(\\cdots \\, \\times \\, \\left( \\log_{\\,a_{n}} a_{n+1} \\right)\\)</span><br>         &emsp;   <span class=\"heq\">\\(\\vdots\\)</span></p><p class=\"hp htall\">일 때, <span class=\"heq\">\\(\\sum\\limits_{k=1}^{10} b_{k} =120\\)</span>이다. <span class=\"heq\">\\(\\log_{\\,3} \\,r\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{1}{2}\\)</span>&emsp;② <span class=\"heq\">\\(1\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{3}{2}\\)</span>&emsp;④ <span class=\"heq\">\\(2\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{5}{2}\\)</span></p>",
+   "answer": "④",
+   "answer_type": "객관식",
+   "explanation": "밑변환으로 $b_n$이 텔레스코핑되어 $b_n=1+n\\log_3 r$이고, 시그마를 계산하면 $\\log_3 r=2$이다.\n$$\\boxed{\\vphantom{(}2}$$",
+   "solution_id": 10514,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 10514,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "밑변환으로 $b_n$이 텔레스코핑되어 $b_n=1+n\\log_3 r$이고, 시그마를 계산하면 $\\log_3 r=2$이다.\n$$\\boxed{\\vphantom{(}2}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "로그의 밑변환과 수열의 합",
+    "label": "2018 교육청 고2 수학가형 9월 17번",
+    "year": "2018",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [
+     "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)"
+    ],
+    "diagnostics": [
+     {
+      "code": "repeated_independent_math_attachment",
+      "label": "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)",
+      "level": "advisory",
+      "category": "syntax"
+     }
+    ],
+    "blockers": [],
+    "advisories": [
+     {
+      "code": "repeated_independent_math_attachment",
+      "label": "독립 수식 경계 반복 접착(표시단계 분리복원됨 2026-08-23)",
+      "level": "advisory",
+      "category": "syntax"
+     }
+    ]
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "7df98cf545aa72430ebd7c7f3e5a251d46438037739b117163fd084dc2c0e79f"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 7401,
+   "item_id": 7401,
+   "source_table": "items",
+   "fingerprint": "b5b4d4e2b93bdf28042af930d7926dfa5b3711a863e5170db20e8abcea5b7b0b",
+   "source_type": "학평원본",
+   "source_label": "2017 교육청 고2 수학나형 11월 12번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "수열 $\\left\\{ a _{n} \\right\\}$이 모든 자연수 $n$에 대하여 $a _{n+1} = \\frac{n+4}{2n-1} a _{n}$을 만족시킨다. $a _{1} =1$일 때, $a _{5}$의 값은? [3점]\n① $16$ ② $18$ ③ $20$ ④ $22$ ⑤ $24$",
+   "body_html": "<p class=\"hp htall\">수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\}\\)</span>이 모든 자연수 <span class=\"heq\">\\(n\\)</span>에 대하여 <span class=\"heq\">\\(a_{n+1} = \\dfrac{n+4}{2n-1} a_{n}\\)</span>을 만족시킨다. <span class=\"heq\">\\(a_{1} =1\\)</span>일 때, <span class=\"heq\">\\(a_{5}\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(16\\)</span>&emsp;② <span class=\"heq\">\\(18\\)</span>&emsp;③ <span class=\"heq\">\\(20\\)</span>&emsp;④ <span class=\"heq\">\\(22\\)</span>&emsp;⑤ <span class=\"heq\">\\(24\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "주어진 점화식 $a_{n+1} = \\frac{n+4}{2n-1}a_n$과 첫째항 $a_1=1$을 이용하여 $a_2$를 계산한다.\n$$a_2 = \\frac{1+4}{2(1)-1}a_1 = \\frac{5}{1} \\times 1 = 5$$\n$a_2=5$를 이용하여 $a_3$를 계산한다.\n$$a_3 = \\frac{2+4}{2(2)-1}a_2 = \\frac{6}{3} \\times 5 = 2 \\times 5 = 10$$\n$a_3=10$을 이용하여 $a_4$를 계산한다.\n$$a_4 = \\frac{3+4}{2(3)-1}a_3 = \\frac{7}{5} \\times 10 = 7 \\times 2 = 14$$\n$a_4=14$를 이용하여 **최종 목표인 $a_5$**를 계산한다.\n$$a_5 = \\frac{4+4}{2(4)-1}a_4 = \\frac{8}{7} \\times 14 = 8 \\times 2 = 16$$\n따라서 $a_5$의 값은 $16$이다.\n$$\\boxed{16}$$",
+   "solution_id": 10872,
+   "solution_created_by": "api",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 10872,
+     "created_by": "api",
+     "verified": true,
+     "body": "주어진 점화식 $a_{n+1} = \\frac{n+4}{2n-1}a_n$과 첫째항 $a_1=1$을 이용하여 $a_2$를 계산한다.\n$$a_2 = \\frac{1+4}{2(1)-1}a_1 = \\frac{5}{1} \\times 1 = 5$$\n$a_2=5$를 이용하여 $a_3$를 계산한다.\n$$a_3 = \\frac{2+4}{2(2)-1}a_2 = \\frac{6}{3} \\times 5 = 2 \\times 5 = 10$$\n$a_3=10$을 이용하여 $a_4$를 계산한다.\n$$a_4 = \\frac{3+4}{2(3)-1}a_3 = \\frac{7}{5} \\times 10 = 7 \\times 2 = 14$$\n$a_4=14$를 이용하여 **최종 목표인 $a_5$**를 계산한다.\n$$a_5 = \\frac{4+4}{2(4)-1}a_4 = \\frac{8}{7} \\times 14 = 8 \\times 2 = 16$$\n따라서 $a_5$의 값은 $16$이다.\n$$\\boxed{16}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "수열 - 수열의 귀납적 정의",
+    "label": "2017 교육청 고2 수학나형 11월 12번",
+    "year": "2017",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "531d3f1a8b2bb64e58da6e02a3f3a79c5c30d6c07c65cc7a9027b2940226a822"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 18344,
+   "item_id": 18344,
+   "source_table": "items",
+   "fingerprint": "d258877b57f63166333137bcf9b120b14ed0341f61b3c8ca643251a648789962",
+   "source_type": "학평원본",
+   "source_label": "2025 평가원 고3 수학기하 9월 16번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "수열 $\\left\\{a_{n} \\right\\}\\,$은 $a_{1}=1\\,$이고, 모든 자연수 $n\\,$에 대하여\n $a_{n+1}=na_{n}+2\\,$\n를 만족시킨다. $a_{3}\\,$의 값을 구하시오. [3점]",
+   "body_html": "<p class=\"hp\">수열 <span class=\"heq\">\\(\\left\\{a_{n} \\right\\}\\,\\)</span>은 <span class=\"heq\">\\(a_{1}=1\\,\\)</span>이고, 모든 자연수 <span class=\"heq\">\\(n\\,\\)</span>에 대하여</p><p class=\"hp\">&emsp;&emsp;<span class=\"heq\">\\(a_{n+1}=na_{n}+2\\,\\)</span></p><p class=\"hp\">를 만족시킨다. <span class=\"heq\">\\(a_{3}\\,\\)</span>의 값을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "8",
+   "answer_type": "단답형",
+   "explanation": "점화식 $a_{n+1}=na_n+2$에 $n=1$을 넣으면 $a_2=1\\times1+2=3$이고, $n=2$를 넣으면 $a_3=2\\times3+2=8$이다.",
+   "solution_id": 22228,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 22228,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "점화식 $a_{n+1}=na_n+2$에 $n=1$을 넣으면 $a_2=1\\times1+2=3$이고, $n=2$를 넣으면 $a_3=2\\times3+2=8$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "ALG",
+    "unit": "수열의 귀납적 정의",
+    "label": "2025 평가원 고3 수학기하 9월 16번",
+    "year": "2025",
+    "org": "평가원",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "7d38cc11214623b9607dc820dc0bd81d8292e0d3c26f30f09e623f9157f3e991"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 8008,
+   "item_id": 8008,
+   "source_table": "items",
+   "fingerprint": "8dc8f8155f373b3bdde4d52bec903bf5a3a2710f4e7380eb8f62d1c8a9565003",
+   "source_type": "학평원본",
+   "source_label": "2021 교육청 고2 수학 11월 21번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "수열 $\\left\\{ a _{n} \\right\\}$이 다음 조건을 만족시킨다.\n(가) $a _{1}$은 $1$이 아닌 양수이다.(나) 모든 자연수 $n$에 대하여 $a _{2n-1} +a _{2n} =1$이고 $a _{2n} \\times{a _{2n+1} }=1$이다.\n$\\sum _{n=1} ^{14} \\left( \\left| a _{n} \\right| -a _{n} \\right) =10$이 되도록 하는 모든 $a _{1}$의 값의 합은? [4점]\n① $\\frac{10}{3}$ ② $4$ ③ $\\frac{14}{3}$ ④ $\\frac{16}{3}$ ⑤ $6$\n단답형",
+   "body_html": "<p class=\"hp\">수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\}\\)</span>이 다음 조건을 만족시킨다.</p><div class=\"hbox\"><p class=\"hp\">(가) <span class=\"heq\">\\(a_{1}\\)</span>은 <span class=\"heq\">\\(1\\)</span>이 아닌 양수이다.</p><p class=\"hp\">(나) 모든 자연수 <span class=\"heq\">\\(n\\)</span>에 대하여<br><span class=\"heq\">\\(a_{2n-1} +a_{2n} =1\\)</span>이고 <span class=\"heq\">\\(a_{2n} \\times{a_{2n+1} }=1\\)</span>이다.</p></div><p class=\"hp htall\"><span class=\"heq\">\\(\\sum\\limits_{n=1}^{14} \\left( \\left| a_{n} \\right| -a_{n} \\right) =10\\)</span>이 되도록 하는 모든 <span class=\"heq\">\\(a_{1}\\)</span>의 값의 합은? <span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{10}{3}\\)</span>&emsp;② <span class=\"heq\">\\(4\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{14}{3}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{16}{3}\\)</span>&emsp;⑤ <span class=\"heq\">\\(6\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "점화 관계에서 수열이 주기 $6$임을 밝히고, 음수항들의 합 조건을 세워 가능한 $a_1$을 모두 구한다.",
+   "solution_id": 12058,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 12058,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "점화 관계에서 수열이 주기 $6$임을 밝히고, 음수항들의 합 조건을 세워 가능한 $a_1$을 모두 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": "수열의 귀납적 정의를 이용하여 추론하기",
+    "label": "2021 교육청 고2 수학 11월 21번",
+    "year": "2021",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "092af27566e77653daaa000e19b74a93ab2378a736a52f46ca6eae54c329e831"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 10610,
+   "item_id": 10610,
+   "source_table": "items",
+   "fingerprint": "91f9e58cf280c1b7643f224e2920beb85bf4c1556e1e628a4b1e6f1624bba1a1",
+   "source_type": "학평원본",
+   "source_label": "2014 교육청 고2 수학가형 9월 12번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "첫째항이 $1\\,$인 수열 $\\left\\{ \\,a _{n} \\, \\right\\} \\,$이 모든 자연수 $n\\,$에 대하여 다음 조건을 만족시킨다.\n (가) $a _{n+1} >a _{n} \\,$ (나) $(\\,a _{n} +a _{n+1} ) ^{2} =4a _{n} a _{n+1} +4 ^{n} \\,$\n$a _{10} \\,$의 값은? [4점]\n① $1021$ ② $1022$ ③ $1023$ ④ $1024$ ⑤ $1025$",
+   "body_html": "<p class=\"hp\">첫째항이 <span class=\"heq\">\\(1\\,\\)</span>인 수열 <span class=\"heq\">\\(\\left\\{ \\,a_{n} \\, \\right\\} \\,\\)</span>이 모든 자연수 <span class=\"heq\">\\(n\\,\\)</span>에 대하여 다음 조건을 만족시킨다.</p><table class=\"htbl\"><tr><td colspan=\"3\" style=\"width:415px;border-top:1px solid #333;border-bottom:none;border-left:1px solid #333;border-right:1px solid #333\">&nbsp;</td></tr><tr><td style=\"width:7px;border-top:none;border-bottom:none;border-left:1px solid #333;border-right:none\">&nbsp;</td><td style=\"width:400px;border-top:none;border-bottom:none;border-left:none;border-right:none\"><p class=\"hp\">(가) <span class=\"heq\">\\(a_{n+1} \\gt a_{n} \\,\\)</span></p><p class=\"hp\">(나) <span class=\"heq\">\\((\\,a_{n} +a_{n+1} )^{2} =4a_{n} a_{n+1} +4^{n} \\,\\)</span></p></td><td style=\"width:7px;border-top:none;border-bottom:none;border-left:none;border-right:1px solid #333\">&nbsp;</td></tr><tr><td colspan=\"3\" style=\"width:415px;border-top:none;border-bottom:1px solid #333;border-left:1px solid #333;border-right:1px solid #333\">&nbsp;</td></tr></table><p class=\"hp\"><span class=\"heq\">\\(a_{10} \\,\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(1021\\)</span>&emsp;② <span class=\"heq\">\\(1022\\)</span>&emsp;③ <span class=\"heq\">\\(1023\\)</span>&emsp;④ <span class=\"heq\">\\(1024\\)</span>&emsp;⑤ <span class=\"heq\">\\(1025\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "조건 (나)를 완전제곱 꼴로 바꿔 계차 $a_{n+1}-a_n$을 구한 뒤 계차수열의 합으로 $a_{10}$을 계산한다.",
+   "solution_id": 13909,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 13909,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "조건 (나)를 완전제곱 꼴로 바꿔 계차 $a_{n+1}-a_n$을 구한 뒤 계차수열의 합으로 $a_{10}$을 계산한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학가형",
+    "unit": "수열",
+    "label": "2014 교육청 고2 수학가형 9월 12번",
+    "year": "2014",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "868eae74c74c16c452fb69bd8f4f4a202bc9bcdbf27587253bd1e3edf1a0bb7b"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11575,
+   "item_id": 11575,
+   "source_table": "items",
+   "fingerprint": "66aeace3d86e831d4dd84cdbe527a495a8975f2e3663216e818b1e84ae84b3a5",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고1 수학 6월 6번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "부등식 $\\left| \\,x-3\\, \\right| \\leq 2\\,$를 만족시키는 모든 정수 $x\\,$의 값의 합은?\n[3점]\n① $13$ ② $14$ ③ $15$ ④ $16$ ⑤ $17$",
+   "body_html": "<p class=\"hp\">부등식 <span class=\"heq\">\\(\\left| \\,x-3\\, \\right| \\leq 2\\,\\)</span>를 만족시키는 모든 정수 <span class=\"heq\">\\(x\\,\\)</span>의 값의 합은?</p><p class=\"hp\"><span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(13\\)</span>&emsp;② <span class=\"heq\">\\(14\\)</span>&emsp;③ <span class=\"heq\">\\(15\\)</span>&emsp;④ <span class=\"heq\">\\(16\\)</span>&emsp;⑤ <span class=\"heq\">\\(17\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "$|x - 3| \\leq 2$에서 $-2 \\leq x - 3 \\leq 2$이므로 $1 \\leq x \\leq 5$이다.\n\n이를 만족시키는 정수는 $1, 2, 3, 4, 5$이고 그 합은 $1 + 2 + 3 + 4 + 5 = 15$이다.\n\n정답은 ③이다.",
+   "solution_id": 27314,
+   "solution_created_by": "opus-goldenset-w2-20260815",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 27314,
+     "created_by": "opus-goldenset-w2-20260815",
+     "verified": true,
+     "body": "$|x - 3| \\leq 2$에서 $-2 \\leq x - 3 \\leq 2$이므로 $1 \\leq x \\leq 5$이다.\n\n이를 만족시키는 정수는 $1, 2, 3, 4, 5$이고 그 합은 $1 + 2 + 3 + 4 + 5 = 15$이다.\n\n정답은 ③이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": null,
+    "label": "2019 교육청 고1 수학 6월 6번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "6월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "d39b1c03e3153acc51caab288febba19dc19baad49812fa202c1d7308740e374"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11641,
+   "item_id": 11641,
+   "source_table": "items",
+   "fingerprint": "bc56bff93081f6c4fbf63461c0b438e901ce2031ecf32f54c7fab9203ec0f9aa",
+   "source_type": "학평원본",
+   "source_label": "2020 교육청 고1 수학 11월 12번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$x$에 대한 부등식 $\\left| x-7 \\right| {\\leq}a+1$을 만족시키는 모든 정수 $x$의 개수가 $9$가 되도록 하는 자연수 $a$의 값은? [3점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+   "body_html": "<p class=\"hp\"><span class=\"heq\">\\(x\\)</span>에 대한 부등식 <span class=\"heq\">\\(\\left| x-7 \\right| {\\leq}a+1\\)</span>을 만족시키는 모든 정수 <span class=\"heq\">\\(x\\)</span>의 개수가 <span class=\"heq\">\\(9\\)</span>가 되도록 하는 자연수 <span class=\"heq\">\\(a\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(1\\)</span>&emsp;② <span class=\"heq\">\\(2\\)</span>&emsp;③ <span class=\"heq\">\\(3\\)</span>&emsp;④ <span class=\"heq\">\\(4\\)</span>&emsp;⑤ <span class=\"heq\">\\(5\\)</span></p>",
+   "answer": "③",
+   "answer_type": "객관식",
+   "explanation": "$|x-7|\\leq a+1$에서 $a$가 자연수이므로 $a+1>0$이고, $-(a+1)\\leq x-7\\leq a+1$이다. 즉 $6-a\\leq x\\leq 8+a$이다. 이 범위에 속하는 정수 $x$의 개수는 $(8+a)-(6-a)+1=2a+3$이다. 따라서 $2a+3=9$에서 $a=3$이다. 정답은 ③이다.",
+   "solution_id": 27355,
+   "solution_created_by": "opus-goldenset-w2-20260815",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 27355,
+     "created_by": "opus-goldenset-w2-20260815",
+     "verified": true,
+     "body": "$|x-7|\\leq a+1$에서 $a$가 자연수이므로 $a+1>0$이고, $-(a+1)\\leq x-7\\leq a+1$이다. 즉 $6-a\\leq x\\leq 8+a$이다. 이 범위에 속하는 정수 $x$의 개수는 $(8+a)-(6-a)+1=2a+3$이다. 따라서 $2a+3=9$에서 $a=3$이다. 정답은 ③이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": null,
+    "label": "2020 교육청 고1 수학 11월 12번",
+    "year": "2020",
+    "org": "교육청",
+    "exam": "11월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "82889725d4cf1feda43ce0c414aa96169416b55a3f4b039ba5db687cbf452954"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11982,
+   "item_id": 11982,
+   "source_table": "items",
+   "fingerprint": "fe571bb9b2c0fb85798797defc2c1aca4178104c115ca4c63f143d593fb18d29",
+   "source_type": "학평원본",
+   "source_label": "2023 교육청 고1 수학 9월 23번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "부등식 $\\left| x-5 \\right| <2$를 만족시키는 모든 정수 $x$의 값의 합을 구하시오. [3점]",
+   "body_html": "<p class=\"hp\">부등식 <span class=\"heq\">\\(\\left| x-5 \\right| \\lt 2\\)</span>를 만족시키는 모든 정수 <span class=\"heq\">\\(x\\)</span>의 값의 합을 구하시오. <span class=\"hscore\">[3점]</span></p>",
+   "answer": "15",
+   "answer_type": "단답형",
+   "explanation": "절댓값 부등식을 풀어 정수의 합을 구한다.",
+   "solution_id": 14201,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14201,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "절댓값 부등식을 풀어 정수의 합을 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": null,
+    "label": "2023 교육청 고1 수학 9월 23번",
+    "year": "2023",
+    "org": "교육청",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "bc0226523f3c4523e0348c63f5cdafce131461065107d240b59ad0f194b847cf"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15846,
+   "item_id": 15846,
+   "source_table": "items",
+   "fingerprint": "076bc91c41305e83a5e72a0ec95c53eba4daf0b9e90ea3cb580684887ff22df9",
+   "source_type": "학평원본",
+   "source_label": "2018 교육청 고3 수리가형 10월 7번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$\\sin\\,\\alpha= \\frac{3}{5}$, $\\cos\\,\\beta= \\frac{\\sqrt{5}}{5} \\,$일 때, $\\sin\\, \\left( \\beta - \\alpha \\right) \\,$의 값은? (단, $\\alpha$, $\\beta\\,$는 예각이다.) [3점]\n① $\\frac{3 \\sqrt{5}}{20}$ ② $\\frac{\\sqrt{5}}{5}$ ③ $\\frac{\\sqrt{5}}{4}$ ④ $\\frac{3 \\sqrt{5}}{10}$ ⑤ $\\frac{7 \\sqrt{5}}{20}$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\sin\\,\\alpha= \\dfrac{3}{5}\\)</span>, <span class=\"heq\">\\(\\cos\\,\\beta= \\dfrac{\\sqrt{5}}{5} \\,\\)</span>일 때, <span class=\"heq\">\\(\\sin\\, \\left( \\beta - \\alpha \\right) \\,\\)</span>의 값은? (단, <span class=\"heq\">\\(\\alpha\\)</span>, <span class=\"heq\">\\(\\beta\\,\\)</span>는 예각이다.) <span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{3 \\sqrt{5}}{20}\\)</span>&emsp;② <span class=\"heq\">\\(\\dfrac{\\sqrt{5}}{5}\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{\\sqrt{5}}{4}\\)</span>&emsp;④ <span class=\"heq\">\\(\\dfrac{3 \\sqrt{5}}{10}\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{7 \\sqrt{5}}{20}\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "$\\alpha$가 예각이고 $\\sin\\alpha=\\frac{3}{5}$이므로 $\\cos\\alpha=\\sqrt{1-\\left(\\frac{3}{5}\\right)^{2}}=\\sqrt{\\frac{16}{25}}=\\frac{4}{5}$이다. 또 $\\beta$가 예각이고 $\\cos\\beta=\\frac{\\sqrt{5}}{5}$이므로 $\\sin\\beta=\\sqrt{1-\\left(\\frac{\\sqrt{5}}{5}\\right)^{2}}=\\sqrt{1-\\frac{1}{5}}=\\sqrt{\\frac{4}{5}}=\\frac{2\\sqrt{5}}{5}$이다. 삼각함수의 덧셈정리에 의하여 $\\sin(\\beta-\\alpha)=\\sin\\beta\\cos\\alpha-\\cos\\beta\\sin\\alpha=\\frac{2\\sqrt{5}}{5}\\times\\frac{4}{5}-\\frac{\\sqrt{5}}{5}\\times\\frac{3}{5}=\\frac{8\\sqrt{5}}{25}-\\frac{3\\sqrt{5}}{25}=\\frac{5\\sqrt{5}}{25}=\\frac{\\sqrt{5}}{5}$이다. 정답은 ②이다.",
+   "solution_id": 27336,
+   "solution_created_by": "opus-goldenset-w1-20260815",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 27336,
+     "created_by": "opus-goldenset-w1-20260815",
+     "verified": true,
+     "body": "$\\alpha$가 예각이고 $\\sin\\alpha=\\frac{3}{5}$이므로 $\\cos\\alpha=\\sqrt{1-\\left(\\frac{3}{5}\\right)^{2}}=\\sqrt{\\frac{16}{25}}=\\frac{4}{5}$이다. 또 $\\beta$가 예각이고 $\\cos\\beta=\\frac{\\sqrt{5}}{5}$이므로 $\\sin\\beta=\\sqrt{1-\\left(\\frac{\\sqrt{5}}{5}\\right)^{2}}=\\sqrt{1-\\frac{1}{5}}=\\sqrt{\\frac{4}{5}}=\\frac{2\\sqrt{5}}{5}$이다. 삼각함수의 덧셈정리에 의하여 $\\sin(\\beta-\\alpha)=\\sin\\beta\\cos\\alpha-\\cos\\beta\\sin\\alpha=\\frac{2\\sqrt{5}}{5}\\times\\frac{4}{5}-\\frac{\\sqrt{5}}{5}\\times\\frac{3}{5}=\\frac{8\\sqrt{5}}{25}-\\frac{3\\sqrt{5}}{25}=\\frac{5\\sqrt{5}}{25}=\\frac{\\sqrt{5}}{5}$이다. 정답은 ②이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": null,
+    "label": "2018 교육청 고3 수리가형 10월 7번",
+    "year": "2018",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "688476eb81dc1ac82e84f8657311ccf601fa68218264b632f4858a2f10412a8e"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15397,
+   "item_id": 15397,
+   "source_table": "items",
+   "fingerprint": "e9de701cbcf860df6572dd2fd3a7a0d0c16fa943443e8004644ca4704c27a35f",
+   "source_type": "학평원본",
+   "source_label": "2016 평가원 고3 수리가형 9월 5번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "$\\cos ( \\alpha + \\beta ) = \\frac{5}{7} ,\\, \\cos \\alpha \\,\\cos \\beta = \\frac{4}{7}\\,$일 때, $\\sin \\alpha \\, \\sin \\beta \\,$의 값은? \n[3점]\n① $- \\frac{1}{7}$ ② $- \\frac{2}{7}$ ③ $- \\frac{3}{7}$\n④ $- \\frac{4}{7}$ ⑤ $- \\frac{5}{7}$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(\\cos ( \\alpha + \\beta ) = \\dfrac{5}{7} ,\\, \\cos \\alpha \\,\\cos \\beta = \\dfrac{4}{7}\\,\\)</span>일 때, <span class=\"heq\">\\(\\sin \\alpha \\, \\sin \\beta \\,\\)</span>의 값은?</p><p class=\"hp\"><span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(- \\dfrac{1}{7}\\)</span>&emsp;② <span class=\"heq\">\\(- \\dfrac{2}{7}\\)</span>&emsp;③ <span class=\"heq\">\\(- \\dfrac{3}{7}\\)</span></p><p class=\"hp htall\">④ <span class=\"heq\">\\(- \\dfrac{4}{7}\\)</span>&emsp;⑤ <span class=\"heq\">\\(- \\dfrac{5}{7}\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "덧셈정리에서 $\\sin\\alpha\\sin\\beta=\\cos\\alpha\\cos\\beta-\\cos(\\alpha+\\beta)=\\frac47-\\frac57=-\\frac17$ 이다. 곧 $$\\boxed{\\vphantom{(}\\text{①}}$$",
+   "solution_id": 24448,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 24448,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "덧셈정리에서 $\\sin\\alpha\\sin\\beta=\\cos\\alpha\\cos\\beta-\\cos(\\alpha+\\beta)=\\frac47-\\frac57=-\\frac17$ 이다. 곧 $$\\boxed{\\vphantom{(}\\text{①}}$$"
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "미분법",
+    "label": "2016 평가원 고3 수리가형 9월 5번",
+    "year": "2016",
+    "org": "평가원",
+    "exam": "9월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "258c13ce4fab521942f594c5da2c089df73d6c61fdef446b290a118042b9951e"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 15507,
+   "item_id": 15507,
+   "source_table": "items",
+   "fingerprint": "c31da26c55aaa7d1ef086a294ba66754e8ee54c5ba9ca90167420c83814c3045",
+   "source_type": "학평원본",
+   "source_label": "2017 교육청 고3 수리가형 10월 25번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "함수 \n $f \\left( x \\right) = {\\begin{cases}\\,x+1&\\, \\left( x<0 \\right) \\\\ \\,e ^{\\,ax+b}&\\, \\left( x \\geq 0 \\right)\\end{cases}} \\,$\n은 $x=0\\,$에서 미분가능하다. $f \\left( 10 \\right) \\,=e ^{\\,k}\\,$일 때, 상수 $k$의 값을 구하시오. (단, $a\\,$와 $b\\,$는 상수이다.) [3점]",
+   "body_html": "<p class=\"hp\">함수</p><p class=\"hp htall\">&emsp;&emsp;<span class=\"heq\">\\(f \\left( x \\right) = {\\begin{cases}\\,x+1&\\, \\left( x\\lt 0 \\right) \\\\ \\,e^{\\,ax+b}&\\, \\left( x \\geq 0 \\right)\\end{cases}} \\,\\)</span></p><p class=\"hp\">은 <span class=\"heq\">\\(x=0\\,\\)</span>에서 미분가능하다. <span class=\"heq\">\\(f \\left( 10 \\right) \\,=e^{\\,k}\\,\\)</span>일 때, 상수 <span class=\"heq\">\\(k\\)</span>의 값을 구하시오. (단, <span class=\"heq\">\\(a\\,\\)</span>와 <span class=\"heq\">\\(b\\,\\)</span>는 상수이다.) <span class=\"hscore\">[3점]</span></p>",
+   "answer": "10",
+   "answer_type": "단답형",
+   "explanation": "$x=0$에서 연속이므로 $e^{b}=1$, 곧 $b=0$이고, 미분가능하므로 $ae^{b}=1$에서 $a=1$이다. 따라서 $f(x)=e^{x}$ ($x\\ge0$)이고 $f(10)=e^{10}$이므로 $k=10$이다.",
+   "solution_id": 16377,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 16377,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "$x=0$에서 연속이므로 $e^{b}=1$, 곧 $b=0$이고, 미분가능하므로 $ae^{b}=1$에서 $a=1$이다. 따라서 $f(x)=e^{x}$ ($x\\ge0$)이고 $f(10)=e^{10}$이므로 $k=10$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "미분가능성과 지수함수",
+    "label": "2017 교육청 고3 수리가형 10월 25번",
+    "year": "2017",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "91b48fab5e4564fe3f3c1146b9335630be5037bfc6722dd130a43803cfe1e947"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16200,
+   "item_id": 16200,
+   "source_table": "items",
+   "fingerprint": "8b3eff43c3b919834668318de81ee7426a6cfd713f41255a7ee41466a23ffe1e",
+   "source_type": "학평원본",
+   "source_label": "2019 교육청 고3 수리가형 10월 8번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$0< \\alpha < \\beta <2 \\pi \\,$이고 $\\cos\\, \\alpha =\\cos\\, \\beta = \\frac{1}{3} \\,$일 때, $\\sin( \\beta - \\alpha )\\,$의 값은? [3점]\n① $- \\frac{4\\sqrt{2}}{9}$ ② $- \\frac{4}{9}$ ③ $0$\n④ $\\frac{4 }{9}$ ⑤ $\\frac{4 \\sqrt{2}}{9}$",
+   "body_html": "<p class=\"hp htall\"><span class=\"heq\">\\(0\\lt  \\alpha \\lt  \\beta \\lt 2 \\pi \\,\\)</span>이고 <span class=\"heq\">\\(\\cos\\, \\alpha =\\cos\\, \\beta = \\dfrac{1}{3} \\,\\)</span>일 때, <span class=\"heq\">\\(\\sin( \\beta - \\alpha )\\,\\)</span>의 값은? <span class=\"hscore\">[3점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(- \\dfrac{4\\sqrt{2}}{9}\\)</span>&emsp;② <span class=\"heq\">\\(- \\dfrac{4}{9}\\)</span>&emsp;③ <span class=\"heq\">\\(0\\)</span></p><p class=\"hp htall\">④ <span class=\"heq\">\\(\\dfrac{4 }{9}\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{4 \\sqrt{2}}{9}\\)</span></p>",
+   "answer": "①",
+   "answer_type": "객관식",
+   "explanation": "코사인값이 같은 서로 다른 두 각이 $0<\\alpha<\\beta<2\\pi$에 있으므로 $\\beta=2\\pi-\\alpha$이고 $0<\\alpha<\\pi$이다. 이 범위에서 $\\sin\\alpha>0$이므로 $\\sin\\alpha=\\frac{2\\sqrt{2}}{3}$이다. $\\beta-\\alpha=2\\pi-2\\alpha$이므로 배각공식을 이용하면 $\\sin(\\beta-\\alpha)=-\\sin 2\\alpha=-\\frac{4\\sqrt{2}}{9}$이다.",
+   "solution_id": 18475,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18475,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "코사인값이 같은 서로 다른 두 각이 $0<\\alpha<\\beta<2\\pi$에 있으므로 $\\beta=2\\pi-\\alpha$이고 $0<\\alpha<\\pi$이다. 이 범위에서 $\\sin\\alpha>0$이므로 $\\sin\\alpha=\\frac{2\\sqrt{2}}{3}$이다. $\\beta-\\alpha=2\\pi-2\\alpha$이므로 배각공식을 이용하면 $\\sin(\\beta-\\alpha)=-\\sin 2\\alpha=-\\frac{4\\sqrt{2}}{9}$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수",
+    "label": "2019 교육청 고3 수리가형 10월 8번",
+    "year": "2019",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "97b66b630f4ac87c50c198cd91d6872dacb94cda567c833fda690e86e24a9de2"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16627,
+   "item_id": 16627,
+   "source_table": "items",
+   "fingerprint": "485584ac73ab33bfbc08ae44f661b3f315ae62b5664873c585b6e9a240331723",
+   "source_type": "학평원본",
+   "source_label": "2020 교육청 고3 수리가형 10월 22번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "함수 $f \\left( x \\right) =\\sin \\left( 3x-6 \\right) \\,$에 대하여 $f' \\left( 2 \\right) \\,$의 값을 구하시오.\n[3점]",
+   "body_html": "<p class=\"hp\">함수 <span class=\"heq\">\\(f \\left( x \\right) =\\sin \\left( 3x-6 \\right) \\,\\)</span>에 대하여 <span class=\"heq\">\\(f' \\left( 2 \\right) \\,\\)</span>의 값을 구하시오.</p><p class=\"hp\"><span class=\"hscore\">[3점]</span></p>",
+   "answer": "3",
+   "answer_type": "단답형",
+   "explanation": "합성함수의 미분법으로 $f'(x)=3\\cos(3x-6)$을 얻고, $x=2$를 대입하면 $f'(2)=3\\cos0=3$이다.",
+   "solution_id": 18952,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 18952,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "합성함수의 미분법으로 $f'(x)=3\\cos(3x-6)$을 얻고, $x=2$를 대입하면 $f'(2)=3\\cos0=3$이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리가형",
+    "unit": "삼각함수의 그래프",
+    "label": "2020 교육청 고3 수리가형 10월 22번",
+    "year": "2020",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "26eec2549d1fb67b5b96c1391a88cf14f9782dd1fb1cc42217ccd51a5906131b"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 12096,
+   "item_id": 12096,
+   "source_table": "items",
+   "fingerprint": "464a3fa5683486e35040a80a83388aa96cc27e6d0a9c8707440716a9472b01d7",
+   "source_type": "학평원본",
+   "source_label": "2025 교육청 고1 수학 10월 17번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [
+    {
+     "from": "fable-20260716",
+     "flags": [
+      "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+     ],
+     "informational": true
+    }
+   ],
+   "body": "양수 $a\\,$에 대하여 $0 \\leq x \\leq a\\,$에서 이차함수 $f \\left(x \\right)=\\,-2x^{2}+16x-7\\,$의 최댓값과 최솟값의 합이 $0\\,$이 되도록 하는 모든 $a\\,$의 값의 합은? [4점]\n① $\\frac{17}{2}\\,$ ② $9\\,$ ③ $\\frac{19}{2}\\,$ ④ $10\\,$ ⑤ $\\frac{21}{2}$",
+   "body_html": "<p class=\"hp\">양수 <span class=\"heq\">\\(a\\,\\)</span>에 대하여 <span class=\"heq\">\\(0 \\leq x \\leq a\\,\\)</span>에서 이차함수<br><span class=\"heq\">\\(f \\left(x \\right)=\\,-2x^{2}+16x-7\\,\\)</span>의 최댓값과 최솟값의 합이 <span class=\"heq\">\\(0\\,\\)</span>이 되도록 하는 모든 <span class=\"heq\">\\(a\\,\\)</span>의 값의 합은? <span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{17}{2}\\,\\)</span>&emsp;② <span class=\"heq\">\\(9\\,\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{19}{2}\\,\\)</span>&emsp;④ <span class=\"heq\">\\(10\\,\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{21}{2}\\)</span></p>",
+   "answer": "④",
+   "answer_type": "객관식",
+   "explanation": "구간 끝값과 꼭짓점 위치로 최대·최소를 나눠 $a$를 구한다.",
+   "solution_id": 14004,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14004,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "구간 끝값과 꼭짓점 위치로 최대·최소를 나눠 $a$를 구한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학",
+    "unit": null,
+    "label": "2025 교육청 고1 수학 10월 17번",
+    "year": "2025",
+    "org": "교육청",
+    "exam": "10월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "335f75c808b9ee46f7683bc19bf5b7457dd2e604d74bb215c38768b8d9e4e6bb"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 16833,
+   "item_id": 16833,
+   "source_table": "items",
+   "fingerprint": "7db0cf0c41a40eb63df23f00b76b721f002df3abb62786e2943586e681798927",
+   "source_type": "학평원본",
+   "source_label": "2020 교육청 고3 수리나형 7월 19번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "첫째항이 $1\\,$이고 공차가 $2\\,$인 등차수열 $\\left\\{ a _{n} \\right\\} \\,$이 있다. 자연수 $n\\,$에 대하여 좌표평면 위의 점 $P _{ n} \\,$을 다음 규칙에 따라 정한다.\n(가) 점 $P _{ 1} \\,$의 좌표는 $\\left( 1,\\,1 \\right) \\,$이다.(나) 점 $P _{ n} \\,$의 $x\\,$좌표는 $a _{n} \\,$이다.(다) 직선 $P _{ n } P _{ n+1 } \\,$의 기울기는 $\\frac{1}{2} a _{n+1} \\,$이다.\n$x \\geq1\\,$에서 정의된 함수 $y=f \\left( x \\right) \\,$의 그래프가 모든 자연수 $n\\,$에 대하여 닫힌구간 $\\left[ a _{n} \\,,\\,a _{n+1} \\right] \\,$에서 선분 $P _{ n} P _{ n+1} \\,$과 일치할 때, $\\int _{1} ^{11} {f \\left( x \\right) \\,dx\\,}$의 값은? [4점]\n① $140$ ② $145$ ③ $150$ ④ $155$ ⑤ $160$",
+   "body_html": "<p class=\"hp\">첫째항이 <span class=\"heq\">\\(1\\,\\)</span>이고 공차가 <span class=\"heq\">\\(2\\,\\)</span>인 등차수열 <span class=\"heq\">\\(\\left\\{ a_{n} \\right\\} \\,\\)</span>이 있다. 자연수 <span class=\"heq\">\\(n\\,\\)</span>에 대하여 좌표평면 위의 점 <span class=\"heq\">\\(P_{ n} \\,\\)</span>을 다음 규칙에 따라 정한다.</p><p class=\"hp htall\"><div class=\"hbox\"><p class=\"hp\">(가) 점 <span class=\"heq\">\\(P_{ 1} \\,\\)</span>의 좌표는 <span class=\"heq\">\\(\\left( 1,\\,1 \\right) \\,\\)</span>이다.</p><p class=\"hp\">(나) 점 <span class=\"heq\">\\(P_{ n} \\,\\)</span>의 <span class=\"heq\">\\(x\\,\\)</span>좌표는 <span class=\"heq\">\\(a_{n} \\,\\)</span>이다.</p><p class=\"hp htall\">(다) 직선 <span class=\"heq\">\\(P_{ n } P_{ n+1 } \\,\\)</span>의 기울기는 <span class=\"heq\">\\(\\dfrac{1}{2} a_{n+1} \\,\\)</span>이다.</p></div></p><p class=\"hp\"><span class=\"heq\">\\(x \\geq1\\,\\)</span>에서 정의된 함수 <span class=\"heq\">\\(y=f \\left( x \\right) \\,\\)</span>의 그래프가 모든 자연수 <span class=\"heq\">\\(n\\,\\)</span>에 대하여 닫힌구간 <span class=\"heq\">\\(\\left[ a_{n} \\,,\\,a_{n+1} \\right] \\,\\)</span>에서 선분 <span class=\"heq\">\\(P_{ n} P_{ n+1} \\,\\)</span>과 일치할 때, <br><span class=\"heq\">\\(\\int_{1}^{11} {f \\left( x \\right) \\,dx\\,}\\)</span>의 값은? <span class=\"hscore\">[4점]</span></p><p class=\"hp\">① <span class=\"heq\">\\(140\\)</span>&emsp;② <span class=\"heq\">\\(145\\)</span>&emsp;③ <span class=\"heq\">\\(150\\)</span>&emsp;④ <span class=\"heq\">\\(155\\)</span>&emsp;⑤ <span class=\"heq\">\\(160\\)</span></p>",
+   "answer": "②",
+   "answer_type": "객관식",
+   "explanation": "점 $\\text{P}_n$의 $y$좌표가 $n^2$임을 계차수열로 구한 뒤, 구간 $[1,\\ 11]$을 다섯 개의 선분 구간으로 나누어 사다리꼴 넓이의 합으로 적분값 $145$를 계산한다.",
+   "solution_id": 19264,
+   "solution_created_by": "cowork",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 19264,
+     "created_by": "cowork",
+     "verified": true,
+     "body": "점 $\\text{P}_n$의 $y$좌표가 $n^2$임을 계차수열로 구한 뒤, 구간 $[1,\\ 11]$을 다섯 개의 선분 구간으로 나누어 사다리꼴 넓이의 합으로 적분값 $145$를 계산한다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수리나형",
+    "unit": "적분",
+    "label": "2020 교육청 고3 수리나형 7월 19번",
+    "year": "2020",
+    "org": "교육청",
+    "exam": "7월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "dccc45eca76a69e1cf7d3fe31b0ab10b928eadb707a7ccd834c6005be10df515"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  },
+  {
+   "id": 11043,
+   "item_id": 11043,
+   "source_table": "items",
+   "fingerprint": "f003ccc04132ab12109b6f4d97fd0b28734d129f39918101b74145e730464bdb",
+   "source_type": "학평원본",
+   "source_label": "2016 교육청 고2 수학나형 3월 14번",
+   "display_status": "대기",
+   "needs_review": false,
+   "review_flags": [],
+   "body": "$\\log\\,2=a\\,$, $\\log\\,3=b\\,$라 할 때, $f(\\,\\log _{\\,3} \\,6)\\,$의 값을 $a\\,$, $b\\,$로 나타낸 것은? [4점]\n① $\\frac{a+2b}{a+b}$ ② $\\frac{2a+b}{a+b}$ ③ $\\frac{2a+b}{a+2b}$\n④ $\\frac{a+b}{2a+b}$ ⑤ $\\frac{a+2b}{2a+b}$",
+   "body_html": "<p class=\"hp\"><span class=\"heq\">\\(\\log\\,2=a\\,\\)</span>, <span class=\"heq\">\\(\\log\\,3=b\\,\\)</span>라 할 때, <span class=\"heq\">\\(f(\\,\\log_{\\,3} \\,6)\\,\\)</span>의 값을 <span class=\"heq\">\\(a\\,\\)</span>, <span class=\"heq\">\\(b\\,\\)</span>로 나타낸 것은? <span class=\"hscore\">[4점]</span></p><p class=\"hp htall\">① <span class=\"heq\">\\(\\dfrac{a+2b}{a+b}\\)</span>&emsp;② <span class=\"heq\">\\(\\dfrac{2a+b}{a+b}\\)</span>&emsp;③ <span class=\"heq\">\\(\\dfrac{2a+b}{a+2b}\\)</span></p><p class=\"hp htall\">④ <span class=\"heq\">\\(\\dfrac{a+b}{2a+b}\\)</span>&emsp;⑤ <span class=\"heq\">\\(\\dfrac{a+2b}{2a+b}\\)</span></p>",
+   "answer": "⑤",
+   "answer_type": "객관식",
+   "explanation": "[1] $f(x)=\\dfrac{x+1}{2x-1}$ 에 $x=\\log_{3}6$ 을 대입하면 $f(\\log_{3}6)=\\dfrac{\\log_{3}6+1}{2\\log_{3}6-1}$ 이다.\n[2] 밑의 변환 공식에 의하여 $\\log_{3}6=\\dfrac{\\log 6}{\\log 3}=\\dfrac{\\log 2+\\log 3}{\\log 3}=\\dfrac{a+b}{b}$ 이다.\n[3] 분자는 $\\dfrac{a+b}{b}+1=\\dfrac{a+2b}{b}$ 이고, 분모는 $2\\times\\dfrac{a+b}{b}-1=\\dfrac{2a+b}{b}$ 이다.\n[4] 따라서 $f(\\log_{3}6)=\\dfrac{a+2b}{b}\\times\\dfrac{b}{2a+b}=\\dfrac{a+2b}{2a+b}$ 이므로 답은 ⑤ 이다.",
+   "solution_id": 14691,
+   "solution_created_by": "fable-20260712",
+   "solution_verified": true,
+   "solutions": [
+    {
+     "id": 14691,
+     "created_by": "fable-20260712",
+     "verified": true,
+     "body": "[1] $f(x)=\\dfrac{x+1}{2x-1}$ 에 $x=\\log_{3}6$ 을 대입하면 $f(\\log_{3}6)=\\dfrac{\\log_{3}6+1}{2\\log_{3}6-1}$ 이다.\n[2] 밑의 변환 공식에 의하여 $\\log_{3}6=\\dfrac{\\log 6}{\\log 3}=\\dfrac{\\log 2+\\log 3}{\\log 3}=\\dfrac{a+b}{b}$ 이다.\n[3] 분자는 $\\dfrac{a+b}{b}+1=\\dfrac{a+2b}{b}$ 이고, 분모는 $2\\times\\dfrac{a+b}{b}-1=\\dfrac{2a+b}{b}$ 이다.\n[4] 따라서 $f(\\log_{3}6)=\\dfrac{a+2b}{b}\\times\\dfrac{b}{2a+b}=\\dfrac{a+2b}{2a+b}$ 이므로 답은 ⑤ 이다."
+    }
+   ],
+   "image_urls": [],
+   "explanation_image_urls": [],
+   "source": {
+    "course": "수학나형",
+    "unit": "로그",
+    "label": "2016 교육청 고2 수학나형 3월 14번",
+    "year": "2016",
+    "org": "교육청",
+    "exam": "3월"
+   },
+   "current": {
+    "display_status": "대기",
+    "display_note": null
+   },
+   "recovery_profile": {
+    "course": null,
+    "unit": null,
+    "difficulty": null,
+    "skills": []
+   },
+   "display_auto": {
+    "issues": [],
+    "diagnostics": [],
+    "blockers": [],
+    "advisories": []
+   },
+   "explanation_provenance": {
+    "kind": "protected_items",
+    "rewrite_allowed": false,
+    "reason": "items 정본 — 표시 판정만, 원문·정답·해설 무변경"
+   },
+   "rewrite": {
+    "mode": "none",
+    "draft": "",
+    "changes": [],
+    "immutable_tokens_ok": true,
+    "original_hash": "2203406036a4835834474689005ebbe92ef60a63fe9c3f4c2e6c79905048e82f"
+   },
+   "numeric": {
+    "eligible": false,
+    "score": 0,
+    "reasons": [
+     "표시검수 전용"
+    ],
+    "route": "none",
+    "target_item_id": null
+   },
+   "render": null
+  }
+ ]
+}

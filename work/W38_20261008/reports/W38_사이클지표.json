@@ -1,0 +1,59 @@
+{
+ "cycles": {
+  "48": {
+   "items": 16,
+   "files": [
+    "W38_CALCa_cycle48.jsonl",
+    "W38_CM1a_cycle48.jsonl",
+    "W38_CM1b_cycle48.jsonl",
+    "W38_GEOa_cycle48.jsonl",
+    "W38_PRSTa_cycle48.jsonl"
+   ],
+   "needs_review": 0,
+   "new_nodes_by_kind": {
+    "concept": 29,
+    "decision": 8,
+    "skill": 16,
+    "pattern": 15
+   },
+   "uses_by_kind": {
+    "concept": 33,
+    "decision": 14,
+    "skill": 26,
+    "pattern": 16
+   },
+   "skill_growth_rate": 1.0,
+   "decision_growth_rate": 0.5,
+   "decision_family_hit": "14/14",
+   "avg_body_chars": 340.8,
+   "v61_3": {
+    "items_with_block": 16,
+    "invariants": 64,
+    "variable_elements": 50,
+    "escalations": 16,
+    "recovery": 30,
+    "bottleneck_hypotheses": 20,
+    "recovery_descend": 0
+   },
+   "violations": {}
+  }
+ },
+ "vocab_total": {
+  "concept": 29,
+  "decision": 8,
+  "skill": 16,
+  "pattern": 15
+ },
+ "global_reuse": {
+  "skills": 16,
+  "skills_used_in_2plus_items": 5,
+  "skills_used_in_2plus_courses": 0,
+  "cross_course_examples": [],
+  "decisions": 8,
+  "decisions_used_in_2plus_items": 3,
+  "decisions_used_in_2plus_courses": 0
+ },
+ "violations": {},
+ "merge_applied": true,
+ "decision_families": 51
+}

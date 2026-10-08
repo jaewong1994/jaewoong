@@ -1,0 +1,18 @@
+[
+ {
+  "item_id": 17507,
+  "table": "items",
+  "course": "CALC",
+  "unit": "수열의 극한",
+  "subtopic": "수열의 극한",
+  "difficulty": 2,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "source_label": "2022 평가원 고3 수학미적분 9월 25번",
+  "raw_text": "수열 $\\left\\{ a_{n} \\right\\}$에 대하여 $\\lim _{n \\,\\rightarrow\\, \\infty } \\frac{a_{n}+2}{2}=6$일 때, $\\lim _{n \\,\\rightarrow\\, \\infty } \\frac{n a_{n}+1}{a_{n}+2 n}$의 값은? [3점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "display_verdict": "pass",
+  "display_batch": "(DB 표시 통과 실측 2026-10-08, 큐 배치 없음)",
+  "class_course": "CALC",
+  "content_hash": "1c4470a0ca3be0e8b072b8824af02f9a2d5f3eaa"
+ }
+]

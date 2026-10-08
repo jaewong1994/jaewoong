@@ -1,0 +1,66 @@
+{
+ "ready_batches": [
+  [
+   "ids_B_ALG_000.json",
+   48
+  ],
+  [
+   "ids_B_ALG_001.json",
+   18
+  ],
+  [
+   "ids_B_CALC_000.json",
+   29
+  ],
+  [
+   "ids_B_CM1_000.json",
+   11
+  ],
+  [
+   "ids_B_CM2_000.json",
+   6
+  ],
+  [
+   "ids_B_GEO_000.json",
+   12
+  ],
+  [
+   "ids_B_M2_000.json",
+   48
+  ],
+  [
+   "ids_B_M2_001.json",
+   11
+  ],
+  [
+   "ids_B_PRST_000.json",
+   48
+  ],
+  [
+   "ids_B_PRST_001.json",
+   5
+  ]
+ ],
+ "ready_total": 236,
+ "null_course": 890,
+ "other": [
+  [
+   24865,
+   "M2",
+   false,
+   false
+  ],
+  [
+   24916,
+   "M2",
+   false,
+   false
+  ],
+  [
+   25006,
+   "M2",
+   false,
+   false
+  ]
+ ]
+}

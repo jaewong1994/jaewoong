@@ -1,0 +1,18 @@
+[
+ {
+  "item_id": 10722,
+  "table": "items",
+  "course": "ALG",
+  "unit": "행렬",
+  "subtopic": "행렬",
+  "difficulty": 3,
+  "answer": "②",
+  "answer_type": "객관식",
+  "source_label": "2014 교육청 고2 수학나형 9월 12번",
+  "raw_text": "이차정사각행렬 $M$의 $(\\,i\\,,\\,j\\,)$성분 $m _{ij} \\,$가\n $m _{ij} = {\\begin{cases}f(i)+f(j)&\\,(i=j) \\\\ f(i) \\times f(j)&\\,(i != j)\\end{cases}}$\n일 때 행렬 $M\\,$의 모든 성분의 곱이 $2 ^{8} \\,$이다. 이때 상수 $a\\,$의 값은?\n[3점][2014년 9월 고2 나12]\n① $2 ^{\\frac{1}{3}} \\,$ ② $2 ^{\\frac{2}{3}} \\,$ ③ $2$ ④ $2 ^{\\frac{4}{3}} \\,$ ⑤ $2 ^{\\frac{5}{3}} \\,$",
+  "display_verdict": "pass",
+  "display_batch": "(DB 표시 통과 실측 2026-10-08, 큐 배치 없음)",
+  "class_course": "ALG",
+  "content_hash": "8d3cacdf92febb8d857dd7611308c5d908094463"
+ }
+]

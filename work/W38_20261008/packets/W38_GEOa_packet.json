@@ -1,0 +1,18 @@
+[
+ {
+  "item_id": 18351,
+  "table": "items",
+  "course": "GEO",
+  "unit": "포물선의 정의와 방정식",
+  "subtopic": "포물선",
+  "difficulty": 1,
+  "answer": "②",
+  "answer_type": "객관식",
+  "source_label": "2025 평가원 고3 수학기하 9월 23번",
+  "raw_text": "포물선 $y^{2}=8x\\,$의 초점의 좌표가 $\\left(p,\\,0 \\right)\\,$일 때, $p\\,$의 값은?\n[2점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "display_verdict": "pass",
+  "display_batch": "(DB 표시 통과 실측 2026-10-08, 큐 배치 없음)",
+  "class_course": "GEO",
+  "content_hash": "51a1d232959b5eaf04e27e171007e17116b2237f"
+ }
+]

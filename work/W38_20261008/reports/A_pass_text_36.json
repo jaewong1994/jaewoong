@@ -1,0 +1,1500 @@
+[
+ {
+  "id": 7523,
+  "source_type": "학평원본",
+  "source_label": "2018 교육청 고2 수학가형 3월 16번",
+  "course": "수학가형",
+  "course_norm": "CM1",
+  "unit": "부등식의 영역의 최대",
+  "difficulty": 4,
+  "answer": "③",
+  "answer_type": "객관식",
+  "answer_no": 3,
+  "raw_text": "두 메뉴 $A$, $B\\,$를 판매하는 어느 식당이 있다. 다음은 두 메뉴 $1\\,$인분을 각각 만드는 데 사용되는 두 재료 $S\\,$, $T\\,$의 양과 두 메뉴 $1\\,$인분의 판매 가격을 표로 나타낸 것이다.\n메뉴재료 $S$ 재료 $T$ 판매 가격$A$$100 \\,g$$50\\,g$$2\\,$$B$$50\\,g$$150\\,g$$2\\,$$2\\,$천 원\n재료 $S\\,$, 재료 $T\\,$의 가격은 $10\\,g\\,$당 각각 $600\\,$원, $400\\,$원이고 이 식당에서 하루에 사용할 수 있는 재료 $S$와 재료 $T\\,$의 구입 비용의 합은 최대 $30\\,$만 원이다. 이 식당에서 두 메뉴 $A$, $B\\,$를 합하여 하루 최대 $35\\,$인분을 만들 수 있을 때, 하루 동안 두 메뉴 $A$, $B\\,$를 판매하여 얻을 수 있는 판매 금액의 최댓값은? [4점]\n① $72\\,$만 원 ② $73\\,$만 원 ③ $74\\,$만 원\n④ $75\\,$만 원 ⑤ $76\\,$만 원",
+  "content_hash": "5a46ec96ddddb2c0f267003a361ee6f053264a91",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 10534,
+    "item_id": 7523,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 7523,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "여러 가지 방정식과 부등식",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": true
+ },
+ {
+  "id": 7919,
+  "source_type": "학평원본",
+  "source_label": "2020 교육청 고2 수학 3월 22번",
+  "course": "수학",
+  "course_norm": "PRST",
+  "unit": "순열의 수를 계산한다.",
+  "difficulty": 1,
+  "answer": "6",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "${}_{3} {P} _{2} \\,$의 값을 구하시오. [3점]",
+  "content_hash": "8b6b01c5ecf1e7d063df6d525d54a90374984ee7",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 11220,
+    "item_id": 7919,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "api"
+   }
+  ],
+  "class": {
+   "item_id": 7919,
+   "course_code": "CM1",
+   "major_name": "경우의 수",
+   "unit_name": "순열과 조합",
+   "small_name": "순열",
+   "small_state": "ready",
+   "type_id": "CM1.09.01.Ta481e4ab0730",
+   "type_name": "순열의 값 계산",
+   "type_state": "ready"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 8376,
+  "source_type": "학평원본",
+  "source_label": "2024 교육청 고2 수학 3월 29번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "실근 없는 사차식을 두 이차식 곱으로 인수분해하고 계수 비교·판별식으로 a,b 구하기",
+  "difficulty": 5,
+  "answer": "5",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "다항식 $f(x)=x^{4}+(a+2) x^{3}+b x^{2}+a x+6\\,$과 최고차항의 계수가 $1\\,$이고 계수와 상수항이 모두 실수인 두 다항식 $g(x)\\,$, $h(x)\\,$가 다음 조건을 만족시킨다.\n (가) 방정식 $f(x)=0\\,$은 실근을 갖지 않는다. (나) 다항식 $f(x)\\,$는 두 다항식 $g(x)\\,$, $h(x)\\,$를 인수로 갖고, $h(x)\\,$를 $g(x)\\,$로 나눈 나머지는 $-4 x-1\\,$이다.\n$a^{2}+b^{2}\\,$의 값을 구하시오. (단, $a\\,$, $b\\,$는 상수이다.) [4점]",
+  "content_hash": "976d92b1175ffb580ffd483732dd7b31011b66fc",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 11735,
+    "item_id": 8376,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   },
+   {
+    "id": 27017,
+    "item_id": 8376,
+    "verified": true,
+    "method_type": "최단거리",
+    "created_by": "codex-offcurr-shortcut-cm12-b7-20260812"
+   }
+  ],
+  "class": {
+   "item_id": 8376,
+   "course_code": "CM1",
+   "major_name": "다항식",
+   "unit_name": "나머지정리",
+   "small_name": "항등식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 8744,
+  "source_type": "학평원본",
+  "source_label": "2019 교육청 고2 수학가형 3월 8번",
+  "course": "수학가형",
+  "course_norm": "PRST",
+  "unit": "조합을 이용하여 조건에 맞는 자연수의 개수를 구한다.",
+  "difficulty": 3,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "answer_no": 5,
+  "raw_text": "$9\\,$개의 숫자 $0$, $0$, $0$, $1$, $1$, $1$, $1$, $1$, $1\\,$을 $0\\,$끼리는 어느 것도 이웃하지 않도록 일렬로 나열하여 만들 수 있는 아홉 자리의 자연수의 개수는? [3점]\n① $12$ ② $14$ ③ $16$ ④ $18$ ⑤ $20$",
+  "content_hash": "856ffd0773efb6f0fb17739c7c1cbfc90d9616da",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 11776,
+    "item_id": 8744,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "api"
+   }
+  ],
+  "class": {
+   "item_id": 8744,
+   "course_code": "CM1",
+   "major_name": "경우의 수",
+   "unit_name": "순열과 조합",
+   "small_name": "조합",
+   "small_state": "ready",
+   "type_id": "CM1.09.02.Tc6ea3957c2fc",
+   "type_name": "조건이 있는 조합",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 8750,
+  "source_type": "학평원본",
+  "source_label": "2019 교육청 고2 수학가형 3월 14번",
+  "course": "수학가형",
+  "course_norm": "PRST",
+  "unit": "곱의 법칙과 조합을 이용하여 숫자를 선택하는 경우의 수를 구한다.",
+  "difficulty": 4,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "그림과 같이 $9\\,$개의 칸으로 나누어진 정사각형의 각 칸에 $1\\,$부터 $9\\,$까지의 자연수가 적혀 있다.\n$1$$2$$3$$4$$5$$6$$7$$8$$9$\n이 $9\\,$개의 숫자 중 다음 조건을 만족시키도록 $2\\,$개의 숫자를 선택하려고 한다.\n(가) 선택한 $2\\,$개의 숫자는 서로 다른 가로줄에 있다.(나) 선택한 $2\\,$개의 숫자는 서로 다른 세로줄에 있다.\n예를 들어, 숫자 $1$과 $5\\,$를 선택하는 것은 조건을 만족시키지만, 숫자 $3\\,$과 $9\\,$를 선택하는 것은 조건을 만족시키지 않는다. 조건을 만족시키도록 $2\\,$개의 숫자를 선택하는 경우의 수는? [4점]\n① $9$ ② $12$ ③ $15$ ④ $18$ ⑤ $21$",
+  "content_hash": "a69fdfbc3e7e867d3115cae273add9d12dca4cc5",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 10723,
+    "item_id": 8750,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 8750,
+   "course_code": "CM1",
+   "major_name": "경우의 수",
+   "unit_name": "순열과 조합",
+   "small_name": "조합",
+   "small_state": "ready",
+   "type_id": "CM1.09.02.Tc6ea3957c2fc",
+   "type_name": "조건이 있는 조합",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 10722,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고2 수학나형 9월 12번",
+  "course": "수학나형",
+  "course_norm": "ALG",
+  "unit": "행렬",
+  "difficulty": 3,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "이차정사각행렬 $M$의 $(\\,i\\,,\\,j\\,)$성분 $m _{ij} \\,$가\n $m _{ij} = {\\begin{cases}f(i)+f(j)&\\,(i=j) \\\\ f(i) \\times f(j)&\\,(i != j)\\end{cases}}$\n일 때 행렬 $M\\,$의 모든 성분의 곱이 $2 ^{8} \\,$이다. 이때 상수 $a\\,$의 값은?\n[3점][2014년 9월 고2 나12]\n① $2 ^{\\frac{1}{3}} \\,$ ② $2 ^{\\frac{2}{3}} \\,$ ③ $2$ ④ $2 ^{\\frac{4}{3}} \\,$ ⑤ $2 ^{\\frac{5}{3}} \\,$",
+  "content_hash": "8d3cacdf92febb8d857dd7611308c5d908094463",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22443,
+    "item_id": 10722,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 10722,
+   "course_code": "ALG",
+   "major_name": null,
+   "unit_name": null,
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 10723,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고2 수학나형 9월 13번",
+  "course": "수학나형",
+  "course_norm": "CM1",
+  "unit": "행렬",
+  "difficulty": 3,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "다음은 두 이차정사각행렬 $A\\,$, $B\\,$에 대하여\n  $2A^{2} +AB=E\\,$ $\\cdots \\cdots$ ㉠\n  $AB+2BA=2A+E\\,$ $\\cdots \\cdots$ ㉡\n이 성립할 때, 행렬 $A\\,$의 역행렬 $A^{-1}$를 $A\\,$와 $E\\,$로 나타내는 과정이다. (단, $E\\,$는 단위행렬이다.)\n㉠에서 $A^{-1} = {\\boxed{\\vphantom{(}\\,(\\text{가})\\,}} \\, \\times A+B$ $\\cdots \\cdots$ ㉢\n또한 $AA^{-1\\,} =A^{-1} A\\,$이므로 ㉢에서 $AB=\\,BA\\,$\n따라서 ㉡에서 $AB= {\\boxed{\\vphantom{(}\\,(\\text{나})\\,}} \\, \\times A+ \\dfrac{1}{3} E\\,$이고,\n㉠에서 $AB=E-2A^{2} \\,$이므로\n$E-2A^{2} = {\\boxed{\\vphantom{(}\\,(\\text{나})\\,}} \\, \\times A+ \\dfrac{1}{3} E\\,$\n그러므로 $A^{-1} = {\\boxed{\\vphantom{(}\\,(\\text{다})\\,}} \\, \\times A+E\\,$ 이다.\n위의 과정에서 (가), (나), (다)에 알맞은 수를 각각 $p$, $q$, $r\\,$라 할 때, 세 수 $p$, $q$, $r\\,$의 곱 $p\\,q\\,r\\,$의 값은? [3점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "content_hash": "4fdbe89a3ae0be2a7a4957b00cd7fc97009234db",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22444,
+    "item_id": 10723,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "claude-fable-v61-20260901"
+   },
+   {
+    "id": 27002,
+    "item_id": 10723,
+    "verified": true,
+    "method_type": "최단거리",
+    "created_by": "codex-offcurr-shortcut-cm12-b4-20260812"
+   }
+  ],
+  "class": {
+   "item_id": 10723,
+   "course_code": "CM1",
+   "major_name": "행렬",
+   "unit_name": "행렬과 그 연산",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 10726,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고2 수학나형 9월 16번",
+  "course": "수학나형",
+  "course_norm": "ALG",
+  "unit": "행렬",
+  "difficulty": 4,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "answer_no": 5,
+  "raw_text": "$x<2\\,$인 임의의 실수 $x\\,$에 대하여 행렬 ${pmatrix{\\,2 ^{x} \\,&\\,a+4\\,#-1\\,&\\,2 ^{x} -4\\,}} \\,$의 역행렬이 존재하도록 하는 실수 $a\\,$의 값의 범위는? \n[4점][2014년 9월 고2 나16]\n① $-5 \\leq a\\,< -1$ ② $-4\\leq a\\,<0$\n③ $-3 \\leq a<1$ ④ $a\\, \\leq -3$ 또는 $a>1\\,$\n⑤ $a\\, \\leq -4$ 또는 $a>0\\,$",
+  "content_hash": "08ae6fd07fb46c660ccb1306d66a41e15d9cefdf",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 13966,
+    "item_id": 10726,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 10726,
+   "course_code": "CM1",
+   "major_name": "행렬",
+   "unit_name": "행렬과 그 연산",
+   "small_name": "행렬의 연산",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 10735,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고2 수학나형 9월 25번",
+  "course": "수학나형",
+  "course_norm": "ALG",
+  "unit": "행렬",
+  "difficulty": 3,
+  "answer": "13",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "두 실수 $x,\\,y\\,$에 대하여 두 행렬 $A,\\,B\\,$를\n $A= {pmatrix{-1&\\,x\\,#\\,3&\\,0\\,}}$, $B= {pmatrix{\\,-2\\,&\\,2\\,#\\,y\\,&-1\\,}} \\,$\n이라 하자. $(A+B)(A-B)=A ^{2\\,}-B^2 \\,$일 때 $x^2 +y^2 \\,$의 값을 구하시오. \n[3점][2014년 9월 고2 나25]",
+  "content_hash": "3f7350a5fcb2e891d6d9d19241b8fe4ab2d56a4c",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22448,
+    "item_id": 10735,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 10735,
+   "course_code": "CM1",
+   "major_name": "행렬",
+   "unit_name": "행렬과 그 연산",
+   "small_name": "행렬의 연산",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 10839,
+  "source_type": "학평원본",
+  "source_label": "2015 교육청 고2 수학가형 9월 9번",
+  "course": "수학가형",
+  "course_norm": "CM1",
+  "unit": "복소수와 이차방정식",
+  "difficulty": 2,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "곡선 $y=-x ^{2} +6$과 직선 $y=2x+3$으로 둘러싸인 부분의 넓이는? [3점]\n① $\\frac{23}{3}$ ② $\\frac{26}{3}$ ③ $\\frac{29}{3}$ ④ $\\frac{32}{3}$ ⑤ $\\frac{35}{3}$",
+  "content_hash": "bbe3bfd2e090e3c0b1c5903e65d1abfd5b0e3083",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22559,
+    "item_id": 10839,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 10839,
+   "course_code": "M2",
+   "major_name": "적분",
+   "unit_name": "정적분의 활용",
+   "small_name": "도형의 넓이",
+   "small_state": "ready",
+   "type_id": "M2.08.01.Td4a2afaa6661",
+   "type_name": "두 곡선 사이의 넓이",
+   "type_state": "ready"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 11131,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고1 수학 6월 12번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "방정식과 부등식",
+  "difficulty": 3,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "다음은 삼차방정식 $x^{3} \\,+\\,2x^{2} \\,+\\,3x\\,+\\,1\\,=\\,0\\,$의 세 근이 $\\alpha \\,,\\, \\beta \\,,\\, \\gamma \\,$일 때, $\\dfrac{1}{\\alpha }\\,,\\,\\dfrac{1}{ \\beta }\\,,\\,\\dfrac{1}{ \\gamma } \\,$을 세 근으로 갖는 삼차방정식을 구하는 과정의 일부이다.\n$\\alpha \\,$가 삼차방정식 $x^{3} \\,+\\,2x^{2} \\,+\\,3x\\,+\\,1\\,=\\,0\\,$의 한 근이므로\n$\\alpha^{3} \\,+\\,2 \\alpha^{2} \\,+\\, 3\\alpha\\,+\\,1 \\,=\\,0\\,$\n이다.\n$\\alpha\\,$는 $0\\,$이 아니므로 양변을 $\\alpha^{3} \\,$으로 나누어 정리하면\n$\\left(\\, \\dfrac{1}{\\alpha } \\,\\right)^{3} \\,+\\,\\boxed{\\vphantom{(}\\,(\\text{가})\\,}\\,\\times\\, \\left(\\, \\dfrac{1}{\\alpha } \\,\\right)^{2} \\,+\\,2 \\left(\\, \\dfrac{1}{\\alpha} \\,\\right)\\,+\\,1 \\,=\\,0\\,$\n이다.\n그러므로 $\\dfrac{1}{\\alpha} \\,$은 최고차항의 계수가 $1\\,$인 $x\\,$에 대한 삼차방정식\n${\\boxed{\\vphantom{(}\\,(\\text{나})\\,}} \\,=\\,0\\,$\n의 한 근이다.\n같은 방법으로\n$\\beta \\,,\\,\\gamma\\,$도 삼차방정식 $x^{3} \\,+\\,2x^{2} \\,+\\,3x\\,+\\,1\\,=\\,0\\,$의 근이므로\n$\\vdots$\n이다. \n따라서 $\\dfrac{1}{\\alpha }\\,,\\,\\dfrac{1}{ \\beta }\\,,\\,\\dfrac{1}{ \\gamma } \\,$을 세 근으로 갖는 최고차항의 계수가 \n$1\\,$인 $x\\,$에 대한 삼차방정식은\n${\\boxed{\\vphantom{(}\\,(\\text{나})\\,}} \\,=\\,0\\,$\n이다.\n위의 (가)에 알맞은 수를 $p\\,$, (나)에 알맞은 식을 $f\\,(\\,x)\\,$라 할 때, $p\\,+\\,f\\,(\\,2)\\,$의 값은? [3점]\n① $28\\,$ ② $29\\,$ ③ $30\\,$ ④ $31\\,$ ⑤ $32\\,$",
+  "content_hash": "d09391febd3cbbe8d2b4450ec9577461aabcf173",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22296,
+    "item_id": 11131,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11131,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "여러 가지 방정식과 부등식",
+   "small_name": "여러 가지 방정식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11133,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고1 수학 6월 14번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "이차함수",
+  "difficulty": 4,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "이차함수 $y\\,=\\,f\\,(\\,x)\\,$의 그래프를 $x\\,$축의 방향으로 $p\\,$만큼 평행이동하였더니 함수 $y\\,=\\,g\\,(\\,x)\\,$의 그래프와 일치하였다. 직선 $y\\,=\\, \\frac{1}{2} x \\,+\\,1\\,$이 두 함수 $y\\,=\\,f\\,(\\,x) \\,$, $y\\,=\\,g\\,(\\,x)\\,$의 그래프와 서로 다른 네 점에서 만날 때, 네 교점의 $x\\,$좌표의 합이 $9\\,$가 되도록 하는 $p\\,$의 값은? (단, $p\\,>\\,0\\,$이다.) [4점]\n① $\\frac{5}{2}$ ② $3$ ③ $\\frac{7}{2}$ ④ $4$ ⑤ $\\frac{9}{2}$",
+  "content_hash": "42e8fec0f4f3313a4e5d455e0606645fc1ec51d4",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 13832,
+    "item_id": 11133,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11133,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "이차방정식과 이차함수",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11135,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고1 수학 6월 16번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "이차방정식",
+  "difficulty": 3,
+  "answer": "③",
+  "answer_type": "객관식",
+  "answer_no": 3,
+  "raw_text": "이차방정식 $x^2 \\,-\\,3x\\,-\\,2\\,=\\,0\\,$의 두 근이 $\\alpha\\,,\\, \\beta\\,$일 때, $\\alpha^3 \\,-\\, 3 \\alpha^2 \\,+\\,\\alpha \\beta \\,+\\,2 \\beta \\,$의 값은? [4점]\n① $0$ ② $2$ ③ $4$ ④ $6$ ⑤ $8$",
+  "content_hash": "d4d16d09f4ddbf4a824382b6b2ca356373897c11",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 27229,
+    "item_id": 11135,
+    "verified": true,
+    "method_type": "최단거리",
+    "created_by": "claude-skill-existing30-b22-20260815"
+   },
+   {
+    "id": 13835,
+    "item_id": 11135,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11135,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "복소수와 이차방정식",
+   "small_name": "근과 계수의 관계",
+   "small_state": "ready",
+   "type_id": "CM1.04.03.T2956ec20b2d5",
+   "type_name": "근과 계수",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11164,
+  "source_type": "학평원본",
+  "source_label": "2014 교육청 고1 수학 9월 15번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "복소수와 이차방정식",
+  "difficulty": 3,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "$x\\,$에 대한 이차방정식 $P\\,(x)-3(x+1)Q\\,(x)+mx ^{2} =0\\,$이 $2\\,$보다 작은 한 근과 $2\\,$보다 큰 한 근을 갖도록 하는 정수 $m\\,$의 개수는? [4점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "content_hash": "32ed3bee64d1ad9c6d06b39ac94c620213b20160",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 13869,
+    "item_id": 11164,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11164,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "복소수와 이차방정식",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11193,
+  "source_type": "학평원본",
+  "source_label": "2015 교육청 고1 수학 11월 14번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "이차함수",
+  "difficulty": 4,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "이차함수 $y = f \\left( x \\right)$의 그래프의 꼭짓점을 $B$라 하고 선분 $AB$의 중점을 $C$라 하자. 점 $C$에서 $y$축에 내린 수선의 발을 $H$라 할 때, 선분 $CH$의 길이의 최솟값은? [4점]\n① $\\sqrt{3}$ ② $2$ ③ $\\sqrt{5}$ ④ $\\sqrt{6}$ ⑤ $\\sqrt{7}$",
+  "content_hash": "a8fb2a8e37a99ba00826cca9a1f71b1b0098a5a0",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14041,
+    "item_id": 11193,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11193,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "이차방정식과 이차함수",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11223,
+  "source_type": "학평원본",
+  "source_label": "2015 교육청 고1 수학 6월 14번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "이차방정식과 이차함수",
+  "difficulty": null,
+  "answer": "③",
+  "answer_type": "객관식",
+  "answer_no": 3,
+  "raw_text": "$b=2\\,$이고 $x\\,$에 대한 방정식 $f(x)=g(x)\\,$의 두 근의 차가 $6\\,$일 때, 방정식 $f(x)=0\\,$의 두 근의 곱은? [4점]\n① $-12$ ② $-10$ ③ $-8$ ④ $-6$ ⑤ $-4$",
+  "content_hash": "5efdd3d65433336a0976a22f2a29d95581bd692c",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14707,
+    "item_id": 11223,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "fable-20260712"
+   }
+  ],
+  "class": {
+   "item_id": 11223,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "이차방정식과 이차함수",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11253,
+  "source_type": "학평원본",
+  "source_label": "2015 교육청 고1 수학 9월 14번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "방정식과 부등식",
+  "difficulty": 3,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "직선 $l\\,$의 방정식을 $y=g(x)\\,$라 하자. 부등식 $f(x)-g(x)\\leq0\\,$을 만족시키는 정수 $x\\,$의 개수가 $10\\,$이 되도록 하는 정수 $p\\,$의 최댓값을 M , 최솟값을 m 이라 할 때, M-m 의 값은? [4점]\n① $32#$ ② $34$ ③ $36$ ④ $38$ ⑤ $40$",
+  "content_hash": "0227045bbde418452b96ec1fb79f93b7ca33f7c5",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 14031,
+    "item_id": 11253,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11253,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "여러 가지 방정식과 부등식",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11304,
+  "source_type": "학평원본",
+  "source_label": "2016 교육청 고1 수학 6월 5번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "다항식",
+  "difficulty": 2,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "모든 실수 $x\\,$에 대하여 등식 \n $(x-1)(x+a)=b\\,x ^{2} -3x+2\\,$\n가 성립할 때, $a+b\\,$의 값은? (단, $a\\,$, $b\\,$는 상수이다.) [3점]\n① $-1\\,$ ② $-2\\,$ ③ $-3\\,$ ④ $-4\\,$ ⑤ $-5\\,$",
+  "content_hash": "88f58167e2e9095aeaf68e43c206941035981285",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 21854,
+    "item_id": 11304,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11304,
+   "course_code": "CM1",
+   "major_name": "다항식",
+   "unit_name": "나머지정리",
+   "small_name": "항등식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11317,
+  "source_type": "학평원본",
+  "source_label": "2016 교육청 고1 수학 6월 18번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "이차함수를 이용하여 통합교과적 문제 해결하기",
+  "difficulty": 3,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "answer_no": 5,
+  "raw_text": "행성의 인력에 의하여 주위를 공전하는 천체를 위성이라고 한다. 행성과 위성 사이의 거리를 $r\\,$(km), 위성의 공전 속력을 $v$(km/sec), 행성의 질량을 $M\\,( kg)$이라고 할 때, 다음과 같은 관계식이 성립한다고 한다.\n $M= \\frac{rv ^{2}}{G}$ (단, $G\\,$는 만유인력상수이다.)\n행성 $A\\,$와 $A\\,$의 위성 사이의 거리가 행성 $B\\,$와 $B\\,$의 위성 사이의 거리의 $45\\,$배일 때, 행성 $A\\,$의 위성의 공전 속력이 행성 $B\\,$의 위성의 공전 속력의 $\\frac{2}{3}$배이다. 행성 $A\\,$와 행성 $B\\,$의 질량을 각각 $M_A \\,$, $M_B\\,$라 할 때, $\\frac{M_A}{M_B}\\,$의 값은? [4점]\n① $4$ ② $8$ ③ $12$ ④ $16$ ⑤ $20$",
+  "content_hash": "c79463b4a3f4fc16c9c35cc065b83e1948f36c84",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14340,
+    "item_id": 11317,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11317,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "이차방정식과 이차함수",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11349,
+  "source_type": "학평원본",
+  "source_label": "2016 교육청 고1 수학 9월 20번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "두 직선이 수직일 조건을 이용하여 추론하기",
+  "difficulty": 4,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "answer_no": 5,
+  "raw_text": "좌표평면에서 점 $A{(0,\\,1)}\\,$과 $x\\,$축 위의 점 $P (t,\\,0) \\,$에 대하여 점 $P\\,$를 지나고 직선 $A P\\,$에 수직인 직선을 $l\\,$이라 할 때, <보기>에서 옳은 것만을 있는 대로 고른 것은? (단, $t\\,$는 $0\\,$이 아닌 실수이다.) [4점]\n<보 기> ㄱ. $t=1\\,$일 때, 직선 $l\\,$의 기울기는 $1\\,$이다.ㄴ. 점 $(3,\\,2)\\,$를 지나는 직선 $l\\,$의 개수는 $2\\,$이다.ㄷ. 직선 $l\\,$ 위의 모든 점 $(x,\\,y)\\,$에 대하여 부등식 $y\\,\\leq ax ^{2} \\,$ 이 성립하도록 하는 실수 $a\\,$의 최솟값은 $\\frac{1}{4}\\,$이다.\n① ㄱ ② ㄷ ③ ㄱ, ㄴ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ",
+  "content_hash": "1e6a799fff82c2a1f19d051fd934e21439864317",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14382,
+    "item_id": 11349,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11349,
+   "course_code": "CM2",
+   "major_name": "도형의 방정식",
+   "unit_name": "직선의 방정식",
+   "small_name": "두 직선의 위치 관계",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 11374,
+  "source_type": "학평원본",
+  "source_label": "2017 교육청 고1 수학 11월 15번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "방정식과 부등식",
+  "difficulty": 4,
+  "answer": "④",
+  "answer_type": "객관식",
+  "answer_no": 4,
+  "raw_text": "연립부등식 ${\\begin{cases}\\,y \\geq x _{_{\\,}} \\\\ \\,y \\leq -x ^{2} +5x ^{{}^{\\,}}\\end{cases}}$를 만족시키는 두 실수 $x$, $y$에 대하여 $3x-y$의 최댓값은? [4점]\n① $\\frac{13}{2}$ ② $7$ ③ $\\frac{15}{2}$ ④ $8$ ⑤ $\\frac{17}{2}$",
+  "content_hash": "1bf980d3cd7956b2d8583b5fe55049f0b06ea2b0",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14438,
+    "item_id": 11374,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11374,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "여러 가지 방정식과 부등식",
+   "small_name": null,
+   "small_state": null,
+   "type_id": null,
+   "type_name": null,
+   "type_state": null
+  },
+  "in_plan": true
+ },
+ {
+  "id": 11558,
+  "source_type": "학평원본",
+  "source_label": "2019 교육청 고1 수학 11월 19번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "도형의 방정식",
+  "difficulty": 4,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "곡선 $y=x^{2}$ 위의 임의의 점 $A \\left( \\, t,\\,t^{2} \\right)$ ($0\\lt t\\lt 1$)을 직선 $y=x$에 대하여 대칭이동한 점을 $B$라 하고 두 점 $A$, $B$에서 $y$축에 내린 수선의 발을 각각 $C$, $D$라 하자. \n다음은 사각형 $ABDC$의 넓이가 $\\dfrac{1}{8}$이 되는 상수 $t$의 값을 구하는 과정이다.\n점 $A$에서 $y$축에 내린 수선의 발이 $C$이므로 ${\\overline{AC }} = t$\n점 $B$에서 $y$축에 내린 수선의 발이 $D$이므로 $\\overline{BD}=t^{2}$\n${\\overline{DC }} = \\left. {\\boxed{\\vphantom{(}\\,(\\text{가}) \\,}} \\right.$이므로\n사각형 $ABDC$의 넓이는 $\\dfrac{1}{2} t^{2} \\, \\times \\left( \\, {\\boxed{\\vphantom{(}\\,(\\text{나}) \\,}} \\, \\right)$\n사각형 $ABDC$의 넓이가 $\\dfrac{1}{8}$이므로 \n$\\dfrac{1}{2} t^{2} \\, \\times \\left( \\, {\\boxed{\\vphantom{(}\\,(\\text{나}) \\,}} \\, \\right) = \\dfrac{1}{8}$\n따라서 $\\left. t= {\\boxed{\\vphantom{(}\\,(\\text{다}) \\,}} \\right.$\n위의 (가), (나)에 알맞은 식을 각각 $f \\left( t \\right)$, $g \\left( t \\right)$라 하고, (다)에 알맞은 수를 $k$라 할 때, $f \\left( k \\right) \\, \\times \\,g \\left( k \\right)$의 값은? [4점]\n① $\\dfrac{\\sqrt{2} -1}{4}$ ② $\\dfrac{\\sqrt{3} -1}{2}$ ③ $\\dfrac{\\sqrt{3} +1}{4}$ \n④ $\\dfrac{2 \\sqrt{2} -1}{2}$ ⑤ $\\dfrac{2 \\sqrt{2} +1}{4}$",
+  "content_hash": "6a16e75465129e8adbfd85c80952d5fd9e6bca29",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14587,
+    "item_id": 11558,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11558,
+   "course_code": "CM2",
+   "major_name": "도형의 방정식",
+   "unit_name": "도형의 이동",
+   "small_name": "대칭이동",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 11645,
+  "source_type": "학평원본",
+  "source_label": "2020 교육청 고1 수학 11월 16번",
+  "course": "수학",
+  "course_norm": "ALG",
+  "unit": "수직 직선과 넓이의 최소",
+  "difficulty": 3,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "두 양수 $a,\\,b$에 대하여 좌표평면 위의 점 $P(a,\\,b)$를 지나고 직선 $O P$에 수직인 직선이 $y$축과 만나는 점을 $Q$라 하자. 점 $R \\left( - \\frac{1}{a} ,\\,0 \\right)$에 대하여 삼각형 $O Q R$의 넓이의 최솟값은? (단, $O$는 원점이다.) [4점]\n① $\\frac{1}{2}$ ② $1$ ③ $\\frac{3}{2}$ ④ $2$ ⑤ $\\frac{5}{2}$",
+  "content_hash": "8df019ab24c2d5cbc95e6358d9d20a3faac1a454",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 14664,
+    "item_id": 11645,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11645,
+   "course_code": "CM2",
+   "major_name": "집합과 명제",
+   "unit_name": "명제",
+   "small_name": "명제의 증명",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 11803,
+  "source_type": "학평원본",
+  "source_label": "2021 교육청 고1 수학 9월 24번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "복소수와 이차방정식",
+  "difficulty": null,
+  "answer": "6",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "$x$에 대한 이차방정식 $x ^{2} +2 \\left( k-2 \\right) x+k ^{2} -24$$=0$이 서로 다른 두 실근을 갖도록 하는 모든 자연수 $k$의 개수를 구하시오. [3점]",
+  "content_hash": "7eb9fc78f657c437852582cb02817769eba8c9ae",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 14492,
+    "item_id": 11803,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11803,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "복소수와 이차방정식",
+   "small_name": "이차방정식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11940,
+  "source_type": "학평원본",
+  "source_label": "2023 교육청 고1 수학 6월 11번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "다항식",
+  "difficulty": 2,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "최고차항의 계수가 $1\\,$인 이차다항식 $P\\, \\left( x \\right) \\,$가 다음 조건을 만족시킬 때, $P\\, \\left( 4 \\right) \\,$의 값은? [3점]\n(가) $P\\, \\left( x \\right) \\,$를 $x-1\\,$로 나누었을 때의 나머지는 $1\\,$이다.(나) $xP\\, \\left( x \\right) \\,$를 $x-2\\,$로 나누었을 때의 나머지는 $2\\,$이다.\n① $6$ ② $7$ ③ $8$ ④ $9$ ⑤ $10$",
+  "content_hash": "d48fd63ed5bc917cfc8eb97678b3f3315e51221b",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22705,
+    "item_id": 11940,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11940,
+   "course_code": "CM1",
+   "major_name": "다항식",
+   "unit_name": "나머지정리",
+   "small_name": "나머지정리",
+   "small_state": "ready",
+   "type_id": "CM1.02.02.T8cd5f0a4ab0a",
+   "type_name": "나머지정리",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11941,
+  "source_type": "학평원본",
+  "source_label": "2023 교육청 고1 수학 6월 12번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "다항식",
+  "difficulty": 3,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "$x\\,$에 대한 삼차방정식 $x ^{3} - \\left( 2a+1 \\right) x ^{2} + \\left( a+1 \\right) ^{2} x- \\left( a ^{2} +1 \\right) =0\\,$의 서로 다른 두 허근을 $\\alpha \\,$, $\\beta \\,$라 하자. $\\alpha + \\beta =8\\,$일 때, $\\alpha \\beta \\,$의 값은? (단, $a\\,$는 실수이다.) [3점]\n① $16$ ② $17$ ③ $18$ ④ $19$ ⑤ $20$",
+  "content_hash": "6320c26b74aa0db73220def44f73c58adac0b12b",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 22706,
+    "item_id": 11941,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11941,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "여러 가지 방정식과 부등식",
+   "small_name": "여러 가지 방정식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 11983,
+  "source_type": "학평원본",
+  "source_label": "2023 교육청 고1 수학 9월 24번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "복소수와 이차방정식",
+  "difficulty": null,
+  "answer": "7",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "$x$에 대한 이차방정식 $x ^{2} +2ax+a ^{2} +4a-28=0$이 실근을 갖도록 하는 모든 자연수 $a$의 개수를 구하시오. [3점]",
+  "content_hash": "82d1cd5566986bba330c1c02fe5d6c8ac77597dd",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 14202,
+    "item_id": 11983,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 11983,
+   "course_code": "CM1",
+   "major_name": "방정식과 부등식",
+   "unit_name": "복소수와 이차방정식",
+   "small_name": "이차방정식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 12024,
+  "source_type": "학평원본",
+  "source_label": "2024 교육청 고1 수학 6월 5번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "다항식",
+  "difficulty": null,
+  "answer": "③",
+  "answer_type": "객관식",
+  "answer_no": 3,
+  "raw_text": "등식\n $2x ^{2} +ax+b=x \\left(x-3 \\right)+ \\left(x+1 \\right) \\left(x+3 \\right)$\n이 $x$에 대한 항등식일 때, $a b$의 값은? (단, $a$, $b$는 상수이다.) \n[3점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "content_hash": "b522aebdd20ea8c38bce5aa5077193b360114ec3",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 14094,
+    "item_id": 12024,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 12024,
+   "course_code": "CM1",
+   "major_name": "다항식",
+   "unit_name": "나머지정리",
+   "small_name": "항등식",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 12094,
+  "source_type": "학평원본",
+  "source_label": "2025 교육청 고1 수학 10월 15번",
+  "course": "수학",
+  "course_norm": "CM1",
+  "unit": "행렬",
+  "difficulty": null,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "세 이차정사각행렬 $A\\,= \\left( r \\begin{matrix} 0 && 0 \\\\ 6 && 0 \\end{matrix} \\right)\\,$, $B\\,$, $C\\,$가 다음 조건을 만족시킨다.\n(가) $A\\,B\\,=C\\,A\\,=O\\,$ (나) 행렬 $B\\,$의 모든 성분의 합이 $3\\,$이고, 행렬 $C\\,$의 $\\left(1,\\,1 \\right)\\,$ 성분과 $\\left(2,\\,1 \\right)\\,$성분이 같다.\n$B\\,C\\,=A\\,$일 때, 행렬 $C\\,$의 모든 성분의 합은? (단, $O\\,$는 영행렬이다.) [4점]\n① $3\\,$ ② $4\\,$ ③ $5\\,$ ④ $6\\,$ ⑤ $7$",
+  "content_hash": "4963b2440cc075e4bc7d2a946303887ca9b6ebb6",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": [
+   {
+    "from": "fable-20260716",
+    "flags": [
+     "course_norm 5-NN 임베딩 다수결 배정(태그·단원 부재)"
+    ],
+    "informational": true
+   }
+  ],
+  "solutions": [
+   {
+    "id": 13999,
+    "item_id": 12094,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 12094,
+   "course_code": "CM1",
+   "major_name": "행렬",
+   "unit_name": "행렬과 그 연산",
+   "small_name": "행렬의 연산",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 15274,
+  "source_type": "학평원본",
+  "source_label": "2016 교육청 고3 수리나형 10월 30번",
+  "course": "수리나형",
+  "course_norm": "CM1",
+  "unit": "조건에 맞는 좌석 배치를 경우로 나누어 곱의 법칙으로 배정 방법의 수 구하기",
+  "difficulty": 4,
+  "answer": "396",
+  "answer_type": "단답형",
+  "answer_no": null,
+  "raw_text": "교내 수학경시대회에 A 학급 학생 $3\\,$명, B 학급 학생 $3\\,$명, C 학급 학생 $2\\,$명이 참가 신청하였다. 그림과 같이 두 분단, 네 줄의 좌석에 다음 조건을 만족시키도록 이 학생 $8\\,$명을 배정하는 방법의 수를 구하시오. [4점]\n(가) 같은 줄의 바로 옆에 같은 학급 학생이 앉지 않도록 배정한다.(나) 같은 분단의 바로 앞뒤에 같은 학급 학생이 앉지 않도록 배정한다.(다) 같은 학급 학생을 같은 분단에 배정 할 경우 학급 번호가 작을수록 교탁에 가까운 자리에 배정한다.\n교탁$1\\,$분단󰀶$2\\,$분단󰀶첫째 줄 ➜둘째 줄 ➜셋째 줄 ➜넷째 줄 ➜",
+  "content_hash": "6fd21a6c1e5b2fe5d12820ff7aaff237a4712b89",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 16300,
+    "item_id": 15274,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 15274,
+   "course_code": "CM1",
+   "major_name": "경우의 수",
+   "unit_name": "합의 법칙과 곱의 법칙",
+   "small_name": "합의 법칙과 곱의 법칙",
+   "small_state": "ready",
+   "type_id": null,
+   "type_name": null,
+   "type_state": "needs_catalog"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 15623,
+  "source_type": "학평원본",
+  "source_label": "2017 교육청 고3 수리나형 10월 21번",
+  "course": "수리나형",
+  "course_norm": "ALG",
+  "unit": "부등식을 만족하는 격자점의 개수와 수열의 합",
+  "difficulty": 4,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "자연수 $n\\,$과 두 함수 $f(x)= \\frac{1}{x-n} +n\\,$, $g(x)= \\sqrt{x+n} \\,$에 대하여 다음 조건을 만족시키는 모든 점 $P \\left( a,\\,b \\right) \\,$의 개수를 $A _{\\,n}$이라 하자.\n(가) 두 수 $a$, $b\\,$는 자연수이다.(나) $n<a \\leq 3n$, $g \\left( a \\right) <b<f \\left( a \\right)$\n$n \\leq A _{\\,n} \\leq 3n\\,$을 만족시키는 모든 $A _{\\,n}$의 값의 합은? [4점]\n① $22$ ② $25$ ③ $28$ ④ $31$ ⑤ $34$\n단답형",
+  "content_hash": "2b0509c862ca16e37cea68423d9ce8bfe5a25b8c",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 16531,
+    "item_id": 15623,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 15623,
+   "course_code": "ALG",
+   "major_name": "수열",
+   "unit_name": "수열의 합",
+   "small_name": "여러 가지 수열의 합",
+   "small_state": "ready",
+   "type_id": "ALG.06.02.T2cc01dbdcf75",
+   "type_name": "조건을 만족하는 항의 합",
+   "type_state": "ready"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 16213,
+  "source_type": "학평원본",
+  "source_label": "2019 교육청 고3 수리가형 10월 21번",
+  "course": "수리가형",
+  "course_norm": "CM1",
+  "unit": "복소수와 이차방정식",
+  "difficulty": 4,
+  "answer": "③",
+  "answer_type": "객관식",
+  "answer_no": 3,
+  "raw_text": "정수 $n\\,$에 대하여 점 $\\left( a,\\,0 \\right) \\,$에서 곡선 $y=(x-n)e ^{x} \\,$에 그은 접선의 개수를 $f(n)\\,$이라 하자. <보기>에서 옳은 것만을 있는 대로 고른 것은? [4점]\n< 보 기 >ㄱ. $a=0\\,$일 때, $f(4)=1\\,$이다.ㄴ. $f(n)=1$인 정수 $n\\,$의 개수가 $1\\,$인 정수 $a\\,$가 존재한다. ㄷ. $\\sum _{n=1} ^{5} f(n)=5\\,$를 만족시키는 정수 $a\\,$의 값은 $-1$ 또는 $3\\,$이다.\n① ㄱ ② ㄱ, ㄴ ③ ㄱ, ㄷ\n④ ㄴ, ㄷ ⑤ ㄱ, ㄴ, ㄷ\n단답형",
+  "content_hash": "ea28e20468b665478771a542cf13e3f3f9f0f7c6",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 18501,
+    "item_id": 16213,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "cowork"
+   }
+  ],
+  "class": {
+   "item_id": 16213,
+   "course_code": "CALC",
+   "major_name": "미분법",
+   "unit_name": "도함수의 활용",
+   "small_name": "접선의 방정식",
+   "small_state": "ready",
+   "type_id": "CALC.05.01.T6533c7b41688",
+   "type_name": "외부점 접선의 개수",
+   "type_state": "ready"
+  },
+  "in_plan": true
+ },
+ {
+  "id": 17507,
+  "source_type": "학평원본",
+  "source_label": "2022 평가원 고3 수학미적분 9월 25번",
+  "course": "CALC",
+  "course_norm": "CALC",
+  "unit": "수열의 극한",
+  "difficulty": 2,
+  "answer": "⑤",
+  "answer_type": "객관식",
+  "answer_no": 5,
+  "raw_text": "수열 $\\left\\{ a_{n} \\right\\}$에 대하여 $\\lim _{n \\,\\rightarrow\\, \\infty } \\frac{a_{n}+2}{2}=6$일 때, $\\lim _{n \\,\\rightarrow\\, \\infty } \\frac{n a_{n}+1}{a_{n}+2 n}$의 값은? [3점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "content_hash": "1c4470a0ca3be0e8b072b8824af02f9a2d5f3eaa",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 21332,
+    "item_id": 17507,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "claude-fable-v61-20260901"
+   }
+  ],
+  "class": {
+   "item_id": 17507,
+   "course_code": "CALC",
+   "major_name": "수열의 극한",
+   "unit_name": "수열의 극한",
+   "small_name": "수열의 극한",
+   "small_state": "ready",
+   "type_id": "CALC.01.01.T000527f56473",
+   "type_name": "극한의 성질",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 17805,
+  "source_type": "학평원본",
+  "source_label": "2023 평가원 고3 수학확통 6월 26번",
+  "course": "PRST",
+  "course_norm": "PRST",
+  "unit": "이항정리",
+  "difficulty": 3,
+  "answer": "①",
+  "answer_type": "객관식",
+  "answer_no": 1,
+  "raw_text": "다항식 $\\left( x-1 \\right) ^{6} \\left( 2x+1 \\right) ^{7}$의 전개식에서 $x ^{2}$의 계수는? [3점]\n① $15$ ② $20$ ③ $25$ ④ $30$ ⑤ $35$",
+  "content_hash": "50a4d42af8d2e39ae7637c01600efea1f4a6cef0",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 21691,
+    "item_id": 17805,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "claude-fable-v61-20260901"
+   }
+  ],
+  "class": {
+   "item_id": 17805,
+   "course_code": "PRST",
+   "major_name": "경우의 수",
+   "unit_name": "이항정리",
+   "small_name": "이항정리",
+   "small_state": "ready",
+   "type_id": "PRST.02.01.Tc44040a2dd78",
+   "type_name": "전개식에서 특정 항의 계수",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ },
+ {
+  "id": 18351,
+  "source_type": "학평원본",
+  "source_label": "2025 평가원 고3 수학기하 9월 23번",
+  "course": "GEO",
+  "course_norm": "GEO",
+  "unit": "포물선의 정의와 방정식",
+  "difficulty": 1,
+  "answer": "②",
+  "answer_type": "객관식",
+  "answer_no": 2,
+  "raw_text": "포물선 $y^{2}=8x\\,$의 초점의 좌표가 $\\left(p,\\,0 \\right)\\,$일 때, $p\\,$의 값은?\n[2점]\n① $1$ ② $2$ ③ $3$ ④ $4$ ⑤ $5$",
+  "content_hash": "51a1d232959b5eaf04e27e171007e17116b2237f",
+  "display_status": "통과",
+  "display_note": null,
+  "needs_review": false,
+  "review_flags": null,
+  "solutions": [
+   {
+    "id": 22232,
+    "item_id": 18351,
+    "verified": true,
+    "method_type": "정석",
+    "created_by": "claude-fable-v61-20260901"
+   }
+  ],
+  "class": {
+   "item_id": 18351,
+   "course_code": "GEO",
+   "major_name": "이차곡선",
+   "unit_name": "이차곡선",
+   "small_name": "포물선",
+   "small_state": "ready",
+   "type_id": "GEO.01.01.Ta2ed37301343",
+   "type_name": "포물선의 방정식",
+   "type_state": "ready"
+  },
+  "in_plan": false
+ }
+]

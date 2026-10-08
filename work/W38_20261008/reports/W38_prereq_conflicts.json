@@ -1,0 +1,13 @@
+{
+ "buckets": [
+  "CM1a",
+  "CM1b",
+  "PRSTa",
+  "CALCa",
+  "GEOa"
+ ],
+ "records": 16,
+ "conflicts_touched": 0,
+ "bad": 0,
+ "rows": []
+}

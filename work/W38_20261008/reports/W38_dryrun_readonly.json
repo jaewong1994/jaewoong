@@ -1,0 +1,401 @@
+{
+ "mode": "read-only dry-run (해설교체 plan_for + 적재 existing 대조)",
+ "items": 16,
+ "actions": {
+  "update": 16
+ },
+ "commit_candidates": [
+  12024,
+  11304,
+  11940,
+  8376,
+  11803,
+  11983,
+  11135,
+  11131,
+  11941,
+  11317,
+  15274,
+  12094,
+  10723,
+  17805,
+  17507,
+  18351
+ ],
+ "needs_review": [],
+ "errors": {},
+ "answer_disagree": [],
+ "profiles_existing_in_db": 0,
+ "approved_in_db": 0,
+ "plans": [
+  {
+   "item_id": 12024,
+   "source_label": "2024 교육청 고1 수학 6월 5번",
+   "display_status": "통과",
+   "official_answer": "③",
+   "final_answer": "③",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     14094,
+     "cowork",
+     22
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 123,
+   "new_steps": 1,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11304,
+   "source_label": "2016 교육청 고1 수학 6월 5번",
+   "display_status": "통과",
+   "official_answer": "①",
+   "final_answer": "①",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     21854,
+     "cowork",
+     104
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 150,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11940,
+   "source_label": "2023 교육청 고1 수학 6월 11번",
+   "display_status": "통과",
+   "official_answer": "②",
+   "final_answer": "②",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     22705,
+     "cowork",
+     65
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 203,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 8376,
+   "source_label": "2024 교육청 고2 수학 3월 29번",
+   "display_status": "통과",
+   "official_answer": "5",
+   "final_answer": "5",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     11735,
+     "cowork",
+     80
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 501,
+   "new_steps": 4,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11803,
+   "source_label": "2021 교육청 고1 수학 9월 24번",
+   "display_status": "통과",
+   "official_answer": "6",
+   "final_answer": "6",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     14492,
+     "cowork",
+     35
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 127,
+   "new_steps": 1,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11983,
+   "source_label": "2023 교육청 고1 수학 9월 24번",
+   "display_status": "통과",
+   "official_answer": "7",
+   "final_answer": "7",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     14202,
+     "cowork",
+     32
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 119,
+   "new_steps": 1,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11135,
+   "source_label": "2014 교육청 고1 수학 6월 16번",
+   "display_status": "통과",
+   "official_answer": "③",
+   "final_answer": "③",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     13835,
+     "cowork",
+     47
+    ]
+   ],
+   "existing_steps": 4,
+   "new_body_chars": 338,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11131,
+   "source_label": "2014 교육청 고1 수학 6월 12번",
+   "display_status": "통과",
+   "official_answer": "①",
+   "final_answer": "①",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     22296,
+     "cowork",
+     77
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 447,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1a_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11941,
+   "source_label": "2023 교육청 고1 수학 6월 12번",
+   "display_status": "통과",
+   "official_answer": "②",
+   "final_answer": "②",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     22706,
+     "cowork",
+     74
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 404,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1b_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 11317,
+   "source_label": "2016 교육청 고1 수학 6월 18번",
+   "display_status": "통과",
+   "official_answer": "⑤",
+   "final_answer": "⑤",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     14340,
+     "cowork",
+     353
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 268,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1b_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 15274,
+   "source_label": "2016 교육청 고3 수리나형 10월 30번",
+   "display_status": "통과",
+   "official_answer": "396",
+   "final_answer": "396",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     16300,
+     "cowork",
+     95
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 1103,
+   "new_steps": 4,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1b_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 12094,
+   "source_label": "2025 교육청 고1 수학 10월 15번",
+   "display_status": "통과",
+   "official_answer": "②",
+   "final_answer": "②",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     13999,
+     "cowork",
+     24
+    ]
+   ],
+   "existing_steps": 2,
+   "new_body_chars": 678,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1b_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 10723,
+   "source_label": "2014 교육청 고2 수학나형 9월 13번",
+   "display_status": "통과",
+   "official_answer": "④",
+   "final_answer": "④",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     22444,
+     "claude-fable-v61-20260901",
+     300
+    ]
+   ],
+   "existing_steps": 3,
+   "new_body_chars": 396,
+   "new_steps": 3,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CM1b_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 17805,
+   "source_label": "2023 평가원 고3 수학확통 6월 26번",
+   "display_status": "통과",
+   "official_answer": "①",
+   "final_answer": "①",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     21691,
+     "claude-fable-v61-20260901",
+     475
+    ]
+   ],
+   "existing_steps": 4,
+   "new_body_chars": 215,
+   "new_steps": 1,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_PRSTa_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 17507,
+   "source_label": "2022 평가원 고3 수학미적분 9월 25번",
+   "display_status": "통과",
+   "official_answer": "⑤",
+   "final_answer": "⑤",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     21332,
+     "claude-fable-v61-20260901",
+     546
+    ]
+   ],
+   "existing_steps": 4,
+   "new_body_chars": 255,
+   "new_steps": 2,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_CALCa_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  },
+  {
+   "item_id": 18351,
+   "source_label": "2025 평가원 고3 수학기하 9월 23번",
+   "display_status": "통과",
+   "official_answer": "②",
+   "final_answer": "②",
+   "answer_agrees": true,
+   "errors": [],
+   "existing_canonical": [
+    [
+     22232,
+     "claude-fable-v61-20260901",
+     195
+    ]
+   ],
+   "existing_steps": 3,
+   "new_body_chars": 126,
+   "new_steps": 1,
+   "needs_review": false,
+   "action": "update",
+   "file": "W38_GEOa_cycle48.jsonl",
+   "raw_text_sha256_matches_packet": null
+  }
+ ],
+ "db_writes": 0
+}

@@ -1,0 +1,32 @@
+{
+ "W38_ALGa_cycle48.jsonl": {
+  "records": 1,
+  "issues": 1,
+  "needs_review": 1
+ },
+ "W38_CALCa_cycle48.jsonl": {
+  "records": 1,
+  "issues": 0,
+  "needs_review": 0
+ },
+ "W38_CM1a_cycle48.jsonl": {
+  "records": 9,
+  "issues": 1,
+  "needs_review": 1
+ },
+ "W38_CM1b_cycle48.jsonl": {
+  "records": 9,
+  "issues": 4,
+  "needs_review": 4
+ },
+ "W38_GEOa_cycle48.jsonl": {
+  "records": 1,
+  "issues": 0,
+  "needs_review": 0
+ },
+ "W38_PRSTa_cycle48.jsonl": {
+  "records": 3,
+  "issues": 0,
+  "needs_review": 2
+ }
+}
