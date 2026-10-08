@@ -1,0 +1,363 @@
+{
+ "A01": {
+  "answer": "3/14",
+  "format": "객관식",
+  "all_front": "7/162",
+  "seq_all": 56,
+  "seq_event": 12,
+  "witness_no_cond": "7/162",
+  "witness_init_2": "0",
+  "witness_3trials": "0",
+  "misconception_count_once": "0"
+ },
+ "A02": {
+  "answer": "23/40",
+  "format": "단답(p+q)",
+  "pq": 63,
+  "all_front": "10/81",
+  "seq_all": 160,
+  "seq_event": 92,
+  "witness_no_cond": "671/1296",
+  "witness_init_16_to_1": null,
+  "misconception_exactly_once": "19/40"
+ },
+ "A03": {
+  "answer": "13/310",
+  "format": "단답(p+q)",
+  "pq": 323,
+  "ret": "155/648",
+  "seq_ret": 310,
+  "seq_event": 13,
+  "eff0": 81,
+  "eff2": 216,
+  "witness_no_cond": "13/1296",
+  "witness_init_AABB": "3/742",
+  "misconception_all_k_le3": "81/310"
+ },
+ "A04": {
+  "answer": "4/7",
+  "format": "객관식",
+  "ret": "7/27",
+  "seq_ret": 336,
+  "seq_event": 192,
+  "witness_no_cond": "8/27",
+  "witness_3trials_ret": "0",
+  "misconception_pairs_as_eyes": "2/7"
+ },
+ "A05": {
+  "answer": "69/158",
+  "format": "단답(p+q)",
+  "pq": 227,
+  "target_prob": "79/324",
+  "seq_target": 316,
+  "seq_event": 138,
+  "witness_no_cond": "1/6",
+  "witness_first_3": "14/79",
+  "misconception_only_eff1": "125/272"
+ },
+ "A06": {
+  "answer": "11/742",
+  "format": "단답(p+q)",
+  "pq": 753,
+  "ret": "371/648",
+  "seq_ret": 742,
+  "seq_event": 11,
+  "witness_no_cond": "11/1296",
+  "misconception_include_step2_return": "6/371",
+  "witness_3trials": "1"
+ },
+ "A07": {
+  "answer": "7/12",
+  "format": "객관식",
+  "all_front": "1/3",
+  "seq_all": 7,
+  "witness_uniform": "3/7",
+  "witness_no_cond": "1/2",
+  "misconception_count_only": "1/3"
+ },
+ "A08": {
+  "answer": "25/56",
+  "format": "단답(p+q)",
+  "pq": 81,
+  "one_back": "7/27",
+  "seq_one_back": 56,
+  "seq_event": 25,
+  "targets": {
+   "(1,)": 28,
+   "(6,)": 28
+  },
+  "witness_no_cond": "91/216",
+  "witness_two_back_3trials": 0,
+  "info_init_16_same": "25/56",
+  "misconception_targets_6": "가능한 목표를 {1}~{6} 여섯 개로 보면 분모 과대(실제 {1},{6} 뿐)",
+  "misconception_exactly_once": "3/8"
+ },
+ "A09": {
+  "answer": "47/144",
+  "format": "객관식",
+  "den": 564,
+  "tot": 1728,
+  "by_pattern": {
+   "HHT": 132,
+   "HTH": 132,
+   "THH": 132,
+   "TTT": 168
+  },
+  "cond_first_T": "25/47",
+  "witness_2trials": "5/24",
+  "misconception_pair_size_always_2": "뒷면 동전 두 번이 같은 쌍이면 0장, 다른 쌍이면 4장이 되는 상쇄를 놓침"
+ },
+ "A10": {
+  "answer": "7/16",
+  "format": "단답(p+q)",
+  "pq": 23,
+  "all_front": "2/27",
+  "seq_all": 16,
+  "seq_event": 7,
+  "witness_4trials": "0",
+  "witness_no_cond": "1/8",
+  "witness_init_25_to_2": "0"
+ },
+ "B01": {
+  "answer": "4",
+  "format": "단답",
+  "table": {
+   "1": "42",
+   "2": "27",
+   "3": "486/25",
+   "4": "15",
+   "5": "594/49",
+   "6": "81/8",
+   "7": "26/3",
+   "8": "189/25",
+   "9": "810/121",
+   "10": "6",
+   "11": "918/169",
+   "12": "243/49"
+  },
+  "witness_value_12": "x=2 이면 27, x=10 이면 6 (값이 바뀌면 x 가 바뀜)",
+  "misconception_var_only": "분산만 쓰면 3σ²=... (평균 제곱항 누락)"
+ },
+ "B02": {
+  "answer": "27",
+  "format": "단답",
+  "uncond": "85/3",
+  "witness_cond_sum1": "18",
+  "misconception_ignore_condition": "85/3",
+  "misconception_only_3draws": "11"
+ },
+ "B03": {
+  "answer": "9",
+  "format": "단답",
+  "table": {
+   "2": "10/3",
+   "3": "8",
+   "4": "44/3",
+   "5": "70/3",
+   "6": "34",
+   "7": "140/3",
+   "8": "184/3",
+   "9": "78",
+   "10": "290/3",
+   "11": "352/3",
+   "12": "140"
+  },
+  "misconception_k2_only": {
+   "8": "208/3",
+   "9": "87",
+   "10": "320/3"
+  }
+ },
+ "B04": {
+  "answer": "16",
+  "format": "단답",
+  "table": {
+   "10": "40/3",
+   "11": "143/9",
+   "12": "56/3",
+   "13": "65/3",
+   "14": "224/9",
+   "15": "85/3",
+   "16": "32",
+   "17": "323/9",
+   "18": "40",
+   "19": "133/3",
+   "20": "440/9"
+  },
+  "misconception_var_as_np": "np=16/3 → ...",
+  "misconception_square_of_mean": "(n/3)²=32 → n 비정수"
+ },
+ "B05": {
+  "answer": "186",
+  "format": "단답",
+  "ES2": "186/5",
+  "dist": {
+   "4": "1/10",
+   "5": "1/5",
+   "6": "2/5",
+   "7": "1/5",
+   "8": "1/10"
+  },
+  "misconception_with_replacement": "192/5",
+  "misconception_with_replacement_x5": "192"
+ },
+ "B06": {
+  "answer": "84",
+  "format": "단답",
+  "probs": [
+   "1/10",
+   "1/5",
+   "3/10",
+   "2/5"
+  ],
+  "witness_E2": "38",
+  "misconception_uniform": "60"
+ },
+ "B07": {
+  "answer": "395/6",
+  "format": "객관식",
+  "E_A": "85/3",
+  "E_B": "310/3",
+  "mix_support": [
+   0,
+   15
+  ],
+  "misconception_iid_mixture": "365/6",
+  "misconception_A_only": "85/3",
+  "misconception_B_only": "310/3",
+  "misconception_sum_not_avg": "395/3"
+ },
+ "B07_old": {
+  "answer": "95/9",
+  "format": "폐기"
+ },
+ "B08": {
+  "answer": "25",
+  "format": "단답",
+  "note": "m+2s=10, s²+m²=65 → (m,s)=(8,1) 또는 (-4,7); s=7 이면 n=25/49 가 자연수가 아니므로 s=1 → n=25 (m>0 조건은 검토 후 삭제: 삭제해도 답 동일, KG-A04)",
+  "misconception_negative_m": "m=-4,s=7 → n=25/49 비자연수"
+ },
+ "B09": {
+  "answer": "20",
+  "format": "객관식",
+  "note": "E(S2)=2m=2, E(S2²)=2σ²+4m²=6 → σ²=1 ; E(S4²)=4σ²+16m²=20",
+  "feasible_population": "0×5,1×3,2×3,3×1",
+  "misconception_linear": 12,
+  "misconception_sigma_from_ES2_half": 28,
+  "misconception_VT_2sigma": 18,
+  "misconception_sigma_sq_2": 24
+ },
+ "B10": {
+  "answer": "13",
+  "format": "단답",
+  "good": [
+   6,
+   7
+  ],
+  "values": {
+   "4": "134/9",
+   "5": "95/9",
+   "6": "74/9",
+   "7": "71/9",
+   "8": "86/9",
+   "9": "119/9"
+  },
+  "misconception_mean_only": "a=E(S)=20/3 근처 7 만 고름 → 7",
+  "misconception_le": "부등호 ≤ 로 바꾸어도 동일(경계값 9 미달성)"
+ },
+ "C01": {
+  "answer": "56",
+  "format": "객관식",
+  "witness_drop_ga": 84,
+  "witness_nonstrict_ends": 262,
+  "misconception_comb_instead_of_H": 2,
+  "misconception_count_empty_as_1": 59
+ },
+ "C02": {
+  "answer": "70",
+  "format": "객관식",
+  "witness_drop_da": 166,
+  "witness_range3": 60,
+  "witness_strict_ends": 21,
+  "misconception_drop_25": 60,
+  "misconception_34_as_10": 80,
+  "misconception_C63": 140,
+  "misconception_ends_not_forced": 160
+ },
+ "C03": {
+  "answer": "152",
+  "format": "단답",
+  "witness_drop_ga": 462,
+  "witness_mult_instead": 262,
+  "misconception_direction": 152
+ },
+ "C04": {
+  "answer": "70",
+  "format": "객관식",
+  "witness_drop_da": 314,
+  "witness_drop_ga": 329,
+  "misconception_no_product": 27
+ },
+ "C05": {
+  "answer": "78",
+  "format": "단답",
+  "witness_drop_ga": 469,
+  "witness_one_step": 102,
+  "witness_prod12": 72,
+  "misconception_ignore_bounds_1_6": "f(2)=1 에서 f(3)=0 같은 바깥 값을 세면 과대"
+ },
+ "C06": {
+  "answer": "33",
+  "format": "단답",
+  "witness_drop_da": 86,
+  "witness_two_values": 39,
+  "misconception_C_L3_only": 11,
+  "misconception_empty_as_1": 36,
+  "misconception_L1_as_3": 36
+ },
+ "C07": {
+  "answer": "39",
+  "format": "객관식",
+  "witness_drop_da": 55,
+  "witness_odd": 16,
+  "misconception_f3_eq_f4_only": 34
+ },
+ "C08": {
+  "answer": "29",
+  "format": "객관식",
+  "witness_drop_da": 171,
+  "witness_sum6": 21,
+  "misconception_H_instead_of_count": 51
+ },
+ "C09": {
+  "answer": "27",
+  "format": "단답",
+  "witness_drop_da": 83,
+  "witness_fix1": 47,
+  "witness_fix3": 8,
+  "witness_codomain_X7": 214,
+  "by_pair": {
+   "(1,4)": 20,
+   "(2,3)": 6,
+   "(3,2)": 1,
+   "(4,1)": 0
+  },
+  "misconception_count_k5_k6_as_candidates": "k=5,6 은 공역 4 이하라 고정점이 될 수 없음을 놓치면 경우 분류가 틀어짐",
+  "old_designs": {
+   "v1": 83,
+   "v2": 22
+  }
+ },
+ "C10": {
+  "answer": "55",
+  "format": "단답",
+  "witness_drop_da": 246,
+  "witness_le": 95,
+  "witness_drop_na": 448,
+  "old_design": 116,
+  "misconception_include_f3_2": "f(3)=2 는 f(1)<f(2)<f(3) 과 모순인데 (2,3) 쌍을 포함하면 과대"
+ },
+ "_warnings": [
+  "C03: 오개념 misconception_direction 의 답이 정답 152 과 같음"
+ ]
+}
